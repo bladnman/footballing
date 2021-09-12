@@ -1,0 +1,483 @@
+date,year,week,team,team_score,opponent,opponent_score,win,home
+2018-09-06,2018,1,Philadelphia Eagles,18,Atlanta Falcons,12,1,1
+2018-09-06,2018,1,Atlanta Falcons,12,Philadelphia Eagles,18,0,0
+2018-09-09,2018,1,Baltimore Ravens,47,Buffalo Bills,3,1,1
+2018-09-09,2018,1,Buffalo Bills,3,Baltimore Ravens,47,0,0
+2018-09-09,2018,1,New York Giants,15,Jacksonville Jaguars,20,0,1
+2018-09-09,2018,1,Jacksonville Jaguars,20,New York Giants,15,1,0
+2018-09-09,2018,1,New England Patriots,27,Houston Texans,20,1,1
+2018-09-09,2018,1,Houston Texans,20,New England Patriots,27,0,0
+2018-09-09,2018,1,New Orleans Saints,40,Tampa Bay Buccaneers,48,0,1
+2018-09-09,2018,1,Tampa Bay Buccaneers,48,New Orleans Saints,40,1,0
+2018-09-09,2018,1,Minnesota Vikings,24,San Francisco 49ers,16,1,1
+2018-09-09,2018,1,San Francisco 49ers,16,Minnesota Vikings,24,0,0
+2018-09-09,2018,1,Miami Dolphins,27,Tennessee Titans,20,1,1
+2018-09-09,2018,1,Tennessee Titans,20,Miami Dolphins,27,0,0
+2018-09-09,2018,1,Indianapolis Colts,23,Cincinnati Bengals,34,0,1
+2018-09-09,2018,1,Cincinnati Bengals,34,Indianapolis Colts,23,1,0
+2018-09-09,2018,1,Los Angeles Chargers,28,Kansas City Chiefs,38,0,1
+2018-09-09,2018,1,Kansas City Chiefs,38,Los Angeles Chargers,28,1,0
+2018-09-09,2018,1,Carolina Panthers,16,Dallas Cowboys,8,1,1
+2018-09-09,2018,1,Dallas Cowboys,8,Carolina Panthers,16,0,0
+2018-09-09,2018,1,Denver Broncos,27,Seattle Seahawks,24,1,1
+2018-09-09,2018,1,Seattle Seahawks,24,Denver Broncos,27,0,0
+2018-09-09,2018,1,Arizona Cardinals,6,Washington Redskins,24,0,1
+2018-09-09,2018,1,Washington Redskins,24,Arizona Cardinals,6,1,0
+2018-09-09,2018,1,Green Bay Packers,24,Chicago Bears,23,1,1
+2018-09-09,2018,1,Chicago Bears,23,Green Bay Packers,24,0,0
+2018-09-10,2018,1,Detroit Lions,17,New York Jets,48,0,1
+2018-09-10,2018,1,New York Jets,48,Detroit Lions,17,1,0
+2018-09-10,2018,1,Oakland Raiders,13,Los Angeles Rams,33,0,1
+2018-09-10,2018,1,Los Angeles Rams,33,Oakland Raiders,13,1,0
+2018-09-13,2018,2,Cincinnati Bengals,34,Baltimore Ravens,23,1,1
+2018-09-13,2018,2,Baltimore Ravens,23,Cincinnati Bengals,34,0,0
+2018-09-16,2018,2,Buffalo Bills,20,Los Angeles Chargers,31,0,1
+2018-09-16,2018,2,Los Angeles Chargers,31,Buffalo Bills,20,1,0
+2018-09-16,2018,2,Atlanta Falcons,31,Carolina Panthers,24,1,1
+2018-09-16,2018,2,Carolina Panthers,24,Atlanta Falcons,31,0,0
+2018-09-16,2018,2,Washington Redskins,9,Indianapolis Colts,21,0,1
+2018-09-16,2018,2,Indianapolis Colts,21,Washington Redskins,9,1,0
+2018-09-16,2018,2,Tampa Bay Buccaneers,27,Philadelphia Eagles,21,1,1
+2018-09-16,2018,2,Philadelphia Eagles,21,Tampa Bay Buccaneers,27,0,0
+2018-09-16,2018,2,Pittsburgh Steelers,37,Kansas City Chiefs,42,0,1
+2018-09-16,2018,2,Kansas City Chiefs,42,Pittsburgh Steelers,37,1,0
+2018-09-16,2018,2,Tennessee Titans,20,Houston Texans,17,1,1
+2018-09-16,2018,2,Houston Texans,17,Tennessee Titans,20,0,0
+2018-09-16,2018,2,New York Jets,12,Miami Dolphins,20,0,1
+2018-09-16,2018,2,Miami Dolphins,20,New York Jets,12,1,0
+2018-09-16,2018,2,New Orleans Saints,21,Cleveland Browns,18,1,1
+2018-09-16,2018,2,Cleveland Browns,18,New Orleans Saints,21,0,0
+2018-09-16,2018,2,San Francisco 49ers,30,Detroit Lions,27,1,1
+2018-09-16,2018,2,Detroit Lions,27,San Francisco 49ers,30,0,0
+2018-09-16,2018,2,Los Angeles Rams,34,Arizona Cardinals,0,1,1
+2018-09-16,2018,2,Arizona Cardinals,0,Los Angeles Rams,34,0,0
+2018-09-16,2018,2,Jacksonville Jaguars,31,New England Patriots,20,1,1
+2018-09-16,2018,2,New England Patriots,20,Jacksonville Jaguars,31,0,0
+2018-09-16,2018,2,Denver Broncos,20,Oakland Raiders,19,1,1
+2018-09-16,2018,2,Oakland Raiders,19,Denver Broncos,20,0,0
+2018-09-16,2018,2,Dallas Cowboys,20,New York Giants,13,1,1
+2018-09-16,2018,2,New York Giants,13,Dallas Cowboys,20,0,0
+2018-09-17,2018,2,Chicago Bears,24,Seattle Seahawks,17,1,1
+2018-09-17,2018,2,Seattle Seahawks,17,Chicago Bears,24,0,0
+2018-09-20,2018,3,Cleveland Browns,21,New York Jets,17,1,1
+2018-09-20,2018,3,New York Jets,17,Cleveland Browns,21,0,0
+2018-09-23,2018,3,Carolina Panthers,31,Cincinnati Bengals,21,1,1
+2018-09-23,2018,3,Cincinnati Bengals,21,Carolina Panthers,31,0,0
+2018-09-23,2018,3,Washington Redskins,31,Green Bay Packers,17,1,1
+2018-09-23,2018,3,Green Bay Packers,17,Washington Redskins,31,0,0
+2018-09-23,2018,3,Baltimore Ravens,27,Denver Broncos,14,1,1
+2018-09-23,2018,3,Denver Broncos,14,Baltimore Ravens,27,0,0
+2018-09-23,2018,3,Philadelphia Eagles,20,Indianapolis Colts,16,1,1
+2018-09-23,2018,3,Indianapolis Colts,16,Philadelphia Eagles,20,0,0
+2018-09-23,2018,3,Minnesota Vikings,6,Buffalo Bills,27,0,1
+2018-09-23,2018,3,Buffalo Bills,27,Minnesota Vikings,6,1,0
+2018-09-23,2018,3,Miami Dolphins,28,Oakland Raiders,20,1,1
+2018-09-23,2018,3,Oakland Raiders,20,Miami Dolphins,28,0,0
+2018-09-23,2018,3,Kansas City Chiefs,38,San Francisco 49ers,27,1,1
+2018-09-23,2018,3,San Francisco 49ers,27,Kansas City Chiefs,38,0,0
+2018-09-23,2018,3,Jacksonville Jaguars,6,Tennessee Titans,9,0,1
+2018-09-23,2018,3,Tennessee Titans,9,Jacksonville Jaguars,6,1,0
+2018-09-23,2018,3,Houston Texans,22,New York Giants,27,0,1
+2018-09-23,2018,3,New York Giants,27,Houston Texans,22,1,0
+2018-09-23,2018,3,Los Angeles Rams,35,Los Angeles Chargers,23,1,1
+2018-09-23,2018,3,Los Angeles Chargers,23,Los Angeles Rams,35,0,0
+2018-09-23,2018,3,Seattle Seahawks,24,Dallas Cowboys,13,1,1
+2018-09-23,2018,3,Dallas Cowboys,13,Seattle Seahawks,24,0,0
+2018-09-23,2018,3,Arizona Cardinals,14,Chicago Bears,16,0,1
+2018-09-23,2018,3,Chicago Bears,16,Arizona Cardinals,14,1,0
+2018-09-23,2018,3,Detroit Lions,26,New England Patriots,10,1,1
+2018-09-23,2018,3,New England Patriots,10,Detroit Lions,26,0,0
+2018-09-24,2018,3,Tampa Bay Buccaneers,27,Pittsburgh Steelers,30,0,1
+2018-09-24,2018,3,Pittsburgh Steelers,30,Tampa Bay Buccaneers,27,1,0
+2018-09-27,2018,4,Los Angeles Rams,38,Minnesota Vikings,31,1,1
+2018-09-27,2018,4,Minnesota Vikings,31,Los Angeles Rams,38,0,0
+2018-09-30,2018,4,Chicago Bears,48,Tampa Bay Buccaneers,10,1,1
+2018-09-30,2018,4,Tampa Bay Buccaneers,10,Chicago Bears,48,0,0
+2018-09-30,2018,4,Atlanta Falcons,36,Cincinnati Bengals,37,0,1
+2018-09-30,2018,4,Cincinnati Bengals,37,Atlanta Falcons,36,1,0
+2018-09-30,2018,4,New England Patriots,38,Miami Dolphins,7,1,1
+2018-09-30,2018,4,Miami Dolphins,7,New England Patriots,38,0,0
+2018-09-30,2018,4,Jacksonville Jaguars,31,New York Jets,12,1,1
+2018-09-30,2018,4,New York Jets,12,Jacksonville Jaguars,31,0,0
+2018-09-30,2018,4,Green Bay Packers,22,Buffalo Bills,0,1,1
+2018-09-30,2018,4,Buffalo Bills,0,Green Bay Packers,22,0,0
+2018-09-30,2018,4,Dallas Cowboys,26,Detroit Lions,24,1,1
+2018-09-30,2018,4,Detroit Lions,24,Dallas Cowboys,26,0,0
+2018-09-30,2018,4,Arizona Cardinals,17,Seattle Seahawks,20,0,1
+2018-09-30,2018,4,Seattle Seahawks,20,Arizona Cardinals,17,1,0
+2018-09-30,2018,4,Los Angeles Chargers,29,San Francisco 49ers,27,1,1
+2018-09-30,2018,4,San Francisco 49ers,27,Los Angeles Chargers,29,0,0
+2018-09-30,2018,4,New York Giants,18,New Orleans Saints,33,0,1
+2018-09-30,2018,4,New Orleans Saints,33,New York Giants,18,1,0
+2018-09-30,2018,4,Pittsburgh Steelers,14,Baltimore Ravens,26,0,1
+2018-09-30,2018,4,Baltimore Ravens,26,Pittsburgh Steelers,14,1,0
+2018-10-01,2018,4,Denver Broncos,23,Kansas City Chiefs,27,0,1
+2018-10-01,2018,4,Kansas City Chiefs,27,Denver Broncos,23,1,0
+2018-10-04,2018,5,New England Patriots,38,Indianapolis Colts,24,1,1
+2018-10-04,2018,5,Indianapolis Colts,24,New England Patriots,38,0,0
+2018-10-07,2018,5,Carolina Panthers,33,New York Giants,31,1,1
+2018-10-07,2018,5,New York Giants,31,Carolina Panthers,33,0,0
+2018-10-07,2018,5,Buffalo Bills,13,Tennessee Titans,12,1,1
+2018-10-07,2018,5,Tennessee Titans,12,Buffalo Bills,13,0,0
+2018-10-07,2018,5,Pittsburgh Steelers,41,Atlanta Falcons,17,1,1
+2018-10-07,2018,5,Atlanta Falcons,17,Pittsburgh Steelers,41,0,0
+2018-10-07,2018,5,New York Jets,34,Denver Broncos,16,1,1
+2018-10-07,2018,5,Denver Broncos,16,New York Jets,34,0,0
+2018-10-07,2018,5,Kansas City Chiefs,30,Jacksonville Jaguars,14,1,1
+2018-10-07,2018,5,Jacksonville Jaguars,14,Kansas City Chiefs,30,0,0
+2018-10-07,2018,5,Detroit Lions,31,Green Bay Packers,23,1,1
+2018-10-07,2018,5,Green Bay Packers,23,Detroit Lions,31,0,0
+2018-10-07,2018,5,Cincinnati Bengals,27,Miami Dolphins,17,1,1
+2018-10-07,2018,5,Miami Dolphins,17,Cincinnati Bengals,27,0,0
+2018-10-07,2018,5,Los Angeles Chargers,26,Oakland Raiders,10,1,1
+2018-10-07,2018,5,Oakland Raiders,10,Los Angeles Chargers,26,0,0
+2018-10-07,2018,5,San Francisco 49ers,18,Arizona Cardinals,28,0,1
+2018-10-07,2018,5,Arizona Cardinals,28,San Francisco 49ers,18,1,0
+2018-10-07,2018,5,Seattle Seahawks,31,Los Angeles Rams,33,0,1
+2018-10-07,2018,5,Los Angeles Rams,33,Seattle Seahawks,31,1,0
+2018-10-07,2018,5,Philadelphia Eagles,21,Minnesota Vikings,23,0,1
+2018-10-07,2018,5,Minnesota Vikings,23,Philadelphia Eagles,21,1,0
+2018-10-08,2018,5,New Orleans Saints,43,Washington Redskins,19,1,1
+2018-10-08,2018,5,Washington Redskins,19,New Orleans Saints,43,0,0
+2018-10-11,2018,6,New York Giants,13,Philadelphia Eagles,34,0,1
+2018-10-11,2018,6,Philadelphia Eagles,34,New York Giants,13,1,0
+2018-10-14,2018,6,Cincinnati Bengals,21,Pittsburgh Steelers,28,0,1
+2018-10-14,2018,6,Pittsburgh Steelers,28,Cincinnati Bengals,21,1,0
+2018-10-14,2018,6,Atlanta Falcons,34,Tampa Bay Buccaneers,29,1,1
+2018-10-14,2018,6,Tampa Bay Buccaneers,29,Atlanta Falcons,34,0,0
+2018-10-14,2018,6,Washington Redskins,23,Carolina Panthers,17,1,1
+2018-10-14,2018,6,Carolina Panthers,17,Washington Redskins,23,0,0
+2018-10-14,2018,6,Oakland Raiders,3,Seattle Seahawks,27,0,1
+2018-10-14,2018,6,Seattle Seahawks,27,Oakland Raiders,3,1,0
+2018-10-14,2018,6,New York Jets,42,Indianapolis Colts,34,1,1
+2018-10-14,2018,6,Indianapolis Colts,34,New York Jets,42,0,0
+2018-10-14,2018,6,Minnesota Vikings,27,Arizona Cardinals,17,1,1
+2018-10-14,2018,6,Arizona Cardinals,17,Minnesota Vikings,27,0,0
+2018-10-14,2018,6,Houston Texans,20,Buffalo Bills,13,1,1
+2018-10-14,2018,6,Buffalo Bills,13,Houston Texans,20,0,0
+2018-10-14,2018,6,Cleveland Browns,14,Los Angeles Chargers,38,0,1
+2018-10-14,2018,6,Los Angeles Chargers,38,Cleveland Browns,14,1,0
+2018-10-14,2018,6,Denver Broncos,20,Los Angeles Rams,23,0,1
+2018-10-14,2018,6,Los Angeles Rams,23,Denver Broncos,20,1,0
+2018-10-14,2018,6,Tennessee Titans,0,Baltimore Ravens,21,0,1
+2018-10-14,2018,6,Baltimore Ravens,21,Tennessee Titans,0,1,0
+2018-10-14,2018,6,Dallas Cowboys,40,Jacksonville Jaguars,7,1,1
+2018-10-14,2018,6,Jacksonville Jaguars,7,Dallas Cowboys,40,0,0
+2018-10-14,2018,6,New England Patriots,43,Kansas City Chiefs,40,1,1
+2018-10-14,2018,6,Kansas City Chiefs,40,New England Patriots,43,0,0
+2018-10-15,2018,6,Green Bay Packers,33,San Francisco 49ers,30,1,1
+2018-10-15,2018,6,San Francisco 49ers,30,Green Bay Packers,33,0,0
+2018-10-18,2018,7,Arizona Cardinals,10,Denver Broncos,45,0,1
+2018-10-18,2018,7,Denver Broncos,45,Arizona Cardinals,10,1,0
+2018-10-21,2018,7,Los Angeles Chargers,20,Tennessee Titans,19,1,1
+2018-10-21,2018,7,Tennessee Titans,19,Los Angeles Chargers,20,0,0
+2018-10-21,2018,7,Indianapolis Colts,37,Buffalo Bills,5,1,1
+2018-10-21,2018,7,Buffalo Bills,5,Indianapolis Colts,37,0,0
+2018-10-21,2018,7,Chicago Bears,31,New England Patriots,38,0,1
+2018-10-21,2018,7,New England Patriots,38,Chicago Bears,31,1,0
+2018-10-21,2018,7,Philadelphia Eagles,17,Carolina Panthers,21,0,1
+2018-10-21,2018,7,Carolina Panthers,21,Philadelphia Eagles,17,1,0
+2018-10-21,2018,7,New York Jets,17,Minnesota Vikings,37,0,1
+2018-10-21,2018,7,Minnesota Vikings,37,New York Jets,17,1,0
+2018-10-21,2018,7,Miami Dolphins,21,Detroit Lions,32,0,1
+2018-10-21,2018,7,Detroit Lions,32,Miami Dolphins,21,1,0
+2018-10-21,2018,7,Jacksonville Jaguars,7,Houston Texans,20,0,1
+2018-10-21,2018,7,Houston Texans,20,Jacksonville Jaguars,7,1,0
+2018-10-21,2018,7,Baltimore Ravens,23,New Orleans Saints,24,0,1
+2018-10-21,2018,7,New Orleans Saints,24,Baltimore Ravens,23,1,0
+2018-10-21,2018,7,Washington Redskins,20,Dallas Cowboys,17,1,1
+2018-10-21,2018,7,Dallas Cowboys,17,Washington Redskins,20,0,0
+2018-10-21,2018,7,San Francisco 49ers,10,Los Angeles Rams,39,0,1
+2018-10-21,2018,7,Los Angeles Rams,39,San Francisco 49ers,10,1,0
+2018-10-21,2018,7,Kansas City Chiefs,45,Cincinnati Bengals,10,1,1
+2018-10-21,2018,7,Cincinnati Bengals,10,Kansas City Chiefs,45,0,0
+2018-10-22,2018,7,Atlanta Falcons,23,New York Giants,20,1,1
+2018-10-22,2018,7,New York Giants,20,Atlanta Falcons,23,0,0
+2018-10-25,2018,8,Houston Texans,42,Miami Dolphins,23,1,1
+2018-10-25,2018,8,Miami Dolphins,23,Houston Texans,42,0,0
+2018-10-28,2018,8,Jacksonville Jaguars,18,Philadelphia Eagles,24,0,1
+2018-10-28,2018,8,Philadelphia Eagles,24,Jacksonville Jaguars,18,1,0
+2018-10-28,2018,8,Chicago Bears,24,New York Jets,10,1,1
+2018-10-28,2018,8,New York Jets,10,Chicago Bears,24,0,0
+2018-10-28,2018,8,Carolina Panthers,36,Baltimore Ravens,21,1,1
+2018-10-28,2018,8,Baltimore Ravens,21,Carolina Panthers,36,0,0
+2018-10-28,2018,8,Pittsburgh Steelers,33,Cleveland Browns,18,1,1
+2018-10-28,2018,8,Cleveland Browns,18,Pittsburgh Steelers,33,0,0
+2018-10-28,2018,8,New York Giants,13,Washington Redskins,20,0,1
+2018-10-28,2018,8,Washington Redskins,20,New York Giants,13,1,0
+2018-10-28,2018,8,Kansas City Chiefs,30,Denver Broncos,23,1,1
+2018-10-28,2018,8,Denver Broncos,23,Kansas City Chiefs,30,0,0
+2018-10-28,2018,8,Detroit Lions,14,Seattle Seahawks,28,0,1
+2018-10-28,2018,8,Seattle Seahawks,28,Detroit Lions,14,1,0
+2018-10-28,2018,8,Cincinnati Bengals,37,Tampa Bay Buccaneers,34,1,1
+2018-10-28,2018,8,Tampa Bay Buccaneers,34,Cincinnati Bengals,37,0,0
+2018-10-28,2018,8,Oakland Raiders,28,Indianapolis Colts,42,0,1
+2018-10-28,2018,8,Indianapolis Colts,42,Oakland Raiders,28,1,0
+2018-10-28,2018,8,Los Angeles Rams,29,Green Bay Packers,27,1,1
+2018-10-28,2018,8,Green Bay Packers,27,Los Angeles Rams,29,0,0
+2018-10-28,2018,8,Arizona Cardinals,18,San Francisco 49ers,15,1,1
+2018-10-28,2018,8,San Francisco 49ers,15,Arizona Cardinals,18,0,0
+2018-10-28,2018,8,Minnesota Vikings,20,New Orleans Saints,30,0,1
+2018-10-28,2018,8,New Orleans Saints,30,Minnesota Vikings,20,1,0
+2018-10-29,2018,8,Buffalo Bills,6,New England Patriots,25,0,1
+2018-10-29,2018,8,New England Patriots,25,Buffalo Bills,6,1,0
+2018-11-01,2018,9,San Francisco 49ers,34,Oakland Raiders,3,1,1
+2018-11-01,2018,9,Oakland Raiders,3,San Francisco 49ers,34,0,0
+2018-11-04,2018,9,Carolina Panthers,42,Tampa Bay Buccaneers,28,1,1
+2018-11-04,2018,9,Tampa Bay Buccaneers,28,Carolina Panthers,42,0,0
+2018-11-04,2018,9,Buffalo Bills,9,Chicago Bears,41,0,1
+2018-11-04,2018,9,Chicago Bears,41,Buffalo Bills,9,1,0
+2018-11-04,2018,9,Washington Redskins,14,Atlanta Falcons,38,0,1
+2018-11-04,2018,9,Atlanta Falcons,38,Washington Redskins,14,1,0
+2018-11-04,2018,9,Baltimore Ravens,16,Pittsburgh Steelers,23,0,1
+2018-11-04,2018,9,Pittsburgh Steelers,23,Baltimore Ravens,16,1,0
+2018-11-04,2018,9,Minnesota Vikings,24,Detroit Lions,9,1,1
+2018-11-04,2018,9,Detroit Lions,9,Minnesota Vikings,24,0,0
+2018-11-04,2018,9,Miami Dolphins,13,New York Jets,6,1,1
+2018-11-04,2018,9,New York Jets,6,Miami Dolphins,13,0,0
+2018-11-04,2018,9,Cleveland Browns,21,Kansas City Chiefs,37,0,1
+2018-11-04,2018,9,Kansas City Chiefs,37,Cleveland Browns,21,1,0
+2018-11-04,2018,9,Seattle Seahawks,17,Los Angeles Chargers,25,0,1
+2018-11-04,2018,9,Los Angeles Chargers,25,Seattle Seahawks,17,1,0
+2018-11-04,2018,9,Denver Broncos,17,Houston Texans,19,0,1
+2018-11-04,2018,9,Houston Texans,19,Denver Broncos,17,1,0
+2018-11-04,2018,9,New Orleans Saints,45,Los Angeles Rams,35,1,1
+2018-11-04,2018,9,Los Angeles Rams,35,New Orleans Saints,45,0,0
+2018-11-04,2018,9,New England Patriots,31,Green Bay Packers,17,1,1
+2018-11-04,2018,9,Green Bay Packers,17,New England Patriots,31,0,0
+2018-11-05,2018,9,Dallas Cowboys,14,Tennessee Titans,28,0,1
+2018-11-05,2018,9,Tennessee Titans,28,Dallas Cowboys,14,1,0
+2018-11-08,2018,10,Pittsburgh Steelers,52,Carolina Panthers,21,1,1
+2018-11-08,2018,10,Carolina Panthers,21,Pittsburgh Steelers,52,0,0
+2018-11-11,2018,10,Cincinnati Bengals,14,New Orleans Saints,51,0,1
+2018-11-11,2018,10,New Orleans Saints,51,Cincinnati Bengals,14,1,0
+2018-11-11,2018,10,Chicago Bears,34,Detroit Lions,22,1,1
+2018-11-11,2018,10,Detroit Lions,22,Chicago Bears,34,0,0
+2018-11-11,2018,10,Tampa Bay Buccaneers,3,Washington Redskins,16,0,1
+2018-11-11,2018,10,Washington Redskins,16,Tampa Bay Buccaneers,3,1,0
+2018-11-11,2018,10,Tennessee Titans,34,New England Patriots,10,1,1
+2018-11-11,2018,10,New England Patriots,10,Tennessee Titans,34,0,0
+2018-11-11,2018,10,New York Jets,10,Buffalo Bills,41,0,1
+2018-11-11,2018,10,Buffalo Bills,41,New York Jets,10,1,0
+2018-11-11,2018,10,Kansas City Chiefs,26,Arizona Cardinals,14,1,1
+2018-11-11,2018,10,Arizona Cardinals,14,Kansas City Chiefs,26,0,0
+2018-11-11,2018,10,Indianapolis Colts,29,Jacksonville Jaguars,26,1,1
+2018-11-11,2018,10,Jacksonville Jaguars,26,Indianapolis Colts,29,0,0
+2018-11-11,2018,10,Cleveland Browns,28,Atlanta Falcons,16,1,1
+2018-11-11,2018,10,Atlanta Falcons,16,Cleveland Browns,28,0,0
+2018-11-11,2018,10,Oakland Raiders,6,Los Angeles Chargers,20,0,1
+2018-11-11,2018,10,Los Angeles Chargers,20,Oakland Raiders,6,1,0
+2018-11-11,2018,10,Los Angeles Rams,36,Seattle Seahawks,31,1,1
+2018-11-11,2018,10,Seattle Seahawks,31,Los Angeles Rams,36,0,0
+2018-11-11,2018,10,Green Bay Packers,31,Miami Dolphins,12,1,1
+2018-11-11,2018,10,Miami Dolphins,12,Green Bay Packers,31,0,0
+2018-11-11,2018,10,Philadelphia Eagles,20,Dallas Cowboys,27,0,1
+2018-11-11,2018,10,Dallas Cowboys,27,Philadelphia Eagles,20,1,0
+2018-11-12,2018,10,San Francisco 49ers,23,New York Giants,27,0,1
+2018-11-12,2018,10,New York Giants,27,San Francisco 49ers,23,1,0
+2018-11-15,2018,11,Seattle Seahawks,27,Green Bay Packers,24,1,1
+2018-11-15,2018,11,Green Bay Packers,24,Seattle Seahawks,27,0,0
+2018-11-18,2018,11,Atlanta Falcons,19,Dallas Cowboys,22,0,1
+2018-11-18,2018,11,Dallas Cowboys,22,Atlanta Falcons,19,1,0
+2018-11-18,2018,11,Washington Redskins,21,Houston Texans,23,0,1
+2018-11-18,2018,11,Houston Texans,23,Washington Redskins,21,1,0
+2018-11-18,2018,11,Baltimore Ravens,24,Cincinnati Bengals,21,1,1
+2018-11-18,2018,11,Cincinnati Bengals,21,Baltimore Ravens,24,0,0
+2018-11-18,2018,11,New York Giants,38,Tampa Bay Buccaneers,35,1,1
+2018-11-18,2018,11,Tampa Bay Buccaneers,35,New York Giants,38,0,0
+2018-11-18,2018,11,Jacksonville Jaguars,16,Pittsburgh Steelers,20,0,1
+2018-11-18,2018,11,Pittsburgh Steelers,20,Jacksonville Jaguars,16,1,0
+2018-11-18,2018,11,Detroit Lions,20,Carolina Panthers,19,1,1
+2018-11-18,2018,11,Carolina Panthers,19,Detroit Lions,20,0,0
+2018-11-18,2018,11,Indianapolis Colts,38,Tennessee Titans,10,1,1
+2018-11-18,2018,11,Tennessee Titans,10,Indianapolis Colts,38,0,0
+2018-11-18,2018,11,Los Angeles Chargers,22,Denver Broncos,23,0,1
+2018-11-18,2018,11,Denver Broncos,23,Los Angeles Chargers,22,1,0
+2018-11-18,2018,11,Arizona Cardinals,21,Oakland Raiders,23,0,1
+2018-11-18,2018,11,Oakland Raiders,23,Arizona Cardinals,21,1,0
+2018-11-18,2018,11,New Orleans Saints,48,Philadelphia Eagles,7,1,1
+2018-11-18,2018,11,Philadelphia Eagles,7,New Orleans Saints,48,0,0
+2018-11-18,2018,11,Chicago Bears,25,Minnesota Vikings,20,1,1
+2018-11-18,2018,11,Minnesota Vikings,20,Chicago Bears,25,0,0
+2018-11-19,2018,11,Los Angeles Rams,54,Kansas City Chiefs,51,1,1
+2018-11-19,2018,11,Kansas City Chiefs,51,Los Angeles Rams,54,0,0
+2018-11-22,2018,12,Detroit Lions,16,Chicago Bears,23,0,1
+2018-11-22,2018,12,Chicago Bears,23,Detroit Lions,16,1,0
+2018-11-22,2018,12,Dallas Cowboys,31,Washington Redskins,23,1,1
+2018-11-22,2018,12,Washington Redskins,23,Dallas Cowboys,31,0,0
+2018-11-22,2018,12,New Orleans Saints,31,Atlanta Falcons,17,1,1
+2018-11-22,2018,12,Atlanta Falcons,17,New Orleans Saints,31,0,0
+2018-11-25,2018,12,Tampa Bay Buccaneers,27,San Francisco 49ers,9,1,1
+2018-11-25,2018,12,San Francisco 49ers,9,Tampa Bay Buccaneers,27,0,0
+2018-11-25,2018,12,Baltimore Ravens,34,Oakland Raiders,17,1,1
+2018-11-25,2018,12,Oakland Raiders,17,Baltimore Ravens,34,0,0
+2018-11-25,2018,12,Philadelphia Eagles,25,New York Giants,22,1,1
+2018-11-25,2018,12,New York Giants,22,Philadelphia Eagles,25,0,0
+2018-11-25,2018,12,New York Jets,13,New England Patriots,27,0,1
+2018-11-25,2018,12,New England Patriots,27,New York Jets,13,1,0
+2018-11-25,2018,12,Cincinnati Bengals,20,Cleveland Browns,35,0,1
+2018-11-25,2018,12,Cleveland Browns,35,Cincinnati Bengals,20,1,0
+2018-11-25,2018,12,Carolina Panthers,27,Seattle Seahawks,30,0,1
+2018-11-25,2018,12,Seattle Seahawks,30,Carolina Panthers,27,1,0
+2018-11-25,2018,12,Buffalo Bills,24,Jacksonville Jaguars,21,1,1
+2018-11-25,2018,12,Jacksonville Jaguars,21,Buffalo Bills,24,0,0
+2018-11-25,2018,12,Los Angeles Chargers,45,Arizona Cardinals,10,1,1
+2018-11-25,2018,12,Arizona Cardinals,10,Los Angeles Chargers,45,0,0
+2018-11-25,2018,12,Denver Broncos,24,Pittsburgh Steelers,17,1,1
+2018-11-25,2018,12,Pittsburgh Steelers,17,Denver Broncos,24,0,0
+2018-11-25,2018,12,Indianapolis Colts,27,Miami Dolphins,24,1,1
+2018-11-25,2018,12,Miami Dolphins,24,Indianapolis Colts,27,0,0
+2018-11-25,2018,12,Minnesota Vikings,24,Green Bay Packers,17,1,1
+2018-11-25,2018,12,Green Bay Packers,17,Minnesota Vikings,24,0,0
+2018-11-26,2018,12,Houston Texans,34,Tennessee Titans,17,1,1
+2018-11-26,2018,12,Tennessee Titans,17,Houston Texans,34,0,0
+2018-11-29,2018,13,Dallas Cowboys,13,New Orleans Saints,10,1,1
+2018-11-29,2018,13,New Orleans Saints,10,Dallas Cowboys,13,0,0
+2018-12-02,2018,13,Cincinnati Bengals,10,Denver Broncos,24,0,1
+2018-12-02,2018,13,Denver Broncos,24,Cincinnati Bengals,10,1,0
+2018-12-02,2018,13,Atlanta Falcons,16,Baltimore Ravens,26,0,1
+2018-12-02,2018,13,Baltimore Ravens,26,Atlanta Falcons,16,1,0
+2018-12-02,2018,13,Tampa Bay Buccaneers,24,Carolina Panthers,17,1,1
+2018-12-02,2018,13,Carolina Panthers,17,Tampa Bay Buccaneers,24,0,0
+2018-12-02,2018,13,Miami Dolphins,21,Buffalo Bills,17,1,1
+2018-12-02,2018,13,Buffalo Bills,17,Miami Dolphins,21,0,0
+2018-12-02,2018,13,Jacksonville Jaguars,6,Indianapolis Colts,0,1,1
+2018-12-02,2018,13,Indianapolis Colts,0,Jacksonville Jaguars,6,0,0
+2018-12-02,2018,13,Houston Texans,29,Cleveland Browns,13,1,1
+2018-12-02,2018,13,Cleveland Browns,13,Houston Texans,29,0,0
+2018-12-02,2018,13,Green Bay Packers,17,Arizona Cardinals,20,0,1
+2018-12-02,2018,13,Arizona Cardinals,20,Green Bay Packers,17,1,0
+2018-12-02,2018,13,Detroit Lions,16,Los Angeles Rams,30,0,1
+2018-12-02,2018,13,Los Angeles Rams,30,Detroit Lions,16,1,0
+2018-12-02,2018,13,Oakland Raiders,33,Kansas City Chiefs,40,0,1
+2018-12-02,2018,13,Kansas City Chiefs,40,Oakland Raiders,33,1,0
+2018-12-02,2018,13,Tennessee Titans,26,New York Jets,22,1,1
+2018-12-02,2018,13,New York Jets,22,Tennessee Titans,26,0,0
+2018-12-02,2018,13,Seattle Seahawks,43,San Francisco 49ers,16,1,1
+2018-12-02,2018,13,San Francisco 49ers,16,Seattle Seahawks,43,0,0
+2018-12-02,2018,13,New England Patriots,24,Minnesota Vikings,10,1,1
+2018-12-02,2018,13,Minnesota Vikings,10,New England Patriots,24,0,0
+2018-12-02,2018,13,Pittsburgh Steelers,30,Los Angeles Chargers,33,0,1
+2018-12-02,2018,13,Los Angeles Chargers,33,Pittsburgh Steelers,30,1,0
+2018-12-03,2018,13,Philadelphia Eagles,28,Washington Redskins,13,1,1
+2018-12-03,2018,13,Washington Redskins,13,Philadelphia Eagles,28,0,0
+2018-12-06,2018,14,Tennessee Titans,30,Jacksonville Jaguars,9,1,1
+2018-12-06,2018,14,Jacksonville Jaguars,9,Tennessee Titans,30,0,0
+2018-12-09,2018,14,Buffalo Bills,23,New York Jets,27,0,1
+2018-12-09,2018,14,New York Jets,27,Buffalo Bills,23,1,0
+2018-12-09,2018,14,Washington Redskins,16,New York Giants,40,0,1
+2018-12-09,2018,14,New York Giants,40,Washington Redskins,16,1,0
+2018-12-09,2018,14,Tampa Bay Buccaneers,14,New Orleans Saints,28,0,1
+2018-12-09,2018,14,New Orleans Saints,28,Tampa Bay Buccaneers,14,1,0
+2018-12-09,2018,14,Miami Dolphins,34,New England Patriots,33,1,1
+2018-12-09,2018,14,New England Patriots,33,Miami Dolphins,34,0,0
+2018-12-09,2018,14,Houston Texans,21,Indianapolis Colts,24,0,1
+2018-12-09,2018,14,Indianapolis Colts,24,Houston Texans,21,1,0
+2018-12-09,2018,14,Green Bay Packers,34,Atlanta Falcons,20,1,1
+2018-12-09,2018,14,Atlanta Falcons,20,Green Bay Packers,34,0,0
+2018-12-09,2018,14,Cleveland Browns,26,Carolina Panthers,20,1,1
+2018-12-09,2018,14,Carolina Panthers,20,Cleveland Browns,26,0,0
+2018-12-09,2018,14,San Francisco 49ers,20,Denver Broncos,14,1,1
+2018-12-09,2018,14,Denver Broncos,14,San Francisco 49ers,20,0,0
+2018-12-09,2018,14,Los Angeles Chargers,26,Cincinnati Bengals,21,1,1
+2018-12-09,2018,14,Cincinnati Bengals,21,Los Angeles Chargers,26,0,0
+2018-12-09,2018,14,Oakland Raiders,24,Pittsburgh Steelers,21,1,1
+2018-12-09,2018,14,Pittsburgh Steelers,21,Oakland Raiders,24,0,0
+2018-12-09,2018,14,Arizona Cardinals,3,Detroit Lions,17,0,1
+2018-12-09,2018,14,Detroit Lions,17,Arizona Cardinals,3,1,0
+2018-12-09,2018,14,Chicago Bears,15,Los Angeles Rams,6,1,1
+2018-12-09,2018,14,Los Angeles Rams,6,Chicago Bears,15,0,0
+2018-12-10,2018,14,Seattle Seahawks,21,Minnesota Vikings,7,1,1
+2018-12-10,2018,14,Minnesota Vikings,7,Seattle Seahawks,21,0,0
+2018-12-13,2018,15,Kansas City Chiefs,28,Los Angeles Chargers,29,0,1
+2018-12-13,2018,15,Los Angeles Chargers,29,Kansas City Chiefs,28,1,0
+2018-12-15,2018,15,New York Jets,22,Houston Texans,29,0,1
+2018-12-15,2018,15,Houston Texans,29,New York Jets,22,1,0
+2018-12-15,2018,15,Denver Broncos,16,Cleveland Browns,17,0,1
+2018-12-15,2018,15,Cleveland Browns,17,Denver Broncos,16,1,0
+2018-12-16,2018,15,Baltimore Ravens,20,Tampa Bay Buccaneers,12,1,1
+2018-12-16,2018,15,Tampa Bay Buccaneers,12,Baltimore Ravens,20,0,0
+2018-12-16,2018,15,New York Giants,0,Tennessee Titans,17,0,1
+2018-12-16,2018,15,Tennessee Titans,17,New York Giants,0,1,0
+2018-12-16,2018,15,Minnesota Vikings,41,Miami Dolphins,17,1,1
+2018-12-16,2018,15,Miami Dolphins,17,Minnesota Vikings,41,0,0
+2018-12-16,2018,15,Jacksonville Jaguars,13,Washington Redskins,16,0,1
+2018-12-16,2018,15,Washington Redskins,16,Jacksonville Jaguars,13,1,0
+2018-12-16,2018,15,Indianapolis Colts,23,Dallas Cowboys,0,1,1
+2018-12-16,2018,15,Dallas Cowboys,0,Indianapolis Colts,23,0,0
+2018-12-16,2018,15,Cincinnati Bengals,30,Oakland Raiders,16,1,1
+2018-12-16,2018,15,Oakland Raiders,16,Cincinnati Bengals,30,0,0
+2018-12-16,2018,15,Chicago Bears,24,Green Bay Packers,17,1,1
+2018-12-16,2018,15,Green Bay Packers,17,Chicago Bears,24,0,0
+2018-12-16,2018,15,Buffalo Bills,14,Detroit Lions,13,1,1
+2018-12-16,2018,15,Detroit Lions,13,Buffalo Bills,14,0,0
+2018-12-16,2018,15,Atlanta Falcons,40,Arizona Cardinals,14,1,1
+2018-12-16,2018,15,Arizona Cardinals,14,Atlanta Falcons,40,0,0
+2018-12-16,2018,15,Pittsburgh Steelers,17,New England Patriots,10,1,1
+2018-12-16,2018,15,New England Patriots,10,Pittsburgh Steelers,17,0,0
+2018-12-16,2018,15,Los Angeles Rams,23,Philadelphia Eagles,30,0,1
+2018-12-16,2018,15,Philadelphia Eagles,30,Los Angeles Rams,23,1,0
+2018-12-17,2018,15,Carolina Panthers,9,New Orleans Saints,12,0,1
+2018-12-17,2018,15,New Orleans Saints,12,Carolina Panthers,9,1,0
+2018-12-22,2018,16,Tennessee Titans,25,Washington Redskins,16,1,1
+2018-12-22,2018,16,Washington Redskins,16,Tennessee Titans,25,0,0
+2018-12-22,2018,16,Los Angeles Chargers,10,Baltimore Ravens,22,0,1
+2018-12-22,2018,16,Baltimore Ravens,22,Los Angeles Chargers,10,1,0
+2018-12-23,2018,16,Carolina Panthers,10,Atlanta Falcons,24,0,1
+2018-12-23,2018,16,Atlanta Falcons,24,Carolina Panthers,10,1,0
+2018-12-23,2018,16,Philadelphia Eagles,32,Houston Texans,30,1,1
+2018-12-23,2018,16,Houston Texans,30,Philadelphia Eagles,32,0,0
+2018-12-23,2018,16,New England Patriots,24,Buffalo Bills,12,1,1
+2018-12-23,2018,16,Buffalo Bills,12,New England Patriots,24,0,0
+2018-12-23,2018,16,Miami Dolphins,7,Jacksonville Jaguars,17,0,1
+2018-12-23,2018,16,Jacksonville Jaguars,17,Miami Dolphins,7,1,0
+2018-12-23,2018,16,Detroit Lions,9,Minnesota Vikings,27,0,1
+2018-12-23,2018,16,Minnesota Vikings,27,Detroit Lions,9,1,0
+2018-12-23,2018,16,Dallas Cowboys,27,Tampa Bay Buccaneers,20,1,1
+2018-12-23,2018,16,Tampa Bay Buccaneers,20,Dallas Cowboys,27,0,0
+2018-12-23,2018,16,Indianapolis Colts,28,New York Giants,27,1,1
+2018-12-23,2018,16,New York Giants,27,Indianapolis Colts,28,0,0
+2018-12-23,2018,16,Cleveland Browns,26,Cincinnati Bengals,18,1,1
+2018-12-23,2018,16,Cincinnati Bengals,18,Cleveland Browns,26,0,0
+2018-12-23,2018,16,San Francisco 49ers,9,Chicago Bears,14,0,1
+2018-12-23,2018,16,Chicago Bears,14,San Francisco 49ers,9,1,0
+2018-12-23,2018,16,Arizona Cardinals,9,Los Angeles Rams,31,0,1
+2018-12-23,2018,16,Los Angeles Rams,31,Arizona Cardinals,9,1,0
+2018-12-23,2018,16,New Orleans Saints,31,Pittsburgh Steelers,28,1,1
+2018-12-23,2018,16,Pittsburgh Steelers,28,New Orleans Saints,31,0,0
+2018-12-23,2018,16,Seattle Seahawks,38,Kansas City Chiefs,31,1,1
+2018-12-23,2018,16,Kansas City Chiefs,31,Seattle Seahawks,38,0,0
+2018-12-24,2018,16,Oakland Raiders,27,Denver Broncos,14,1,1
+2018-12-24,2018,16,Denver Broncos,14,Oakland Raiders,27,0,0
+2018-12-30,2018,17,Green Bay Packers,0,Detroit Lions,31,0,1
+2018-12-30,2018,17,Detroit Lions,31,Green Bay Packers,0,1,0
+2018-12-30,2018,17,Buffalo Bills,42,Miami Dolphins,17,1,1
+2018-12-30,2018,17,Miami Dolphins,17,Buffalo Bills,42,0,0
+2018-12-30,2018,17,Tampa Bay Buccaneers,32,Atlanta Falcons,34,0,1
+2018-12-30,2018,17,Atlanta Falcons,34,Tampa Bay Buccaneers,32,1,0
+2018-12-30,2018,17,New York Giants,35,Dallas Cowboys,36,0,1
+2018-12-30,2018,17,Dallas Cowboys,36,New York Giants,35,1,0
+2018-12-30,2018,17,New England Patriots,38,New York Jets,3,1,1
+2018-12-30,2018,17,New York Jets,3,New England Patriots,38,0,0
+2018-12-30,2018,17,New Orleans Saints,14,Carolina Panthers,33,0,1
+2018-12-30,2018,17,Carolina Panthers,33,New Orleans Saints,14,1,0
+2018-12-30,2018,17,Houston Texans,20,Jacksonville Jaguars,3,1,1
+2018-12-30,2018,17,Jacksonville Jaguars,3,Houston Texans,20,0,0
+2018-12-30,2018,17,Denver Broncos,9,Los Angeles Chargers,23,0,1
+2018-12-30,2018,17,Los Angeles Chargers,23,Denver Broncos,9,1,0
+2018-12-30,2018,17,Washington Redskins,0,Philadelphia Eagles,24,0,1
+2018-12-30,2018,17,Philadelphia Eagles,24,Washington Redskins,0,1,0
+2018-12-30,2018,17,Seattle Seahawks,27,Arizona Cardinals,24,1,1
+2018-12-30,2018,17,Arizona Cardinals,24,Seattle Seahawks,27,0,0
+2018-12-30,2018,17,Baltimore Ravens,26,Cleveland Browns,24,1,1
+2018-12-30,2018,17,Cleveland Browns,24,Baltimore Ravens,26,0,0
+2018-12-30,2018,17,Los Angeles Rams,48,San Francisco 49ers,32,1,1
+2018-12-30,2018,17,San Francisco 49ers,32,Los Angeles Rams,48,0,0
+2018-12-30,2018,17,Pittsburgh Steelers,16,Cincinnati Bengals,13,1,1
+2018-12-30,2018,17,Cincinnati Bengals,13,Pittsburgh Steelers,16,0,0
+2018-12-30,2018,17,Minnesota Vikings,10,Chicago Bears,24,0,1
+2018-12-30,2018,17,Chicago Bears,24,Minnesota Vikings,10,1,0
+2018-12-30,2018,17,Kansas City Chiefs,35,Oakland Raiders,3,1,1
+2018-12-30,2018,17,Oakland Raiders,3,Kansas City Chiefs,35,0,0
+2018-12-30,2018,17,Tennessee Titans,17,Indianapolis Colts,33,0,1
+2018-12-30,2018,17,Indianapolis Colts,33,Tennessee Titans,17,1,0

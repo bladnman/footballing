@@ -1,0 +1,485 @@
+date,year,week,team,team_score,opponent,opponent_score,win,home
+2017-09-07,2017,1,New England Patriots,27,Kansas City Chiefs,42,0,1
+2017-09-07,2017,1,Kansas City Chiefs,42,New England Patriots,27,1,0
+2017-09-10,2017,1,Chicago Bears,17,Atlanta Falcons,23,0,1
+2017-09-10,2017,1,Atlanta Falcons,23,Chicago Bears,17,1,0
+2017-09-10,2017,1,Buffalo Bills,21,New York Jets,12,1,1
+2017-09-10,2017,1,New York Jets,12,Buffalo Bills,21,0,0
+2017-09-10,2017,1,Washington Redskins,17,Philadelphia Eagles,30,0,1
+2017-09-10,2017,1,Philadelphia Eagles,30,Washington Redskins,17,1,0
+2017-09-10,2017,1,Tennessee Titans,16,Oakland Raiders,26,0,1
+2017-09-10,2017,1,Oakland Raiders,26,Tennessee Titans,16,1,0
+2017-09-10,2017,1,Houston Texans,7,Jacksonville Jaguars,29,0,1
+2017-09-10,2017,1,Jacksonville Jaguars,29,Houston Texans,7,1,0
+2017-09-10,2017,1,Detroit Lions,35,Arizona Cardinals,23,1,1
+2017-09-10,2017,1,Arizona Cardinals,23,Detroit Lions,35,0,0
+2017-09-10,2017,1,Cleveland Browns,18,Pittsburgh Steelers,21,0,1
+2017-09-10,2017,1,Pittsburgh Steelers,21,Cleveland Browns,18,1,0
+2017-09-10,2017,1,Cincinnati Bengals,0,Baltimore Ravens,20,0,1
+2017-09-10,2017,1,Baltimore Ravens,20,Cincinnati Bengals,0,1,0
+2017-09-10,2017,1,Los Angeles Rams,46,Indianapolis Colts,9,1,1
+2017-09-10,2017,1,Indianapolis Colts,9,Los Angeles Rams,46,0,0
+2017-09-10,2017,1,San Francisco 49ers,3,Carolina Panthers,23,0,1
+2017-09-10,2017,1,Carolina Panthers,23,San Francisco 49ers,3,1,0
+2017-09-10,2017,1,Green Bay Packers,17,Seattle Seahawks,9,1,1
+2017-09-10,2017,1,Seattle Seahawks,9,Green Bay Packers,17,0,0
+2017-09-10,2017,1,Dallas Cowboys,19,New York Giants,3,1,1
+2017-09-10,2017,1,New York Giants,3,Dallas Cowboys,19,0,0
+2017-09-11,2017,1,Minnesota Vikings,29,New Orleans Saints,19,1,1
+2017-09-11,2017,1,New Orleans Saints,19,Minnesota Vikings,29,0,0
+2017-09-11,2017,1,Denver Broncos,24,Los Angeles Chargers,21,1,1
+2017-09-11,2017,1,Los Angeles Chargers,21,Denver Broncos,24,0,0
+2017-09-14,2017,2,Cincinnati Bengals,9,Houston Texans,13,0,1
+2017-09-14,2017,2,Houston Texans,13,Cincinnati Bengals,9,1,0
+2017-09-17,2017,2,Carolina Panthers,9,Buffalo Bills,3,1,1
+2017-09-17,2017,2,Buffalo Bills,3,Carolina Panthers,9,0,0
+2017-09-17,2017,2,Tampa Bay Buccaneers,29,Chicago Bears,7,1,1
+2017-09-17,2017,2,Chicago Bears,7,Tampa Bay Buccaneers,29,0,0
+2017-09-17,2017,2,Baltimore Ravens,24,Cleveland Browns,10,1,1
+2017-09-17,2017,2,Cleveland Browns,10,Baltimore Ravens,24,0,0
+2017-09-17,2017,2,Pittsburgh Steelers,26,Minnesota Vikings,9,1,1
+2017-09-17,2017,2,Minnesota Vikings,9,Pittsburgh Steelers,26,0,0
+2017-09-17,2017,2,New Orleans Saints,20,New England Patriots,36,0,1
+2017-09-17,2017,2,New England Patriots,36,New Orleans Saints,20,1,0
+2017-09-17,2017,2,Kansas City Chiefs,27,Philadelphia Eagles,20,1,1
+2017-09-17,2017,2,Philadelphia Eagles,20,Kansas City Chiefs,27,0,0
+2017-09-17,2017,2,Jacksonville Jaguars,16,Tennessee Titans,37,0,1
+2017-09-17,2017,2,Tennessee Titans,37,Jacksonville Jaguars,16,1,0
+2017-09-17,2017,2,Los Angeles Chargers,17,Miami Dolphins,19,0,1
+2017-09-17,2017,2,Miami Dolphins,19,Los Angeles Chargers,17,1,0
+2017-09-17,2017,2,Oakland Raiders,45,New York Jets,20,1,1
+2017-09-17,2017,2,New York Jets,20,Oakland Raiders,45,0,0
+2017-09-17,2017,2,Seattle Seahawks,12,San Francisco 49ers,9,1,1
+2017-09-17,2017,2,San Francisco 49ers,9,Seattle Seahawks,12,0,0
+2017-09-17,2017,2,Los Angeles Rams,20,Washington Redskins,27,0,1
+2017-09-17,2017,2,Washington Redskins,27,Los Angeles Rams,20,1,0
+2017-09-17,2017,2,Denver Broncos,42,Dallas Cowboys,17,1,1
+2017-09-17,2017,2,Dallas Cowboys,17,Denver Broncos,42,0,0
+2017-09-17,2017,2,Atlanta Falcons,34,Green Bay Packers,23,1,1
+2017-09-17,2017,2,Green Bay Packers,23,Atlanta Falcons,34,0,0
+2017-09-18,2017,2,New York Giants,10,Detroit Lions,24,0,1
+2017-09-18,2017,2,Detroit Lions,24,New York Giants,10,1,0
+2017-09-21,2017,3,San Francisco 49ers,39,Los Angeles Rams,41,0,1
+2017-09-21,2017,3,Los Angeles Rams,41,San Francisco 49ers,39,1,0
+2017-09-24,2017,3,Jacksonville Jaguars,44,Baltimore Ravens,7,1,1
+2017-09-24,2017,3,Baltimore Ravens,7,Jacksonville Jaguars,44,0,0
+2017-09-24,2017,3,Carolina Panthers,13,New Orleans Saints,34,0,1
+2017-09-24,2017,3,New Orleans Saints,34,Carolina Panthers,13,1,0
+2017-09-24,2017,3,Buffalo Bills,26,Denver Broncos,16,1,1
+2017-09-24,2017,3,Denver Broncos,16,Buffalo Bills,26,0,0
+2017-09-24,2017,3,Philadelphia Eagles,27,New York Giants,24,1,1
+2017-09-24,2017,3,New York Giants,24,Philadelphia Eagles,27,0,0
+2017-09-24,2017,3,New York Jets,20,Miami Dolphins,6,1,1
+2017-09-24,2017,3,Miami Dolphins,6,New York Jets,20,0,0
+2017-09-24,2017,3,New England Patriots,36,Houston Texans,33,1,1
+2017-09-24,2017,3,Houston Texans,33,New England Patriots,36,0,0
+2017-09-24,2017,3,Minnesota Vikings,34,Tampa Bay Buccaneers,17,1,1
+2017-09-24,2017,3,Tampa Bay Buccaneers,17,Minnesota Vikings,34,0,0
+2017-09-24,2017,3,Detroit Lions,26,Atlanta Falcons,30,0,1
+2017-09-24,2017,3,Atlanta Falcons,30,Detroit Lions,26,1,0
+2017-09-24,2017,3,Indianapolis Colts,31,Cleveland Browns,28,1,1
+2017-09-24,2017,3,Cleveland Browns,28,Indianapolis Colts,31,0,0
+2017-09-24,2017,3,Tennessee Titans,33,Seattle Seahawks,27,1,1
+2017-09-24,2017,3,Seattle Seahawks,27,Tennessee Titans,33,0,0
+2017-09-24,2017,3,Los Angeles Chargers,10,Kansas City Chiefs,24,0,1
+2017-09-24,2017,3,Kansas City Chiefs,24,Los Angeles Chargers,10,1,0
+2017-09-24,2017,3,Washington Redskins,27,Oakland Raiders,10,1,1
+2017-09-24,2017,3,Oakland Raiders,10,Washington Redskins,27,0,0
+2017-09-25,2017,3,Arizona Cardinals,17,Dallas Cowboys,28,0,1
+2017-09-25,2017,3,Dallas Cowboys,28,Arizona Cardinals,17,1,0
+2017-09-28,2017,4,Green Bay Packers,35,Chicago Bears,14,1,1
+2017-09-28,2017,4,Chicago Bears,14,Green Bay Packers,35,0,0
+2017-10-01,2017,4,Miami Dolphins,0,New Orleans Saints,20,0,1
+2017-10-01,2017,4,New Orleans Saints,20,Miami Dolphins,0,1,0
+2017-10-01,2017,4,Cleveland Browns,7,Cincinnati Bengals,31,0,1
+2017-10-01,2017,4,Cincinnati Bengals,31,Cleveland Browns,7,1,0
+2017-10-01,2017,4,Atlanta Falcons,17,Buffalo Bills,23,0,1
+2017-10-01,2017,4,Buffalo Bills,23,Atlanta Falcons,17,1,0
+2017-10-01,2017,4,Baltimore Ravens,9,Pittsburgh Steelers,26,0,1
+2017-10-01,2017,4,Pittsburgh Steelers,26,Baltimore Ravens,9,1,0
+2017-10-01,2017,4,New England Patriots,30,Carolina Panthers,33,0,1
+2017-10-01,2017,4,Carolina Panthers,33,New England Patriots,30,1,0
+2017-10-01,2017,4,Minnesota Vikings,7,Detroit Lions,14,0,1
+2017-10-01,2017,4,Detroit Lions,14,Minnesota Vikings,7,1,0
+2017-10-01,2017,4,Houston Texans,57,Tennessee Titans,14,1,1
+2017-10-01,2017,4,Tennessee Titans,14,Houston Texans,57,0,0
+2017-10-01,2017,4,Dallas Cowboys,30,Los Angeles Rams,35,0,1
+2017-10-01,2017,4,Los Angeles Rams,35,Dallas Cowboys,30,1,0
+2017-10-01,2017,4,Tampa Bay Buccaneers,25,New York Giants,23,1,1
+2017-10-01,2017,4,New York Giants,23,Tampa Bay Buccaneers,25,0,0
+2017-10-01,2017,4,Los Angeles Chargers,24,Philadelphia Eagles,26,0,1
+2017-10-01,2017,4,Philadelphia Eagles,26,Los Angeles Chargers,24,1,0
+2017-10-01,2017,4,Denver Broncos,16,Oakland Raiders,10,1,1
+2017-10-01,2017,4,Oakland Raiders,10,Denver Broncos,16,0,0
+2017-10-01,2017,4,Seattle Seahawks,46,Indianapolis Colts,18,1,1
+2017-10-01,2017,4,Indianapolis Colts,18,Seattle Seahawks,46,0,0
+2017-10-02,2017,4,Kansas City Chiefs,29,Washington Redskins,20,1,1
+2017-10-02,2017,4,Washington Redskins,20,Kansas City Chiefs,29,0,0
+2017-10-05,2017,5,Tampa Bay Buccaneers,14,New England Patriots,19,0,1
+2017-10-05,2017,5,New England Patriots,19,Tampa Bay Buccaneers,14,1,0
+2017-10-08,2017,5,Cleveland Browns,14,New York Jets,17,0,1
+2017-10-08,2017,5,New York Jets,17,Cleveland Browns,14,1,0
+2017-10-08,2017,5,Cincinnati Bengals,20,Buffalo Bills,16,1,1
+2017-10-08,2017,5,Buffalo Bills,16,Cincinnati Bengals,20,0,0
+2017-10-08,2017,5,Pittsburgh Steelers,9,Jacksonville Jaguars,30,0,1
+2017-10-08,2017,5,Jacksonville Jaguars,30,Pittsburgh Steelers,9,1,0
+2017-10-08,2017,5,Philadelphia Eagles,34,Arizona Cardinals,7,1,1
+2017-10-08,2017,5,Arizona Cardinals,7,Philadelphia Eagles,34,0,0
+2017-10-08,2017,5,New York Giants,22,Los Angeles Chargers,27,0,1
+2017-10-08,2017,5,Los Angeles Chargers,27,New York Giants,22,1,0
+2017-10-08,2017,5,Miami Dolphins,16,Tennessee Titans,10,1,1
+2017-10-08,2017,5,Tennessee Titans,10,Miami Dolphins,16,0,0
+2017-10-08,2017,5,Detroit Lions,24,Carolina Panthers,27,0,1
+2017-10-08,2017,5,Carolina Panthers,27,Detroit Lions,24,1,0
+2017-10-08,2017,5,Los Angeles Rams,10,Seattle Seahawks,16,0,1
+2017-10-08,2017,5,Seattle Seahawks,16,Los Angeles Rams,10,1,0
+2017-10-08,2017,5,Oakland Raiders,17,Baltimore Ravens,30,0,1
+2017-10-08,2017,5,Baltimore Ravens,30,Oakland Raiders,17,1,0
+2017-10-08,2017,5,Dallas Cowboys,31,Green Bay Packers,35,0,1
+2017-10-08,2017,5,Green Bay Packers,35,Dallas Cowboys,31,1,0
+2017-10-08,2017,5,Houston Texans,34,Kansas City Chiefs,42,0,1
+2017-10-08,2017,5,Kansas City Chiefs,42,Houston Texans,34,1,0
+2017-10-09,2017,5,Chicago Bears,17,Minnesota Vikings,20,0,1
+2017-10-09,2017,5,Minnesota Vikings,20,Chicago Bears,17,1,0
+2017-10-12,2017,6,Carolina Panthers,23,Philadelphia Eagles,28,0,1
+2017-10-12,2017,6,Philadelphia Eagles,28,Carolina Panthers,23,1,0
+2017-10-15,2017,6,Atlanta Falcons,17,Miami Dolphins,20,0,1
+2017-10-15,2017,6,Miami Dolphins,20,Atlanta Falcons,17,1,0
+2017-10-15,2017,6,Washington Redskins,26,San Francisco 49ers,24,1,1
+2017-10-15,2017,6,San Francisco 49ers,24,Washington Redskins,26,0,0
+2017-10-15,2017,6,New York Jets,17,New England Patriots,24,0,1
+2017-10-15,2017,6,New England Patriots,24,New York Jets,17,1,0
+2017-10-15,2017,6,New Orleans Saints,52,Detroit Lions,38,1,1
+2017-10-15,2017,6,Detroit Lions,38,New Orleans Saints,52,0,0
+2017-10-15,2017,6,Minnesota Vikings,23,Green Bay Packers,10,1,1
+2017-10-15,2017,6,Green Bay Packers,10,Minnesota Vikings,23,0,0
+2017-10-15,2017,6,Houston Texans,33,Cleveland Browns,17,1,1
+2017-10-15,2017,6,Cleveland Browns,17,Houston Texans,33,0,0
+2017-10-15,2017,6,Arizona Cardinals,38,Tampa Bay Buccaneers,33,1,1
+2017-10-15,2017,6,Tampa Bay Buccaneers,33,Arizona Cardinals,38,0,0
+2017-10-15,2017,6,Jacksonville Jaguars,17,Los Angeles Rams,27,0,1
+2017-10-15,2017,6,Los Angeles Rams,27,Jacksonville Jaguars,17,1,0
+2017-10-15,2017,6,Oakland Raiders,16,Los Angeles Chargers,17,0,1
+2017-10-15,2017,6,Los Angeles Chargers,17,Oakland Raiders,16,1,0
+2017-10-15,2017,6,Kansas City Chiefs,13,Pittsburgh Steelers,19,0,1
+2017-10-15,2017,6,Pittsburgh Steelers,19,Kansas City Chiefs,13,1,0
+2017-10-15,2017,6,Denver Broncos,10,New York Giants,23,0,1
+2017-10-15,2017,6,New York Giants,23,Denver Broncos,10,1,0
+2017-10-16,2017,6,Tennessee Titans,36,Indianapolis Colts,22,1,1
+2017-10-16,2017,6,Indianapolis Colts,22,Tennessee Titans,36,0,0
+2017-10-19,2017,7,Oakland Raiders,31,Kansas City Chiefs,30,1,1
+2017-10-19,2017,7,Kansas City Chiefs,30,Oakland Raiders,31,0,0
+2017-10-22,2017,7,Chicago Bears,17,Carolina Panthers,3,1,1
+2017-10-22,2017,7,Carolina Panthers,3,Chicago Bears,17,0,0
+2017-10-22,2017,7,Buffalo Bills,30,Tampa Bay Buccaneers,27,1,1
+2017-10-22,2017,7,Tampa Bay Buccaneers,27,Buffalo Bills,30,0,0
+2017-10-22,2017,7,Los Angeles Rams,33,Arizona Cardinals,0,1,1
+2017-10-22,2017,7,Arizona Cardinals,0,Los Angeles Rams,33,0,0
+2017-10-22,2017,7,Minnesota Vikings,24,Baltimore Ravens,16,1,1
+2017-10-22,2017,7,Baltimore Ravens,16,Minnesota Vikings,24,0,0
+2017-10-22,2017,7,Miami Dolphins,31,New York Jets,28,1,1
+2017-10-22,2017,7,New York Jets,28,Miami Dolphins,31,0,0
+2017-10-22,2017,7,Green Bay Packers,17,New Orleans Saints,26,0,1
+2017-10-22,2017,7,New Orleans Saints,26,Green Bay Packers,17,1,0
+2017-10-22,2017,7,Indianapolis Colts,0,Jacksonville Jaguars,27,0,1
+2017-10-22,2017,7,Jacksonville Jaguars,27,Indianapolis Colts,0,1,0
+2017-10-22,2017,7,San Francisco 49ers,10,Dallas Cowboys,40,0,1
+2017-10-22,2017,7,Dallas Cowboys,40,San Francisco 49ers,10,1,0
+2017-10-22,2017,7,Los Angeles Chargers,21,Denver Broncos,0,1,1
+2017-10-22,2017,7,Denver Broncos,0,Los Angeles Chargers,21,0,0
+2017-10-22,2017,7,Pittsburgh Steelers,29,Cincinnati Bengals,14,1,1
+2017-10-22,2017,7,Cincinnati Bengals,14,Pittsburgh Steelers,29,0,0
+2017-10-22,2017,7,New York Giants,7,Seattle Seahawks,24,0,1
+2017-10-22,2017,7,Seattle Seahawks,24,New York Giants,7,1,0
+2017-10-22,2017,7,New England Patriots,23,Atlanta Falcons,7,1,1
+2017-10-22,2017,7,Atlanta Falcons,7,New England Patriots,23,0,0
+2017-10-23,2017,7,Philadelphia Eagles,34,Washington Redskins,24,1,1
+2017-10-23,2017,7,Washington Redskins,24,Philadelphia Eagles,34,0,0
+2017-10-26,2017,8,Baltimore Ravens,40,Miami Dolphins,0,1,1
+2017-10-26,2017,8,Miami Dolphins,0,Baltimore Ravens,40,0,0
+2017-10-29,2017,8,Cleveland Browns,16,Minnesota Vikings,33,0,1
+2017-10-29,2017,8,Minnesota Vikings,33,Cleveland Browns,16,1,0
+2017-10-29,2017,8,Cincinnati Bengals,24,Indianapolis Colts,23,1,1
+2017-10-29,2017,8,Indianapolis Colts,23,Cincinnati Bengals,24,0,0
+2017-10-29,2017,8,Buffalo Bills,34,Oakland Raiders,14,1,1
+2017-10-29,2017,8,Oakland Raiders,14,Buffalo Bills,34,0,0
+2017-10-29,2017,8,Tampa Bay Buccaneers,3,Carolina Panthers,17,0,1
+2017-10-29,2017,8,Carolina Panthers,17,Tampa Bay Buccaneers,3,1,0
+2017-10-29,2017,8,Philadelphia Eagles,33,San Francisco 49ers,10,1,1
+2017-10-29,2017,8,San Francisco 49ers,10,Philadelphia Eagles,33,0,0
+2017-10-29,2017,8,New York Jets,20,Atlanta Falcons,25,0,1
+2017-10-29,2017,8,Atlanta Falcons,25,New York Jets,20,1,0
+2017-10-29,2017,8,New England Patriots,21,Los Angeles Chargers,13,1,1
+2017-10-29,2017,8,Los Angeles Chargers,13,New England Patriots,21,0,0
+2017-10-29,2017,8,New Orleans Saints,20,Chicago Bears,12,1,1
+2017-10-29,2017,8,Chicago Bears,12,New Orleans Saints,20,0,0
+2017-10-29,2017,8,Seattle Seahawks,41,Houston Texans,38,1,1
+2017-10-29,2017,8,Houston Texans,38,Seattle Seahawks,41,0,0
+2017-10-29,2017,8,Washington Redskins,19,Dallas Cowboys,33,0,1
+2017-10-29,2017,8,Dallas Cowboys,33,Washington Redskins,19,1,0
+2017-10-29,2017,8,Detroit Lions,15,Pittsburgh Steelers,20,0,1
+2017-10-29,2017,8,Pittsburgh Steelers,20,Detroit Lions,15,1,0
+2017-10-30,2017,8,Kansas City Chiefs,29,Denver Broncos,19,1,1
+2017-10-30,2017,8,Denver Broncos,19,Kansas City Chiefs,29,0,0
+2017-11-02,2017,9,New York Jets,34,Buffalo Bills,21,1,1
+2017-11-02,2017,9,Buffalo Bills,21,New York Jets,34,0,0
+2017-11-05,2017,9,Carolina Panthers,20,Atlanta Falcons,17,1,1
+2017-11-05,2017,9,Atlanta Falcons,17,Carolina Panthers,20,0,0
+2017-11-05,2017,9,Philadelphia Eagles,51,Denver Broncos,23,1,1
+2017-11-05,2017,9,Denver Broncos,23,Philadelphia Eagles,51,0,0
+2017-11-05,2017,9,Tennessee Titans,23,Baltimore Ravens,20,1,1
+2017-11-05,2017,9,Baltimore Ravens,20,Tennessee Titans,23,0,0
+2017-11-05,2017,9,New York Giants,17,Los Angeles Rams,51,0,1
+2017-11-05,2017,9,Los Angeles Rams,51,New York Giants,17,1,0
+2017-11-05,2017,9,New Orleans Saints,30,Tampa Bay Buccaneers,10,1,1
+2017-11-05,2017,9,Tampa Bay Buccaneers,10,New Orleans Saints,30,0,0
+2017-11-05,2017,9,Jacksonville Jaguars,23,Cincinnati Bengals,7,1,1
+2017-11-05,2017,9,Cincinnati Bengals,7,Jacksonville Jaguars,23,0,0
+2017-11-05,2017,9,Houston Texans,14,Indianapolis Colts,20,0,1
+2017-11-05,2017,9,Indianapolis Colts,20,Houston Texans,14,1,0
+2017-11-05,2017,9,San Francisco 49ers,10,Arizona Cardinals,20,0,1
+2017-11-05,2017,9,Arizona Cardinals,20,San Francisco 49ers,10,1,0
+2017-11-05,2017,9,Seattle Seahawks,14,Washington Redskins,17,0,1
+2017-11-05,2017,9,Washington Redskins,17,Seattle Seahawks,14,1,0
+2017-11-05,2017,9,Dallas Cowboys,28,Kansas City Chiefs,17,1,1
+2017-11-05,2017,9,Kansas City Chiefs,17,Dallas Cowboys,28,0,0
+2017-11-05,2017,9,Miami Dolphins,24,Oakland Raiders,27,0,1
+2017-11-05,2017,9,Oakland Raiders,27,Miami Dolphins,24,1,0
+2017-11-06,2017,9,Green Bay Packers,17,Detroit Lions,30,0,1
+2017-11-06,2017,9,Detroit Lions,30,Green Bay Packers,17,1,0
+2017-11-09,2017,10,Arizona Cardinals,16,Seattle Seahawks,22,0,1
+2017-11-09,2017,10,Seattle Seahawks,22,Arizona Cardinals,16,1,0
+2017-11-12,2017,10,Buffalo Bills,10,New Orleans Saints,47,0,1
+2017-11-12,2017,10,New Orleans Saints,47,Buffalo Bills,10,1,0
+2017-11-12,2017,10,Washington Redskins,30,Minnesota Vikings,38,0,1
+2017-11-12,2017,10,Minnesota Vikings,38,Washington Redskins,30,1,0
+2017-11-12,2017,10,Tampa Bay Buccaneers,15,New York Jets,10,1,1
+2017-11-12,2017,10,New York Jets,10,Tampa Bay Buccaneers,15,0,0
+2017-11-12,2017,10,Tennessee Titans,24,Cincinnati Bengals,20,1,1
+2017-11-12,2017,10,Cincinnati Bengals,20,Tennessee Titans,24,0,0
+2017-11-12,2017,10,Detroit Lions,38,Cleveland Browns,24,1,1
+2017-11-12,2017,10,Cleveland Browns,24,Detroit Lions,38,0,0
+2017-11-12,2017,10,Indianapolis Colts,17,Pittsburgh Steelers,20,0,1
+2017-11-12,2017,10,Pittsburgh Steelers,20,Indianapolis Colts,17,1,0
+2017-11-12,2017,10,Chicago Bears,16,Green Bay Packers,23,0,1
+2017-11-12,2017,10,Green Bay Packers,23,Chicago Bears,16,1,0
+2017-11-12,2017,10,Los Angeles Rams,33,Houston Texans,7,1,1
+2017-11-12,2017,10,Houston Texans,7,Los Angeles Rams,33,0,0
+2017-11-12,2017,10,Atlanta Falcons,27,Dallas Cowboys,7,1,1
+2017-11-12,2017,10,Dallas Cowboys,7,Atlanta Falcons,27,0,0
+2017-11-12,2017,10,San Francisco 49ers,31,New York Giants,21,1,1
+2017-11-12,2017,10,New York Giants,21,San Francisco 49ers,31,0,0
+2017-11-12,2017,10,Denver Broncos,16,New England Patriots,41,0,1
+2017-11-12,2017,10,New England Patriots,41,Denver Broncos,16,1,0
+2017-11-13,2017,10,Carolina Panthers,45,Miami Dolphins,21,1,1
+2017-11-13,2017,10,Miami Dolphins,21,Carolina Panthers,45,0,0
+2017-11-16,2017,11,Pittsburgh Steelers,40,Tennessee Titans,17,1,1
+2017-11-16,2017,11,Tennessee Titans,17,Pittsburgh Steelers,40,0,0
+2017-11-19,2017,11,Cleveland Browns,7,Jacksonville Jaguars,19,0,1
+2017-11-19,2017,11,Jacksonville Jaguars,19,Cleveland Browns,7,1,0
+2017-11-19,2017,11,Chicago Bears,24,Detroit Lions,27,0,1
+2017-11-19,2017,11,Detroit Lions,27,Chicago Bears,24,1,0
+2017-11-19,2017,11,Minnesota Vikings,24,Los Angeles Rams,7,1,1
+2017-11-19,2017,11,Los Angeles Rams,7,Minnesota Vikings,24,0,0
+2017-11-19,2017,11,Miami Dolphins,20,Tampa Bay Buccaneers,30,0,1
+2017-11-19,2017,11,Tampa Bay Buccaneers,30,Miami Dolphins,20,1,0
+2017-11-19,2017,11,Houston Texans,31,Arizona Cardinals,21,1,1
+2017-11-19,2017,11,Arizona Cardinals,21,Houston Texans,31,0,0
+2017-11-19,2017,11,Green Bay Packers,0,Baltimore Ravens,23,0,1
+2017-11-19,2017,11,Baltimore Ravens,23,Green Bay Packers,0,1,0
+2017-11-19,2017,11,Los Angeles Chargers,54,Buffalo Bills,24,1,1
+2017-11-19,2017,11,Buffalo Bills,24,Los Angeles Chargers,54,0,0
+2017-11-19,2017,11,Oakland Raiders,8,New England Patriots,33,0,1
+2017-11-19,2017,11,New England Patriots,33,Oakland Raiders,8,1,0
+2017-11-19,2017,11,Denver Broncos,17,Cincinnati Bengals,20,0,1
+2017-11-19,2017,11,Cincinnati Bengals,20,Denver Broncos,17,1,0
+2017-11-19,2017,11,Dallas Cowboys,9,Philadelphia Eagles,37,0,1
+2017-11-19,2017,11,Philadelphia Eagles,37,Dallas Cowboys,9,1,0
+2017-11-20,2017,11,Seattle Seahawks,31,Atlanta Falcons,34,0,1
+2017-11-20,2017,11,Atlanta Falcons,34,Seattle Seahawks,31,1,0
+2017-11-23,2017,12,Detroit Lions,23,Minnesota Vikings,30,0,1
+2017-11-23,2017,12,Minnesota Vikings,30,Detroit Lions,23,1,0
+2017-11-23,2017,12,Dallas Cowboys,6,Los Angeles Chargers,28,0,1
+2017-11-23,2017,12,Los Angeles Chargers,28,Dallas Cowboys,6,1,0
+2017-11-23,2017,12,Washington Redskins,20,New York Giants,10,1,1
+2017-11-23,2017,12,New York Giants,10,Washington Redskins,20,0,0
+2017-11-26,2017,12,Philadelphia Eagles,31,Chicago Bears,3,1,1
+2017-11-26,2017,12,Chicago Bears,3,Philadelphia Eagles,31,0,0
+2017-11-26,2017,12,New York Jets,27,Carolina Panthers,35,0,1
+2017-11-26,2017,12,Carolina Panthers,35,New York Jets,27,1,0
+2017-11-26,2017,12,New England Patriots,35,Miami Dolphins,17,1,1
+2017-11-26,2017,12,Miami Dolphins,17,New England Patriots,35,0,0
+2017-11-26,2017,12,Kansas City Chiefs,10,Buffalo Bills,16,0,1
+2017-11-26,2017,12,Buffalo Bills,16,Kansas City Chiefs,10,1,0
+2017-11-26,2017,12,Indianapolis Colts,16,Tennessee Titans,20,0,1
+2017-11-26,2017,12,Tennessee Titans,20,Indianapolis Colts,16,1,0
+2017-11-26,2017,12,Cincinnati Bengals,30,Cleveland Browns,16,1,1
+2017-11-26,2017,12,Cleveland Browns,16,Cincinnati Bengals,30,0,0
+2017-11-26,2017,12,Atlanta Falcons,34,Tampa Bay Buccaneers,20,1,1
+2017-11-26,2017,12,Tampa Bay Buccaneers,20,Atlanta Falcons,34,0,0
+2017-11-26,2017,12,San Francisco 49ers,13,Seattle Seahawks,24,0,1
+2017-11-26,2017,12,Seattle Seahawks,24,San Francisco 49ers,13,1,0
+2017-11-26,2017,12,Los Angeles Rams,26,New Orleans Saints,20,1,1
+2017-11-26,2017,12,New Orleans Saints,20,Los Angeles Rams,26,0,0
+2017-11-26,2017,12,Oakland Raiders,21,Denver Broncos,14,1,1
+2017-11-26,2017,12,Denver Broncos,14,Oakland Raiders,21,0,0
+2017-11-26,2017,12,Arizona Cardinals,27,Jacksonville Jaguars,24,1,1
+2017-11-26,2017,12,Jacksonville Jaguars,24,Arizona Cardinals,27,0,0
+2017-11-26,2017,12,Pittsburgh Steelers,31,Green Bay Packers,28,1,1
+2017-11-26,2017,12,Green Bay Packers,28,Pittsburgh Steelers,31,0,0
+2017-11-27,2017,12,Baltimore Ravens,23,Houston Texans,16,1,1
+2017-11-27,2017,12,Houston Texans,16,Baltimore Ravens,23,0,0
+2017-11-30,2017,13,Dallas Cowboys,38,Washington Redskins,14,1,1
+2017-11-30,2017,13,Washington Redskins,14,Dallas Cowboys,38,0,0
+2017-12-03,2017,13,Buffalo Bills,3,New England Patriots,23,0,1
+2017-12-03,2017,13,New England Patriots,23,Buffalo Bills,3,1,0
+2017-12-03,2017,13,Atlanta Falcons,9,Minnesota Vikings,14,0,1
+2017-12-03,2017,13,Minnesota Vikings,14,Atlanta Falcons,9,1,0
+2017-12-03,2017,13,Baltimore Ravens,44,Detroit Lions,20,1,1
+2017-12-03,2017,13,Detroit Lions,20,Baltimore Ravens,44,0,0
+2017-12-03,2017,13,Tennessee Titans,24,Houston Texans,13,1,1
+2017-12-03,2017,13,Houston Texans,13,Tennessee Titans,24,0,0
+2017-12-03,2017,13,New York Jets,38,Kansas City Chiefs,31,1,1
+2017-12-03,2017,13,Kansas City Chiefs,31,New York Jets,38,0,0
+2017-12-03,2017,13,Miami Dolphins,35,Denver Broncos,9,1,1
+2017-12-03,2017,13,Denver Broncos,9,Miami Dolphins,35,0,0
+2017-12-03,2017,13,Jacksonville Jaguars,30,Indianapolis Colts,10,1,1
+2017-12-03,2017,13,Indianapolis Colts,10,Jacksonville Jaguars,30,0,0
+2017-12-03,2017,13,Chicago Bears,14,San Francisco 49ers,15,0,1
+2017-12-03,2017,13,San Francisco 49ers,15,Chicago Bears,14,1,0
+2017-12-03,2017,13,Los Angeles Chargers,19,Cleveland Browns,10,1,1
+2017-12-03,2017,13,Cleveland Browns,10,Los Angeles Chargers,19,0,0
+2017-12-03,2017,13,Oakland Raiders,24,New York Giants,17,1,1
+2017-12-03,2017,13,New York Giants,17,Oakland Raiders,24,0,0
+2017-12-03,2017,13,New Orleans Saints,31,Carolina Panthers,21,1,1
+2017-12-03,2017,13,Carolina Panthers,21,New Orleans Saints,31,0,0
+2017-12-03,2017,13,Arizona Cardinals,16,Los Angeles Rams,32,0,1
+2017-12-03,2017,13,Los Angeles Rams,32,Arizona Cardinals,16,1,0
+2017-12-03,2017,13,Seattle Seahawks,24,Philadelphia Eagles,10,1,1
+2017-12-03,2017,13,Philadelphia Eagles,10,Seattle Seahawks,24,0,0
+2017-12-04,2017,13,Cincinnati Bengals,20,Pittsburgh Steelers,23,0,1
+2017-12-04,2017,13,Pittsburgh Steelers,23,Cincinnati Bengals,20,1,0
+2017-12-07,2017,14,Atlanta Falcons,20,New Orleans Saints,17,1,1
+2017-12-07,2017,14,New Orleans Saints,17,Atlanta Falcons,20,0,0
+2017-12-10,2017,14,Carolina Panthers,31,Minnesota Vikings,24,1,1
+2017-12-10,2017,14,Minnesota Vikings,24,Carolina Panthers,31,0,0
+2017-12-10,2017,14,Tampa Bay Buccaneers,21,Detroit Lions,24,0,1
+2017-12-10,2017,14,Detroit Lions,24,Tampa Bay Buccaneers,21,1,0
+2017-12-10,2017,14,New York Giants,10,Dallas Cowboys,30,0,1
+2017-12-10,2017,14,Dallas Cowboys,30,New York Giants,10,1,0
+2017-12-10,2017,14,Kansas City Chiefs,26,Oakland Raiders,15,1,1
+2017-12-10,2017,14,Oakland Raiders,15,Kansas City Chiefs,26,0,0
+2017-12-10,2017,14,Houston Texans,16,San Francisco 49ers,26,0,1
+2017-12-10,2017,14,San Francisco 49ers,26,Houston Texans,16,1,0
+2017-12-10,2017,14,Cincinnati Bengals,7,Chicago Bears,33,0,1
+2017-12-10,2017,14,Chicago Bears,33,Cincinnati Bengals,7,1,0
+2017-12-10,2017,14,Los Angeles Chargers,30,Washington Redskins,13,1,1
+2017-12-10,2017,14,Washington Redskins,13,Los Angeles Chargers,30,0,0
+2017-12-10,2017,14,Denver Broncos,23,New York Jets,0,1,1
+2017-12-10,2017,14,New York Jets,0,Denver Broncos,23,0,0
+2017-12-10,2017,14,Arizona Cardinals,12,Tennessee Titans,7,1,1
+2017-12-10,2017,14,Tennessee Titans,7,Arizona Cardinals,12,0,0
+2017-12-10,2017,14,Los Angeles Rams,35,Philadelphia Eagles,43,0,1
+2017-12-10,2017,14,Philadelphia Eagles,43,Los Angeles Rams,35,1,0
+2017-12-10,2017,14,Jacksonville Jaguars,30,Seattle Seahawks,24,1,1
+2017-12-10,2017,14,Seattle Seahawks,24,Jacksonville Jaguars,30,0,0
+2017-12-10,2017,14,Pittsburgh Steelers,39,Baltimore Ravens,38,1,1
+2017-12-10,2017,14,Baltimore Ravens,38,Pittsburgh Steelers,39,0,0
+2017-12-11,2017,14,Miami Dolphins,27,New England Patriots,20,1,1
+2017-12-11,2017,14,New England Patriots,20,Miami Dolphins,27,0,0
+2017-12-14,2017,15,Indianapolis Colts,13,Denver Broncos,25,0,1
+2017-12-14,2017,15,Denver Broncos,25,Indianapolis Colts,13,1,0
+2017-12-16,2017,15,Detroit Lions,20,Chicago Bears,10,1,1
+2017-12-16,2017,15,Chicago Bears,10,Detroit Lions,20,0,0
+2017-12-16,2017,15,Kansas City Chiefs,30,Los Angeles Chargers,13,1,1
+2017-12-16,2017,15,Los Angeles Chargers,13,Kansas City Chiefs,30,0,0
+2017-12-17,2017,15,Washington Redskins,20,Arizona Cardinals,15,1,1
+2017-12-17,2017,15,Arizona Cardinals,15,Washington Redskins,20,0,0
+2017-12-17,2017,15,New York Giants,29,Philadelphia Eagles,34,0,1
+2017-12-17,2017,15,Philadelphia Eagles,34,New York Giants,29,1,0
+2017-12-17,2017,15,New Orleans Saints,31,New York Jets,19,1,1
+2017-12-17,2017,15,New York Jets,19,New Orleans Saints,31,0,0
+2017-12-17,2017,15,Minnesota Vikings,34,Cincinnati Bengals,7,1,1
+2017-12-17,2017,15,Cincinnati Bengals,7,Minnesota Vikings,34,0,0
+2017-12-17,2017,15,Jacksonville Jaguars,45,Houston Texans,7,1,1
+2017-12-17,2017,15,Houston Texans,7,Jacksonville Jaguars,45,0,0
+2017-12-17,2017,15,Cleveland Browns,10,Baltimore Ravens,27,0,1
+2017-12-17,2017,15,Baltimore Ravens,27,Cleveland Browns,10,1,0
+2017-12-17,2017,15,Carolina Panthers,31,Green Bay Packers,24,1,1
+2017-12-17,2017,15,Green Bay Packers,24,Carolina Panthers,31,0,0
+2017-12-17,2017,15,Buffalo Bills,24,Miami Dolphins,16,1,1
+2017-12-17,2017,15,Miami Dolphins,16,Buffalo Bills,24,0,0
+2017-12-17,2017,15,Seattle Seahawks,7,Los Angeles Rams,42,0,1
+2017-12-17,2017,15,Los Angeles Rams,42,Seattle Seahawks,7,1,0
+2017-12-17,2017,15,San Francisco 49ers,25,Tennessee Titans,23,1,1
+2017-12-17,2017,15,Tennessee Titans,23,San Francisco 49ers,25,0,0
+2017-12-17,2017,15,Pittsburgh Steelers,24,New England Patriots,27,0,1
+2017-12-17,2017,15,New England Patriots,27,Pittsburgh Steelers,24,1,0
+2017-12-17,2017,15,Oakland Raiders,17,Dallas Cowboys,20,0,1
+2017-12-17,2017,15,Dallas Cowboys,20,Oakland Raiders,17,1,0
+2017-12-18,2017,15,Tampa Bay Buccaneers,21,Atlanta Falcons,24,0,1
+2017-12-18,2017,15,Atlanta Falcons,24,Tampa Bay Buccaneers,21,1,0
+2017-12-23,2017,16,Baltimore Ravens,23,Indianapolis Colts,16,1,1
+2017-12-23,2017,16,Indianapolis Colts,16,Baltimore Ravens,23,0,0
+2017-12-23,2017,16,Green Bay Packers,0,Minnesota Vikings,16,0,1
+2017-12-23,2017,16,Minnesota Vikings,16,Green Bay Packers,0,1,0
+2017-12-24,2017,16,Carolina Panthers,22,Tampa Bay Buccaneers,19,1,1
+2017-12-24,2017,16,Tampa Bay Buccaneers,19,Carolina Panthers,22,0,0
+2017-12-24,2017,16,Washington Redskins,27,Denver Broncos,11,1,1
+2017-12-24,2017,16,Denver Broncos,11,Washington Redskins,27,0,0
+2017-12-24,2017,16,Tennessee Titans,23,Los Angeles Rams,27,0,1
+2017-12-24,2017,16,Los Angeles Rams,27,Tennessee Titans,23,1,0
+2017-12-24,2017,16,New York Jets,7,Los Angeles Chargers,14,0,1
+2017-12-24,2017,16,Los Angeles Chargers,14,New York Jets,7,1,0
+2017-12-24,2017,16,New England Patriots,37,Buffalo Bills,16,1,1
+2017-12-24,2017,16,Buffalo Bills,16,New England Patriots,37,0,0
+2017-12-24,2017,16,New Orleans Saints,23,Atlanta Falcons,13,1,1
+2017-12-24,2017,16,Atlanta Falcons,13,New Orleans Saints,23,0,0
+2017-12-24,2017,16,Kansas City Chiefs,29,Miami Dolphins,13,1,1
+2017-12-24,2017,16,Miami Dolphins,13,Kansas City Chiefs,29,0,0
+2017-12-24,2017,16,Cincinnati Bengals,26,Detroit Lions,17,1,1
+2017-12-24,2017,16,Detroit Lions,17,Cincinnati Bengals,26,0,0
+2017-12-24,2017,16,Chicago Bears,20,Cleveland Browns,3,1,1
+2017-12-24,2017,16,Cleveland Browns,3,Chicago Bears,20,0,0
+2017-12-24,2017,16,San Francisco 49ers,44,Jacksonville Jaguars,33,1,1
+2017-12-24,2017,16,Jacksonville Jaguars,33,San Francisco 49ers,44,0,0
+2017-12-24,2017,16,Dallas Cowboys,12,Seattle Seahawks,21,0,1
+2017-12-24,2017,16,Seattle Seahawks,21,Dallas Cowboys,12,1,0
+2017-12-24,2017,16,Arizona Cardinals,23,New York Giants,0,1,1
+2017-12-24,2017,16,New York Giants,0,Arizona Cardinals,23,0,0
+2017-12-25,2017,16,Houston Texans,6,Pittsburgh Steelers,34,0,1
+2017-12-25,2017,16,Pittsburgh Steelers,34,Houston Texans,6,1,0
+2017-12-25,2017,16,Philadelphia Eagles,19,Oakland Raiders,10,1,1
+2017-12-25,2017,16,Oakland Raiders,10,Philadelphia Eagles,19,0,0
+2017-12-31,2017,17,Indianapolis Colts,22,Houston Texans,13,1,1
+2017-12-31,2017,17,Houston Texans,13,Indianapolis Colts,22,0,0
+2017-12-31,2017,17,Pittsburgh Steelers,28,Cleveland Browns,24,1,1
+2017-12-31,2017,17,Cleveland Browns,24,Pittsburgh Steelers,28,0,0
+2017-12-31,2017,17,Philadelphia Eagles,0,Dallas Cowboys,6,0,1
+2017-12-31,2017,17,Dallas Cowboys,6,Philadelphia Eagles,0,1,0
+2017-12-31,2017,17,New York Giants,18,Washington Redskins,10,1,1
+2017-12-31,2017,17,Washington Redskins,10,New York Giants,18,0,0
+2017-12-31,2017,17,New England Patriots,26,New York Jets,6,1,1
+2017-12-31,2017,17,New York Jets,6,New England Patriots,26,0,0
+2017-12-31,2017,17,Minnesota Vikings,23,Chicago Bears,10,1,1
+2017-12-31,2017,17,Chicago Bears,10,Minnesota Vikings,23,0,0
+2017-12-31,2017,17,Detroit Lions,35,Green Bay Packers,11,1,1
+2017-12-31,2017,17,Green Bay Packers,11,Detroit Lions,35,0,0
+2017-12-31,2017,17,Denver Broncos,24,Kansas City Chiefs,27,0,1
+2017-12-31,2017,17,Kansas City Chiefs,27,Denver Broncos,24,1,0
+2017-12-31,2017,17,Atlanta Falcons,22,Carolina Panthers,10,1,1
+2017-12-31,2017,17,Carolina Panthers,10,Atlanta Falcons,22,0,0
+2017-12-31,2017,17,Tampa Bay Buccaneers,31,New Orleans Saints,24,1,1
+2017-12-31,2017,17,New Orleans Saints,24,Tampa Bay Buccaneers,31,0,0
+2017-12-31,2017,17,Seattle Seahawks,24,Arizona Cardinals,26,0,1
+2017-12-31,2017,17,Arizona Cardinals,26,Seattle Seahawks,24,1,0
+2017-12-31,2017,17,Los Angeles Chargers,30,Oakland Raiders,10,1,1
+2017-12-31,2017,17,Oakland Raiders,10,Los Angeles Chargers,30,0,0
+2017-12-31,2017,17,Baltimore Ravens,27,Cincinnati Bengals,31,0,1
+2017-12-31,2017,17,Cincinnati Bengals,31,Baltimore Ravens,27,1,0
+2017-12-31,2017,17,Los Angeles Rams,13,San Francisco 49ers,34,0,1
+2017-12-31,2017,17,San Francisco 49ers,34,Los Angeles Rams,13,1,0
+2017-12-31,2017,17,Tennessee Titans,15,Jacksonville Jaguars,10,1,1
+2017-12-31,2017,17,Jacksonville Jaguars,10,Tennessee Titans,15,0,0
+2017-12-31,2017,17,Miami Dolphins,16,Buffalo Bills,22,0,1
+2017-12-31,2017,17,Buffalo Bills,22,Miami Dolphins,16,1,0
