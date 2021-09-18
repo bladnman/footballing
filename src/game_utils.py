@@ -73,6 +73,16 @@ def get_game_with_info(game, info_df):
     return game
 
 
+def get_game_teams(game):
+    '''
+  given a game will return (home,away)
+  '''
+    if game['home'] == 1:
+        return (game['team'], game['opponent'])
+    else:
+        return (game['opponent'], game['team'])
+
+
 STAT_FIELDS = {
     'TOSS': 'Won Toss',
     'ROOF': 'Roof',
