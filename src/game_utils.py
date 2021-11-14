@@ -54,23 +54,23 @@ def get_stat_value(stat_df, field):
         return None
 
 
-def get_game_with_info(game, info_df):
+def get_game_with_info(game_df, info_df):
     '''
-    Given a game (df) we will read the appropriate info file
-    and source the values out of it returning a new game (df)
+    Given a game_df and info_df
+    and source the values out of it returning a new game_df
     which includes these new features
     '''
-    game = game.copy()
+    game_df = game_df.copy()
     (temperature, wind,
      humidity) = get_weathers(get_stat_value(info_df, STAT_FIELDS['WEATHER']))
-    game['temperature'] = temperature
-    game['wind'] = wind
-    game['humidity'] = humidity
+    game_df['temperature'] = temperature
+    game_df['wind'] = wind
+    game_df['humidity'] = humidity
 
-    game['roof'] = get_stat_value(info_df, STAT_FIELDS['ROOF'])
-    game['surface'] = get_stat_value(info_df, STAT_FIELDS['SURFACE'])
+    game_df['roof'] = get_stat_value(info_df, STAT_FIELDS['ROOF'])
+    game_df['surface'] = get_stat_value(info_df, STAT_FIELDS['SURFACE'])
 
-    return game
+    return game_df
 
 
 def get_game_teams(game):
@@ -81,6 +81,86 @@ def get_game_teams(game):
         return (game['team'], game['opponent'])
     else:
         return (game['opponent'], game['team'])
+
+
+def add_stats_to_game(game_df, stats_df, field_prefix, is_home):
+    index_key = 'home' if is_home == True else 'away'
+    game_df[f'{field_prefix}_first_downs'] = stats_df.loc['First Downs'].loc[
+        index_key]
+    # will rely on pass yards in the passing stat line
+    # game_df[f'{field_prefix}_pass_yards'] = stats_df.loc['Net Pass Yards'].loc[
+    #     index_key]
+    game_df[f'{field_prefix}_total_yards'] = stats_df.loc['Total Yards'].loc[
+        index_key]
+    game_df[f'{field_prefix}_turnovers_lost'] = stats_df.loc['Turnovers'].loc[
+        index_key]
+    game_df[f'{field_prefix}_time_of_possession'] = stats_df.loc[
+        'Time of Possession'].loc[index_key]
+
+    # rushing
+    (rush_count, rush_yards,
+     rush_td) = stats_df.loc['Rush-Yds-TDs'].loc[index_key].split('-')
+    game_df[f'{field_prefix}_rush_count'] = rush_count
+    game_df[f'{field_prefix}_rush_yards'] = rush_yards
+    game_df[f'{field_prefix}_rush_td'] = rush_td
+
+    # passing
+    (pass_completions, pass_count, pass_yards, pass_td, interceptions_lost
+     ) = stats_df.loc['Cmp-Att-Yd-TD-INT'].loc[index_key].split('-')
+    game_df[f'{field_prefix}_pass_completions'] = pass_completions
+    game_df[f'{field_prefix}_pass_count'] = pass_count
+    game_df[f'{field_prefix}_pass_yards'] = pass_yards
+    game_df[f'{field_prefix}_pass_td'] = pass_td
+    game_df[f'{field_prefix}_interceptions_lost'] = interceptions_lost
+
+    # sacks
+    (sack_count,
+     sack_yards) = stats_df.loc['Sacked-Yards'].loc[index_key].split('-')
+    game_df[f'{field_prefix}_sack_count'] = sack_count
+    game_df[f'{field_prefix}_sack_yards'] = sack_yards
+
+    # fumbles
+    (fumble_count,
+     fumble_lost) = stats_df.loc['Fumbles-Lost'].loc[index_key].split('-')
+    game_df[f'{field_prefix}_fumble_count'] = fumble_count
+    game_df[f'{field_prefix}_fumble_lost'] = fumble_lost
+
+    # penalties
+    (penalty_count,
+     penalty_yards) = stats_df.loc['Penalties-Yards'].loc[index_key].split('-')
+    game_df[f'{field_prefix}_penalty_count'] = penalty_count
+    game_df[f'{field_prefix}_penalty_yards'] = penalty_yards
+
+    # 3rd downs
+    (third_down_count, third_down_conversions
+     ) = stats_df.loc['Third Down Conv.'].loc[index_key].split('-')
+    game_df[f'{field_prefix}_third_down_count'] = third_down_count
+    game_df[f'{field_prefix}_third_down_conversions'] = third_down_conversions
+
+    # 4th downs
+    (fourth_down_count, fourth_down_conversions
+     ) = stats_df.loc['Fourth Down Conv.'].loc[index_key].split('-')
+    game_df[f'{field_prefix}_fourth_down_count'] = fourth_down_count
+    game_df[
+        f'{field_prefix}_fourth_down_conversions'] = fourth_down_conversions
+
+
+def get_game_with_stats(game_df, stats_df):
+    '''
+  Given a game_df and stats_df
+  and source the values out of it returning a new game_df
+  which includes these new features
+  '''
+    game_df = game_df.copy()
+    add_stats_to_game(game_df,
+                      stats_df,
+                      field_prefix='team',
+                      is_home=game_df['home'] == True)
+    add_stats_to_game(game_df,
+                      stats_df,
+                      field_prefix='opponent',
+                      is_home=game_df['home'] == False)
+    return game_df
 
 
 STAT_FIELDS = {
