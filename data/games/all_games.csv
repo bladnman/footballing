@@ -5305,3 +5305,251 @@ date,year,week,team,team_score,opponent,opponent_score,win,home
 2021-01-03,2020,17,Jacksonville Jaguars,14,Indianapolis Colts,28,0,0
 2021-01-03,2020,17,Philadelphia Eagles,14,Washington Football Team,20,0,1
 2021-01-03,2020,17,Washington Football Team,20,Philadelphia Eagles,14,1,0
+2021-09-09,2021,1,Tampa Bay Buccaneers,31,Dallas Cowboys,29,1,1
+2021-09-09,2021,1,Dallas Cowboys,29,Tampa Bay Buccaneers,31,0,0
+2021-09-12,2021,1,Buffalo Bills,16,Pittsburgh Steelers,23,0,1
+2021-09-12,2021,1,Pittsburgh Steelers,23,Buffalo Bills,16,1,0
+2021-09-12,2021,1,Atlanta Falcons,6,Philadelphia Eagles,32,0,1
+2021-09-12,2021,1,Philadelphia Eagles,32,Atlanta Falcons,6,1,0
+2021-09-12,2021,1,Washington Football Team,16,Los Angeles Chargers,20,0,1
+2021-09-12,2021,1,Los Angeles Chargers,20,Washington Football Team,16,1,0
+2021-09-12,2021,1,Tennessee Titans,13,Arizona Cardinals,38,0,1
+2021-09-12,2021,1,Arizona Cardinals,38,Tennessee Titans,13,1,0
+2021-09-12,2021,1,Houston Texans,37,Jacksonville Jaguars,21,1,1
+2021-09-12,2021,1,Jacksonville Jaguars,21,Houston Texans,37,0,0
+2021-09-12,2021,1,Detroit Lions,33,San Francisco 49ers,41,0,1
+2021-09-12,2021,1,San Francisco 49ers,41,Detroit Lions,33,1,0
+2021-09-12,2021,1,Indianapolis Colts,16,Seattle Seahawks,28,0,1
+2021-09-12,2021,1,Seattle Seahawks,28,Indianapolis Colts,16,1,0
+2021-09-12,2021,1,Carolina Panthers,19,New York Jets,14,1,1
+2021-09-12,2021,1,New York Jets,14,Carolina Panthers,19,0,0
+2021-09-12,2021,1,New York Giants,13,Denver Broncos,27,0,1
+2021-09-12,2021,1,Denver Broncos,27,New York Giants,13,1,0
+2021-09-12,2021,1,New England Patriots,16,Miami Dolphins,17,0,1
+2021-09-12,2021,1,Miami Dolphins,17,New England Patriots,16,1,0
+2021-09-12,2021,1,New Orleans Saints,38,Green Bay Packers,3,1,1
+2021-09-12,2021,1,Green Bay Packers,3,New Orleans Saints,38,0,0
+2021-09-12,2021,1,Kansas City Chiefs,33,Cleveland Browns,29,1,1
+2021-09-12,2021,1,Cleveland Browns,29,Kansas City Chiefs,33,0,0
+2021-09-12,2021,1,Los Angeles Rams,34,Chicago Bears,14,1,1
+2021-09-12,2021,1,Chicago Bears,14,Los Angeles Rams,34,0,0
+2021-09-16,2021,2,Washington Football Team,30,New York Giants,29,1,1
+2021-09-16,2021,2,New York Giants,29,Washington Football Team,30,0,0
+2021-09-19,2021,2,Chicago Bears,20,Cincinnati Bengals,17,1,1
+2021-09-19,2021,2,Cincinnati Bengals,17,Chicago Bears,20,0,0
+2021-09-19,2021,2,Carolina Panthers,26,New Orleans Saints,7,1,1
+2021-09-19,2021,2,New Orleans Saints,7,Carolina Panthers,26,0,0
+2021-09-19,2021,2,Pittsburgh Steelers,17,Las Vegas Raiders,26,0,1
+2021-09-19,2021,2,Las Vegas Raiders,26,Pittsburgh Steelers,17,1,0
+2021-09-19,2021,2,Philadelphia Eagles,11,San Francisco 49ers,17,0,1
+2021-09-19,2021,2,San Francisco 49ers,17,Philadelphia Eagles,11,1,0
+2021-09-19,2021,2,New York Jets,6,New England Patriots,25,0,1
+2021-09-19,2021,2,New England Patriots,25,New York Jets,6,1,0
+2021-09-19,2021,2,Miami Dolphins,0,Buffalo Bills,35,0,1
+2021-09-19,2021,2,Buffalo Bills,35,Miami Dolphins,0,1,0
+2021-09-19,2021,2,Jacksonville Jaguars,13,Denver Broncos,23,0,1
+2021-09-19,2021,2,Denver Broncos,23,Jacksonville Jaguars,13,1,0
+2021-09-19,2021,2,Indianapolis Colts,24,Los Angeles Rams,27,0,1
+2021-09-19,2021,2,Los Angeles Rams,27,Indianapolis Colts,24,1,0
+2021-09-19,2021,2,Cleveland Browns,31,Houston Texans,21,1,1
+2021-09-19,2021,2,Houston Texans,21,Cleveland Browns,31,0,0
+2021-09-19,2021,2,Tampa Bay Buccaneers,48,Atlanta Falcons,25,1,1
+2021-09-19,2021,2,Atlanta Falcons,25,Tampa Bay Buccaneers,48,0,0
+2021-09-19,2021,2,Arizona Cardinals,34,Minnesota Vikings,33,1,1
+2021-09-19,2021,2,Minnesota Vikings,33,Arizona Cardinals,34,0,0
+2021-09-19,2021,2,Los Angeles Chargers,17,Dallas Cowboys,20,0,1
+2021-09-19,2021,2,Dallas Cowboys,20,Los Angeles Chargers,17,1,0
+2021-09-19,2021,2,Baltimore Ravens,36,Kansas City Chiefs,35,1,1
+2021-09-19,2021,2,Kansas City Chiefs,35,Baltimore Ravens,36,0,0
+2021-09-20,2021,2,Green Bay Packers,35,Detroit Lions,17,1,1
+2021-09-20,2021,2,Detroit Lions,17,Green Bay Packers,35,0,0
+2021-09-23,2021,3,Houston Texans,9,Carolina Panthers,24,0,1
+2021-09-23,2021,3,Carolina Panthers,24,Houston Texans,9,1,0
+2021-09-26,2021,3,Cleveland Browns,26,Chicago Bears,6,1,1
+2021-09-26,2021,3,Chicago Bears,6,Cleveland Browns,26,0,0
+2021-09-26,2021,3,Buffalo Bills,43,Washington Football Team,21,1,1
+2021-09-26,2021,3,Washington Football Team,21,Buffalo Bills,43,0,0
+2021-09-26,2021,3,Pittsburgh Steelers,10,Cincinnati Bengals,24,0,1
+2021-09-26,2021,3,Cincinnati Bengals,24,Pittsburgh Steelers,10,1,0
+2021-09-26,2021,3,Tennessee Titans,25,Indianapolis Colts,16,1,1
+2021-09-26,2021,3,Indianapolis Colts,16,Tennessee Titans,25,0,0
+2021-09-26,2021,3,New York Giants,14,Atlanta Falcons,17,0,1
+2021-09-26,2021,3,Atlanta Falcons,17,New York Giants,14,1,0
+2021-09-26,2021,3,New England Patriots,13,New Orleans Saints,28,0,1
+2021-09-26,2021,3,New Orleans Saints,28,New England Patriots,13,1,0
+2021-09-26,2021,3,Kansas City Chiefs,24,Los Angeles Chargers,30,0,1
+2021-09-26,2021,3,Los Angeles Chargers,30,Kansas City Chiefs,24,1,0
+2021-09-26,2021,3,Jacksonville Jaguars,19,Arizona Cardinals,31,0,1
+2021-09-26,2021,3,Arizona Cardinals,31,Jacksonville Jaguars,19,1,0
+2021-09-26,2021,3,Detroit Lions,17,Baltimore Ravens,19,0,1
+2021-09-26,2021,3,Baltimore Ravens,19,Detroit Lions,17,1,0
+2021-09-26,2021,3,Denver Broncos,26,New York Jets,0,1,1
+2021-09-26,2021,3,New York Jets,0,Denver Broncos,26,0,0
+2021-09-26,2021,3,Los Angeles Rams,34,Tampa Bay Buccaneers,24,1,1
+2021-09-26,2021,3,Tampa Bay Buccaneers,24,Los Angeles Rams,34,0,0
+2021-09-26,2021,3,Minnesota Vikings,30,Seattle Seahawks,17,1,1
+2021-09-26,2021,3,Seattle Seahawks,17,Minnesota Vikings,30,0,0
+2021-09-26,2021,3,San Francisco 49ers,28,Green Bay Packers,30,0,1
+2021-09-26,2021,3,Green Bay Packers,30,San Francisco 49ers,28,1,0
+2021-09-27,2021,3,Dallas Cowboys,41,Philadelphia Eagles,21,1,1
+2021-09-27,2021,3,Philadelphia Eagles,21,Dallas Cowboys,41,0,0
+2021-09-30,2021,4,Cincinnati Bengals,24,Jacksonville Jaguars,21,1,1
+2021-09-30,2021,4,Jacksonville Jaguars,21,Cincinnati Bengals,24,0,0
+2021-10-03,2021,4,Buffalo Bills,40,Houston Texans,0,1,1
+2021-10-03,2021,4,Houston Texans,0,Buffalo Bills,40,0,0
+2021-10-03,2021,4,Atlanta Falcons,30,Washington Football Team,34,0,1
+2021-10-03,2021,4,Washington Football Team,34,Atlanta Falcons,30,1,0
+2021-10-03,2021,4,Philadelphia Eagles,30,Kansas City Chiefs,42,0,1
+2021-10-03,2021,4,Kansas City Chiefs,42,Philadelphia Eagles,30,1,0
+2021-10-03,2021,4,Minnesota Vikings,7,Cleveland Browns,14,0,1
+2021-10-03,2021,4,Cleveland Browns,14,Minnesota Vikings,7,1,0
+2021-10-03,2021,4,Miami Dolphins,17,Indianapolis Colts,27,0,1
+2021-10-03,2021,4,Indianapolis Colts,27,Miami Dolphins,17,1,0
+2021-10-03,2021,4,Dallas Cowboys,36,Carolina Panthers,28,1,1
+2021-10-03,2021,4,Carolina Panthers,28,Dallas Cowboys,36,0,0
+2021-10-03,2021,4,Chicago Bears,24,Detroit Lions,14,1,1
+2021-10-03,2021,4,Detroit Lions,14,Chicago Bears,24,0,0
+2021-10-03,2021,4,San Francisco 49ers,21,Seattle Seahawks,28,0,1
+2021-10-03,2021,4,Seattle Seahawks,28,San Francisco 49ers,21,1,0
+2021-10-03,2021,4,Los Angeles Rams,20,Arizona Cardinals,37,0,1
+2021-10-03,2021,4,Arizona Cardinals,37,Los Angeles Rams,20,1,0
+2021-10-03,2021,4,Green Bay Packers,27,Pittsburgh Steelers,17,1,1
+2021-10-03,2021,4,Pittsburgh Steelers,17,Green Bay Packers,27,0,0
+2021-10-03,2021,4,Denver Broncos,7,Baltimore Ravens,23,0,1
+2021-10-03,2021,4,Baltimore Ravens,23,Denver Broncos,7,1,0
+2021-10-03,2021,4,New England Patriots,17,Tampa Bay Buccaneers,19,0,1
+2021-10-03,2021,4,Tampa Bay Buccaneers,19,New England Patriots,17,1,0
+2021-10-04,2021,4,Los Angeles Chargers,28,Las Vegas Raiders,14,1,1
+2021-10-04,2021,4,Las Vegas Raiders,14,Los Angeles Chargers,28,0,0
+2021-10-07,2021,5,Seattle Seahawks,17,Los Angeles Rams,26,0,1
+2021-10-07,2021,5,Los Angeles Rams,26,Seattle Seahawks,17,1,0
+2021-10-10,2021,5,Atlanta Falcons,27,New York Jets,20,1,1
+2021-10-10,2021,5,New York Jets,20,Atlanta Falcons,27,0,0
+2021-10-10,2021,5,Carolina Panthers,18,Philadelphia Eagles,21,0,1
+2021-10-10,2021,5,Philadelphia Eagles,21,Carolina Panthers,18,1,0
+2021-10-10,2021,5,Washington Football Team,22,New Orleans Saints,33,0,1
+2021-10-10,2021,5,New Orleans Saints,33,Washington Football Team,22,1,0
+2021-10-10,2021,5,Tampa Bay Buccaneers,45,Miami Dolphins,17,1,1
+2021-10-10,2021,5,Miami Dolphins,17,Tampa Bay Buccaneers,45,0,0
+2021-10-10,2021,5,Pittsburgh Steelers,27,Denver Broncos,19,1,1
+2021-10-10,2021,5,Denver Broncos,19,Pittsburgh Steelers,27,0,0
+2021-10-10,2021,5,Minnesota Vikings,19,Detroit Lions,17,1,1
+2021-10-10,2021,5,Detroit Lions,17,Minnesota Vikings,19,0,0
+2021-10-10,2021,5,Jacksonville Jaguars,19,Tennessee Titans,37,0,1
+2021-10-10,2021,5,Tennessee Titans,37,Jacksonville Jaguars,19,1,0
+2021-10-10,2021,5,Houston Texans,22,New England Patriots,25,0,1
+2021-10-10,2021,5,New England Patriots,25,Houston Texans,22,1,0
+2021-10-10,2021,5,Los Angeles Chargers,47,Cleveland Browns,42,1,1
+2021-10-10,2021,5,Cleveland Browns,42,Los Angeles Chargers,47,0,0
+2021-10-10,2021,5,Las Vegas Raiders,9,Chicago Bears,20,0,1
+2021-10-10,2021,5,Chicago Bears,20,Las Vegas Raiders,9,1,0
+2021-10-10,2021,5,Dallas Cowboys,44,New York Giants,20,1,1
+2021-10-10,2021,5,New York Giants,20,Dallas Cowboys,44,0,0
+2021-10-10,2021,5,Arizona Cardinals,17,San Francisco 49ers,10,1,1
+2021-10-10,2021,5,San Francisco 49ers,10,Arizona Cardinals,17,0,0
+2021-10-10,2021,5,Kansas City Chiefs,20,Buffalo Bills,38,0,1
+2021-10-10,2021,5,Buffalo Bills,38,Kansas City Chiefs,20,1,0
+2021-10-14,2021,6,Philadelphia Eagles,22,Tampa Bay Buccaneers,28,0,1
+2021-10-14,2021,6,Tampa Bay Buccaneers,28,Philadelphia Eagles,22,1,0
+2021-10-17,2021,6,Jacksonville Jaguars,23,Miami Dolphins,20,1,1
+2021-10-17,2021,6,Miami Dolphins,20,Jacksonville Jaguars,23,0,0
+2021-10-17,2021,6,Chicago Bears,14,Green Bay Packers,24,0,1
+2021-10-17,2021,6,Green Bay Packers,24,Chicago Bears,14,1,0
+2021-10-17,2021,6,Washington Football Team,13,Kansas City Chiefs,31,0,1
+2021-10-17,2021,6,Kansas City Chiefs,31,Washington Football Team,13,1,0
+2021-10-17,2021,6,Baltimore Ravens,34,Los Angeles Chargers,6,1,1
+2021-10-17,2021,6,Los Angeles Chargers,6,Baltimore Ravens,34,0,0
+2021-10-17,2021,6,New York Giants,11,Los Angeles Rams,38,0,1
+2021-10-17,2021,6,Los Angeles Rams,38,New York Giants,11,1,0
+2021-10-17,2021,6,Detroit Lions,11,Cincinnati Bengals,34,0,1
+2021-10-17,2021,6,Cincinnati Bengals,34,Detroit Lions,11,1,0
+2021-10-17,2021,6,Indianapolis Colts,31,Houston Texans,3,1,1
+2021-10-17,2021,6,Houston Texans,3,Indianapolis Colts,31,0,0
+2021-10-17,2021,6,Cleveland Browns,14,Arizona Cardinals,37,0,1
+2021-10-17,2021,6,Arizona Cardinals,37,Cleveland Browns,14,1,0
+2021-10-17,2021,6,Denver Broncos,24,Las Vegas Raiders,34,0,1
+2021-10-17,2021,6,Las Vegas Raiders,34,Denver Broncos,24,1,0
+2021-10-18,2021,6,Tennessee Titans,34,Buffalo Bills,31,1,1
+2021-10-18,2021,6,Buffalo Bills,31,Tennessee Titans,34,0,0
+2021-10-21,2021,7,Cleveland Browns,17,Denver Broncos,14,1,1
+2021-10-21,2021,7,Denver Broncos,14,Cleveland Browns,17,0,0
+2021-10-24,2021,7,Green Bay Packers,24,Washington Football Team,10,1,1
+2021-10-24,2021,7,Washington Football Team,10,Green Bay Packers,24,0,0
+2021-10-24,2021,7,Baltimore Ravens,17,Cincinnati Bengals,41,0,1
+2021-10-24,2021,7,Cincinnati Bengals,41,Baltimore Ravens,17,1,0
+2021-10-24,2021,7,Tennessee Titans,27,Kansas City Chiefs,3,1,1
+2021-10-24,2021,7,Kansas City Chiefs,3,Tennessee Titans,27,0,0
+2021-10-24,2021,7,New York Giants,25,Carolina Panthers,3,1,1
+2021-10-24,2021,7,Carolina Panthers,3,New York Giants,25,0,0
+2021-10-24,2021,7,New England Patriots,54,New York Jets,13,1,1
+2021-10-24,2021,7,New York Jets,13,New England Patriots,54,0,0
+2021-10-24,2021,7,Miami Dolphins,28,Atlanta Falcons,30,0,1
+2021-10-24,2021,7,Atlanta Falcons,30,Miami Dolphins,28,1,0
+2021-10-24,2021,7,Los Angeles Rams,28,Detroit Lions,19,1,1
+2021-10-24,2021,7,Detroit Lions,19,Los Angeles Rams,28,0,0
+2021-10-24,2021,7,Las Vegas Raiders,33,Philadelphia Eagles,22,1,1
+2021-10-24,2021,7,Philadelphia Eagles,22,Las Vegas Raiders,33,0,0
+2021-10-24,2021,7,Arizona Cardinals,31,Houston Texans,5,1,1
+2021-10-24,2021,7,Houston Texans,5,Arizona Cardinals,31,0,0
+2021-10-24,2021,7,Tampa Bay Buccaneers,38,Chicago Bears,3,1,1
+2021-10-24,2021,7,Chicago Bears,3,Tampa Bay Buccaneers,38,0,0
+2021-10-24,2021,7,San Francisco 49ers,18,Indianapolis Colts,30,0,1
+2021-10-24,2021,7,Indianapolis Colts,30,San Francisco 49ers,18,1,0
+2021-10-25,2021,7,Seattle Seahawks,10,New Orleans Saints,13,0,1
+2021-10-25,2021,7,New Orleans Saints,13,Seattle Seahawks,10,1,0
+2021-10-28,2021,8,Arizona Cardinals,21,Green Bay Packers,24,0,1
+2021-10-28,2021,8,Green Bay Packers,24,Arizona Cardinals,21,1,0
+2021-10-31,2021,8,Buffalo Bills,26,Miami Dolphins,11,1,1
+2021-10-31,2021,8,Miami Dolphins,11,Buffalo Bills,26,0,0
+2021-10-31,2021,8,Atlanta Falcons,13,Carolina Panthers,19,0,1
+2021-10-31,2021,8,Carolina Panthers,19,Atlanta Falcons,13,1,0
+2021-10-31,2021,8,New York Jets,34,Cincinnati Bengals,31,1,1
+2021-10-31,2021,8,Cincinnati Bengals,31,New York Jets,34,0,0
+2021-10-31,2021,8,Houston Texans,22,Los Angeles Rams,38,0,1
+2021-10-31,2021,8,Los Angeles Rams,38,Houston Texans,22,1,0
+2021-10-31,2021,8,Detroit Lions,6,Philadelphia Eagles,44,0,1
+2021-10-31,2021,8,Philadelphia Eagles,44,Detroit Lions,6,1,0
+2021-10-31,2021,8,Cleveland Browns,10,Pittsburgh Steelers,15,0,1
+2021-10-31,2021,8,Pittsburgh Steelers,15,Cleveland Browns,10,1,0
+2021-10-31,2021,8,Chicago Bears,22,San Francisco 49ers,33,0,1
+2021-10-31,2021,8,San Francisco 49ers,33,Chicago Bears,22,1,0
+2021-10-31,2021,8,Seattle Seahawks,31,Jacksonville Jaguars,7,1,1
+2021-10-31,2021,8,Jacksonville Jaguars,7,Seattle Seahawks,31,0,0
+2021-10-31,2021,8,Los Angeles Chargers,24,New England Patriots,27,0,1
+2021-10-31,2021,8,New England Patriots,27,Los Angeles Chargers,24,1,0
+2021-10-31,2021,8,New Orleans Saints,36,Tampa Bay Buccaneers,27,1,1
+2021-10-31,2021,8,Tampa Bay Buccaneers,27,New Orleans Saints,36,0,0
+2021-10-31,2021,8,Denver Broncos,17,Washington Football Team,10,1,1
+2021-10-31,2021,8,Washington Football Team,10,Denver Broncos,17,0,0
+2021-10-31,2021,8,Minnesota Vikings,16,Dallas Cowboys,20,0,1
+2021-10-31,2021,8,Dallas Cowboys,20,Minnesota Vikings,16,1,0
+2021-11-01,2021,8,Kansas City Chiefs,20,New York Giants,17,1,1
+2021-11-01,2021,8,New York Giants,17,Kansas City Chiefs,20,0,0
+2021-11-04,2021,9,Indianapolis Colts,45,New York Jets,30,1,1
+2021-11-04,2021,9,New York Jets,30,Indianapolis Colts,45,0,0
+2021-11-07,2021,9,Cincinnati Bengals,16,Cleveland Browns,41,0,1
+2021-11-07,2021,9,Cleveland Browns,41,Cincinnati Bengals,16,1,0
+2021-11-07,2021,9,Carolina Panthers,6,New England Patriots,24,0,1
+2021-11-07,2021,9,New England Patriots,24,Carolina Panthers,6,1,0
+2021-11-07,2021,9,New York Giants,23,Las Vegas Raiders,16,1,1
+2021-11-07,2021,9,Las Vegas Raiders,16,New York Giants,23,0,0
+2021-11-07,2021,9,New Orleans Saints,25,Atlanta Falcons,27,0,1
+2021-11-07,2021,9,Atlanta Falcons,27,New Orleans Saints,25,1,0
+2021-11-07,2021,9,Miami Dolphins,17,Houston Texans,9,1,1
+2021-11-07,2021,9,Houston Texans,9,Miami Dolphins,17,0,0
+2021-11-07,2021,9,Jacksonville Jaguars,9,Buffalo Bills,6,1,1
+2021-11-07,2021,9,Buffalo Bills,6,Jacksonville Jaguars,9,0,0
+2021-11-07,2021,9,Dallas Cowboys,16,Denver Broncos,30,0,1
+2021-11-07,2021,9,Denver Broncos,30,Dallas Cowboys,16,1,0
+2021-11-07,2021,9,Philadelphia Eagles,24,Los Angeles Chargers,27,0,1
+2021-11-07,2021,9,Los Angeles Chargers,27,Philadelphia Eagles,24,1,0
+2021-11-07,2021,9,San Francisco 49ers,17,Arizona Cardinals,31,0,1
+2021-11-07,2021,9,Arizona Cardinals,31,San Francisco 49ers,17,1,0
+2021-11-07,2021,9,Kansas City Chiefs,13,Green Bay Packers,7,1,1
+2021-11-07,2021,9,Green Bay Packers,7,Kansas City Chiefs,13,0,0
+2021-11-07,2021,9,Los Angeles Rams,16,Tennessee Titans,28,0,1
+2021-11-07,2021,9,Tennessee Titans,28,Los Angeles Rams,16,1,0
+2021-11-08,2021,9,Pittsburgh Steelers,29,Chicago Bears,27,1,1
+2021-11-08,2021,9,Chicago Bears,27,Pittsburgh Steelers,29,0,0
+2021-11-11,2021,10,Miami Dolphins,22,Baltimore Ravens,10,1,1
+2021-11-11,2021,10,Baltimore Ravens,10,Miami Dolphins,22,0,0

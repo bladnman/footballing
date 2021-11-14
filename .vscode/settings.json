@@ -1,5 +1,16 @@
 {
   "python.formatting.provider": "yapf",
   "editor.tabSize": 2,
-  "jupyter.jupyterServerType": "local"
+  "jupyter.jupyterServerType": "local",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/__pycache__": true,
+    "**/.vscode": true
+  },
+  "explorerExclude.backup": null
 }
