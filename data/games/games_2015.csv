@@ -1,471 +1,513 @@
-date,year,week,team,team_score,opponent,opponent_score,win,home
-2015-09-10,2015,1,New England Patriots,28,Pittsburgh Steelers,21,1,1
-2015-09-10,2015,1,Pittsburgh Steelers,21,New England Patriots,28,0,0
-2015-09-13,2015,1,Chicago Bears,23,Green Bay Packers,31,0,1
-2015-09-13,2015,1,Green Bay Packers,31,Chicago Bears,23,1,0
-2015-09-13,2015,1,Washington Redskins,10,Miami Dolphins,17,0,1
-2015-09-13,2015,1,Miami Dolphins,17,Washington Redskins,10,1,0
-2015-09-13,2015,1,Houston Texans,20,Kansas City Chiefs,27,0,1
-2015-09-13,2015,1,Kansas City Chiefs,27,Houston Texans,20,1,0
-2015-09-13,2015,1,Buffalo Bills,27,Indianapolis Colts,14,1,1
-2015-09-13,2015,1,Indianapolis Colts,14,Buffalo Bills,27,0,0
-2015-09-13,2015,1,Jacksonville Jaguars,9,Carolina Panthers,20,0,1
-2015-09-13,2015,1,Carolina Panthers,20,Jacksonville Jaguars,9,1,0
-2015-09-13,2015,1,New York Jets,31,Cleveland Browns,10,1,1
-2015-09-13,2015,1,Cleveland Browns,10,New York Jets,31,0,0
-2015-09-13,2015,1,San Diego Chargers,33,Detroit Lions,28,1,1
-2015-09-13,2015,1,Detroit Lions,28,San Diego Chargers,33,0,0
-2015-09-13,2015,1,Arizona Cardinals,31,New Orleans Saints,19,1,1
-2015-09-13,2015,1,New Orleans Saints,19,Arizona Cardinals,31,0,0
-2015-09-13,2015,1,Tampa Bay Buccaneers,14,Tennessee Titans,42,0,1
-2015-09-13,2015,1,Tennessee Titans,42,Tampa Bay Buccaneers,14,1,0
-2015-09-13,2015,1,Oakland Raiders,13,Cincinnati Bengals,33,0,1
-2015-09-13,2015,1,Cincinnati Bengals,33,Oakland Raiders,13,1,0
-2015-09-13,2015,1,Denver Broncos,19,Baltimore Ravens,13,1,1
-2015-09-13,2015,1,Baltimore Ravens,13,Denver Broncos,19,0,0
-2015-09-13,2015,1,Dallas Cowboys,27,New York Giants,26,1,1
-2015-09-13,2015,1,New York Giants,26,Dallas Cowboys,27,0,0
-2015-09-14,2015,1,Atlanta Falcons,26,Philadelphia Eagles,24,1,1
-2015-09-14,2015,1,Philadelphia Eagles,24,Atlanta Falcons,26,0,0
-2015-09-14,2015,1,San Francisco 49ers,20,Minnesota Vikings,3,1,1
-2015-09-14,2015,1,Minnesota Vikings,3,San Francisco 49ers,20,0,0
-2015-09-17,2015,2,Kansas City Chiefs,24,Denver Broncos,31,0,1
-2015-09-17,2015,2,Denver Broncos,31,Kansas City Chiefs,24,1,0
-2015-09-20,2015,2,Chicago Bears,23,Arizona Cardinals,48,0,1
-2015-09-20,2015,2,Arizona Cardinals,48,Chicago Bears,23,1,0
-2015-09-20,2015,2,Carolina Panthers,24,Houston Texans,17,1,1
-2015-09-20,2015,2,Houston Texans,17,Carolina Panthers,24,0,0
-2015-09-20,2015,2,Buffalo Bills,32,New England Patriots,40,0,1
-2015-09-20,2015,2,New England Patriots,40,Buffalo Bills,32,1,0
-2015-09-20,2015,2,Pittsburgh Steelers,43,San Francisco 49ers,18,1,1
-2015-09-20,2015,2,San Francisco 49ers,18,Pittsburgh Steelers,43,0,0
-2015-09-20,2015,2,New York Giants,20,Atlanta Falcons,24,0,1
-2015-09-20,2015,2,Atlanta Falcons,24,New York Giants,20,1,0
-2015-09-20,2015,2,New Orleans Saints,19,Tampa Bay Buccaneers,26,0,1
-2015-09-20,2015,2,Tampa Bay Buccaneers,26,New Orleans Saints,19,1,0
-2015-09-20,2015,2,Cleveland Browns,28,Tennessee Titans,14,1,1
-2015-09-20,2015,2,Tennessee Titans,14,Cleveland Browns,28,0,0
-2015-09-20,2015,2,Washington Redskins,24,St. Louis Rams,10,1,1
-2015-09-20,2015,2,St. Louis Rams,10,Washington Redskins,24,0,0
-2015-09-20,2015,2,Minnesota Vikings,26,Detroit Lions,16,1,1
-2015-09-20,2015,2,Detroit Lions,16,Minnesota Vikings,26,0,0
-2015-09-20,2015,2,Cincinnati Bengals,24,San Diego Chargers,19,1,1
-2015-09-20,2015,2,San Diego Chargers,19,Cincinnati Bengals,24,0,0
-2015-09-20,2015,2,Oakland Raiders,37,Baltimore Ravens,33,1,1
-2015-09-20,2015,2,Baltimore Ravens,33,Oakland Raiders,37,0,0
-2015-09-20,2015,2,Jacksonville Jaguars,23,Miami Dolphins,20,1,1
-2015-09-20,2015,2,Miami Dolphins,20,Jacksonville Jaguars,23,0,0
-2015-09-20,2015,2,Philadelphia Eagles,10,Dallas Cowboys,20,0,1
-2015-09-20,2015,2,Dallas Cowboys,20,Philadelphia Eagles,10,1,0
-2015-09-20,2015,2,Green Bay Packers,27,Seattle Seahawks,17,1,1
-2015-09-20,2015,2,Seattle Seahawks,17,Green Bay Packers,27,0,0
-2015-09-21,2015,2,Indianapolis Colts,7,New York Jets,20,0,1
-2015-09-21,2015,2,New York Jets,20,Indianapolis Colts,7,1,0
-2015-09-24,2015,3,New York Giants,32,Washington Redskins,21,1,1
-2015-09-24,2015,3,Washington Redskins,21,New York Giants,32,0,0
-2015-09-27,2015,3,St. Louis Rams,6,Pittsburgh Steelers,12,0,1
-2015-09-27,2015,3,Pittsburgh Steelers,12,St. Louis Rams,6,1,0
-2015-09-27,2015,3,Cleveland Browns,20,Oakland Raiders,27,0,1
-2015-09-27,2015,3,Oakland Raiders,27,Cleveland Browns,20,1,0
-2015-09-27,2015,3,Baltimore Ravens,24,Cincinnati Bengals,28,0,1
-2015-09-27,2015,3,Cincinnati Bengals,28,Baltimore Ravens,24,1,0
-2015-09-27,2015,3,Minnesota Vikings,31,San Diego Chargers,14,1,1
-2015-09-27,2015,3,San Diego Chargers,14,Minnesota Vikings,31,0,0
-2015-09-27,2015,3,Carolina Panthers,27,New Orleans Saints,22,1,1
-2015-09-27,2015,3,New Orleans Saints,22,Carolina Panthers,27,0,0
-2015-09-27,2015,3,Tennessee Titans,33,Indianapolis Colts,35,0,1
-2015-09-27,2015,3,Indianapolis Colts,35,Tennessee Titans,33,1,0
-2015-09-27,2015,3,New York Jets,17,Philadelphia Eagles,24,0,1
-2015-09-27,2015,3,Philadelphia Eagles,24,New York Jets,17,1,0
-2015-09-27,2015,3,Houston Texans,19,Tampa Bay Buccaneers,9,1,1
-2015-09-27,2015,3,Tampa Bay Buccaneers,9,Houston Texans,19,0,0
-2015-09-27,2015,3,Dallas Cowboys,28,Atlanta Falcons,39,0,1
-2015-09-27,2015,3,Atlanta Falcons,39,Dallas Cowboys,28,1,0
-2015-09-27,2015,3,New England Patriots,51,Jacksonville Jaguars,17,1,1
-2015-09-27,2015,3,Jacksonville Jaguars,17,New England Patriots,51,0,0
-2015-09-27,2015,3,Arizona Cardinals,47,San Francisco 49ers,7,1,1
-2015-09-27,2015,3,San Francisco 49ers,7,Arizona Cardinals,47,0,0
-2015-09-27,2015,3,Miami Dolphins,14,Buffalo Bills,41,0,1
-2015-09-27,2015,3,Buffalo Bills,41,Miami Dolphins,14,1,0
-2015-09-27,2015,3,Seattle Seahawks,26,Chicago Bears,0,1,1
-2015-09-27,2015,3,Chicago Bears,0,Seattle Seahawks,26,0,0
-2015-09-27,2015,3,Detroit Lions,12,Denver Broncos,24,0,1
-2015-09-27,2015,3,Denver Broncos,24,Detroit Lions,12,1,0
-2015-09-28,2015,3,Green Bay Packers,38,Kansas City Chiefs,28,1,1
-2015-09-28,2015,3,Kansas City Chiefs,28,Green Bay Packers,38,0,0
-2015-10-04,2015,4,Miami Dolphins,14,New York Jets,27,0,1
-2015-10-04,2015,4,New York Jets,27,Miami Dolphins,14,1,0
-2015-10-04,2015,4,Buffalo Bills,10,New York Giants,24,0,1
-2015-10-04,2015,4,New York Giants,24,Buffalo Bills,10,1,0
-2015-10-04,2015,4,Atlanta Falcons,48,Houston Texans,21,1,1
-2015-10-04,2015,4,Houston Texans,21,Atlanta Falcons,48,0,0
-2015-10-04,2015,4,Chicago Bears,22,Oakland Raiders,20,1,1
-2015-10-04,2015,4,Oakland Raiders,20,Chicago Bears,22,0,0
-2015-10-04,2015,4,Washington Redskins,23,Philadelphia Eagles,20,1,1
-2015-10-04,2015,4,Philadelphia Eagles,20,Washington Redskins,23,0,0
-2015-10-04,2015,4,Tampa Bay Buccaneers,23,Carolina Panthers,37,0,1
-2015-10-04,2015,4,Carolina Panthers,37,Tampa Bay Buccaneers,23,1,0
-2015-10-04,2015,4,Cincinnati Bengals,36,Kansas City Chiefs,21,1,1
-2015-10-04,2015,4,Kansas City Chiefs,21,Cincinnati Bengals,36,0,0
-2015-10-04,2015,4,San Diego Chargers,30,Cleveland Browns,27,1,1
-2015-10-04,2015,4,Cleveland Browns,27,San Diego Chargers,30,0,0
-2015-10-04,2015,4,San Francisco 49ers,3,Green Bay Packers,17,0,1
-2015-10-04,2015,4,Green Bay Packers,17,San Francisco 49ers,3,1,0
-2015-10-04,2015,4,Denver Broncos,23,Minnesota Vikings,20,1,1
-2015-10-04,2015,4,Minnesota Vikings,20,Denver Broncos,23,0,0
-2015-10-04,2015,4,Arizona Cardinals,22,St. Louis Rams,24,0,1
-2015-10-04,2015,4,St. Louis Rams,24,Arizona Cardinals,22,1,0
-2015-10-05,2015,4,Seattle Seahawks,13,Detroit Lions,10,1,1
-2015-10-05,2015,4,Detroit Lions,10,Seattle Seahawks,13,0,0
-2015-10-08,2015,5,Houston Texans,20,Indianapolis Colts,27,0,1
-2015-10-08,2015,5,Indianapolis Colts,27,Houston Texans,20,1,0
-2015-10-11,2015,5,Tampa Bay Buccaneers,38,Jacksonville Jaguars,31,1,1
-2015-10-11,2015,5,Jacksonville Jaguars,31,Tampa Bay Buccaneers,38,0,0
-2015-10-11,2015,5,Kansas City Chiefs,17,Chicago Bears,18,0,1
-2015-10-11,2015,5,Chicago Bears,18,Kansas City Chiefs,17,1,0
-2015-10-11,2015,5,Green Bay Packers,24,St. Louis Rams,10,1,1
-2015-10-11,2015,5,St. Louis Rams,10,Green Bay Packers,24,0,0
-2015-10-11,2015,5,Tennessee Titans,13,Buffalo Bills,14,0,1
-2015-10-11,2015,5,Buffalo Bills,14,Tennessee Titans,13,1,0
-2015-10-11,2015,5,Philadelphia Eagles,39,New Orleans Saints,17,1,1
-2015-10-11,2015,5,New Orleans Saints,17,Philadelphia Eagles,39,0,0
-2015-10-11,2015,5,Detroit Lions,17,Arizona Cardinals,42,0,1
-2015-10-11,2015,5,Arizona Cardinals,42,Detroit Lions,17,1,0
-2015-10-11,2015,5,Oakland Raiders,10,Denver Broncos,16,0,1
-2015-10-11,2015,5,Denver Broncos,16,Oakland Raiders,10,1,0
-2015-10-11,2015,5,Dallas Cowboys,6,New England Patriots,30,0,1
-2015-10-11,2015,5,New England Patriots,30,Dallas Cowboys,6,1,0
-2015-10-11,2015,5,New York Giants,30,San Francisco 49ers,27,1,1
-2015-10-11,2015,5,San Francisco 49ers,27,New York Giants,30,0,0
-2015-10-12,2015,5,San Diego Chargers,20,Pittsburgh Steelers,24,0,1
-2015-10-12,2015,5,Pittsburgh Steelers,24,San Diego Chargers,20,1,0
-2015-10-15,2015,6,New Orleans Saints,31,Atlanta Falcons,21,1,1
-2015-10-15,2015,6,Atlanta Falcons,21,New Orleans Saints,31,0,0
-2015-10-18,2015,6,Buffalo Bills,21,Cincinnati Bengals,34,0,1
-2015-10-18,2015,6,Cincinnati Bengals,34,Buffalo Bills,21,1,0
-2015-10-18,2015,6,New York Jets,34,Washington Redskins,20,1,1
-2015-10-18,2015,6,Washington Redskins,20,New York Jets,34,0,0
-2015-10-18,2015,6,Minnesota Vikings,16,Kansas City Chiefs,10,1,1
-2015-10-18,2015,6,Kansas City Chiefs,10,Minnesota Vikings,16,0,0
-2015-10-18,2015,6,Jacksonville Jaguars,20,Houston Texans,31,0,1
-2015-10-18,2015,6,Houston Texans,31,Jacksonville Jaguars,20,1,0
-2015-10-18,2015,6,Tennessee Titans,10,Miami Dolphins,38,0,1
-2015-10-18,2015,6,Miami Dolphins,38,Tennessee Titans,10,1,0
-2015-10-18,2015,6,Pittsburgh Steelers,25,Arizona Cardinals,13,1,1
-2015-10-18,2015,6,Arizona Cardinals,13,Pittsburgh Steelers,25,0,0
-2015-10-18,2015,6,Seattle Seahawks,23,Carolina Panthers,27,0,1
-2015-10-18,2015,6,Carolina Panthers,27,Seattle Seahawks,23,1,0
-2015-10-18,2015,6,San Francisco 49ers,25,Baltimore Ravens,20,1,1
-2015-10-18,2015,6,Baltimore Ravens,20,San Francisco 49ers,25,0,0
-2015-10-18,2015,6,Green Bay Packers,27,San Diego Chargers,20,1,1
-2015-10-18,2015,6,San Diego Chargers,20,Green Bay Packers,27,0,0
-2015-10-18,2015,6,Indianapolis Colts,27,New England Patriots,34,0,1
-2015-10-18,2015,6,New England Patriots,34,Indianapolis Colts,27,1,0
-2015-10-19,2015,6,Philadelphia Eagles,27,New York Giants,7,1,1
-2015-10-19,2015,6,New York Giants,7,Philadelphia Eagles,27,0,0
-2015-10-22,2015,7,San Francisco 49ers,3,Seattle Seahawks,20,0,1
-2015-10-22,2015,7,Seattle Seahawks,20,San Francisco 49ers,3,1,0
-2015-10-25,2015,7,Jacksonville Jaguars,34,Buffalo Bills,31,1,1
-2015-10-25,2015,7,Buffalo Bills,31,Jacksonville Jaguars,34,0,0
-2015-10-25,2015,7,St. Louis Rams,24,Cleveland Browns,6,1,1
-2015-10-25,2015,7,Cleveland Browns,6,St. Louis Rams,24,0,0
-2015-10-25,2015,7,Tennessee Titans,7,Atlanta Falcons,10,0,1
-2015-10-25,2015,7,Atlanta Falcons,10,Tennessee Titans,7,1,0
-2015-10-25,2015,7,New England Patriots,30,New York Jets,23,1,1
-2015-10-25,2015,7,New York Jets,23,New England Patriots,30,0,0
-2015-10-25,2015,7,Miami Dolphins,44,Houston Texans,26,1,1
-2015-10-25,2015,7,Houston Texans,26,Miami Dolphins,44,0,0
-2015-10-25,2015,7,Detroit Lions,19,Minnesota Vikings,28,0,1
-2015-10-25,2015,7,Minnesota Vikings,28,Detroit Lions,19,1,0
-2015-10-25,2015,7,Indianapolis Colts,21,New Orleans Saints,27,0,1
-2015-10-25,2015,7,New Orleans Saints,27,Indianapolis Colts,21,1,0
-2015-10-25,2015,7,Kansas City Chiefs,23,Pittsburgh Steelers,13,1,1
-2015-10-25,2015,7,Pittsburgh Steelers,13,Kansas City Chiefs,23,0,0
-2015-10-25,2015,7,Washington Redskins,31,Tampa Bay Buccaneers,30,1,1
-2015-10-25,2015,7,Tampa Bay Buccaneers,30,Washington Redskins,31,0,0
-2015-10-25,2015,7,San Diego Chargers,29,Oakland Raiders,37,0,1
-2015-10-25,2015,7,Oakland Raiders,37,San Diego Chargers,29,1,0
-2015-10-25,2015,7,New York Giants,27,Dallas Cowboys,20,1,1
-2015-10-25,2015,7,Dallas Cowboys,20,New York Giants,27,0,0
-2015-10-25,2015,7,Carolina Panthers,27,Philadelphia Eagles,16,1,1
-2015-10-25,2015,7,Philadelphia Eagles,16,Carolina Panthers,27,0,0
-2015-10-26,2015,7,Arizona Cardinals,26,Baltimore Ravens,18,1,1
-2015-10-26,2015,7,Baltimore Ravens,18,Arizona Cardinals,26,0,0
-2015-10-29,2015,8,New England Patriots,36,Miami Dolphins,7,1,1
-2015-10-29,2015,8,Miami Dolphins,7,New England Patriots,36,0,0
-2015-11-01,2015,8,Kansas City Chiefs,45,Detroit Lions,10,1,1
-2015-11-01,2015,8,Detroit Lions,10,Kansas City Chiefs,45,0,0
-2015-11-01,2015,8,Chicago Bears,20,Minnesota Vikings,23,0,1
-2015-11-01,2015,8,Minnesota Vikings,23,Chicago Bears,20,1,0
-2015-11-01,2015,8,St. Louis Rams,27,San Francisco 49ers,6,1,1
-2015-11-01,2015,8,San Francisco 49ers,6,St. Louis Rams,27,0,0
-2015-11-01,2015,8,Baltimore Ravens,29,San Diego Chargers,26,1,1
-2015-11-01,2015,8,San Diego Chargers,26,Baltimore Ravens,29,0,0
-2015-11-01,2015,8,Pittsburgh Steelers,10,Cincinnati Bengals,16,0,1
-2015-11-01,2015,8,Cincinnati Bengals,16,Pittsburgh Steelers,10,1,0
-2015-11-01,2015,8,New Orleans Saints,52,New York Giants,49,1,1
-2015-11-01,2015,8,New York Giants,49,New Orleans Saints,52,0,0
-2015-11-01,2015,8,Houston Texans,20,Tennessee Titans,6,1,1
-2015-11-01,2015,8,Tennessee Titans,6,Houston Texans,20,0,0
-2015-11-01,2015,8,Cleveland Browns,20,Arizona Cardinals,34,0,1
-2015-11-01,2015,8,Arizona Cardinals,34,Cleveland Browns,20,1,0
-2015-11-01,2015,8,Oakland Raiders,34,New York Jets,20,1,1
-2015-11-01,2015,8,New York Jets,20,Oakland Raiders,34,0,0
-2015-11-01,2015,8,Dallas Cowboys,12,Seattle Seahawks,13,0,1
-2015-11-01,2015,8,Seattle Seahawks,13,Dallas Cowboys,12,1,0
-2015-11-01,2015,8,Denver Broncos,29,Green Bay Packers,10,1,1
-2015-11-01,2015,8,Green Bay Packers,10,Denver Broncos,29,0,0
-2015-11-05,2015,9,Cincinnati Bengals,31,Cleveland Browns,10,1,1
-2015-11-05,2015,9,Cleveland Browns,10,Cincinnati Bengals,31,0,0
-2015-11-08,2015,9,Buffalo Bills,33,Miami Dolphins,17,1,1
-2015-11-08,2015,9,Miami Dolphins,17,Buffalo Bills,33,0,0
-2015-11-08,2015,9,Pittsburgh Steelers,38,Oakland Raiders,35,1,1
-2015-11-08,2015,9,Oakland Raiders,35,Pittsburgh Steelers,38,0,0
-2015-11-08,2015,9,New York Jets,28,Jacksonville Jaguars,23,1,1
-2015-11-08,2015,9,Jacksonville Jaguars,23,New York Jets,28,0,0
-2015-11-08,2015,9,New England Patriots,27,Washington Redskins,10,1,1
-2015-11-08,2015,9,Washington Redskins,10,New England Patriots,27,0,0
-2015-11-08,2015,9,Carolina Panthers,37,Green Bay Packers,29,1,1
-2015-11-08,2015,9,Green Bay Packers,29,Carolina Panthers,37,0,0
-2015-11-08,2015,9,Tampa Bay Buccaneers,18,New York Giants,32,0,1
-2015-11-08,2015,9,New York Giants,32,Tampa Bay Buccaneers,18,1,0
-2015-11-08,2015,9,San Francisco 49ers,17,Atlanta Falcons,16,1,1
-2015-11-08,2015,9,Atlanta Falcons,16,San Francisco 49ers,17,0,0
-2015-11-08,2015,9,Indianapolis Colts,27,Denver Broncos,24,1,1
-2015-11-08,2015,9,Denver Broncos,24,Indianapolis Colts,27,0,0
-2015-11-09,2015,9,San Diego Chargers,19,Chicago Bears,22,0,1
-2015-11-09,2015,9,Chicago Bears,22,San Diego Chargers,19,1,0
-2015-11-12,2015,10,New York Jets,17,Buffalo Bills,22,0,1
-2015-11-12,2015,10,Buffalo Bills,22,New York Jets,17,1,0
-2015-11-15,2015,10,St. Louis Rams,13,Chicago Bears,37,0,1
-2015-11-15,2015,10,Chicago Bears,37,St. Louis Rams,13,1,0
-2015-11-15,2015,10,Tennessee Titans,10,Carolina Panthers,27,0,1
-2015-11-15,2015,10,Carolina Panthers,27,Tennessee Titans,10,1,0
-2015-11-15,2015,10,Green Bay Packers,16,Detroit Lions,18,0,1
-2015-11-15,2015,10,Detroit Lions,18,Green Bay Packers,16,1,0
-2015-11-15,2015,10,Pittsburgh Steelers,30,Cleveland Browns,9,1,1
-2015-11-15,2015,10,Cleveland Browns,9,Pittsburgh Steelers,30,0,0
-2015-11-15,2015,10,Washington Redskins,47,New Orleans Saints,14,1,1
-2015-11-15,2015,10,New Orleans Saints,14,Washington Redskins,47,0,0
-2015-11-15,2015,10,Tampa Bay Buccaneers,10,Dallas Cowboys,6,1,1
-2015-11-15,2015,10,Dallas Cowboys,6,Tampa Bay Buccaneers,10,0,0
-2015-11-15,2015,10,Baltimore Ravens,20,Jacksonville Jaguars,22,0,1
-2015-11-15,2015,10,Jacksonville Jaguars,22,Baltimore Ravens,20,1,0
-2015-11-15,2015,10,Philadelphia Eagles,19,Miami Dolphins,20,0,1
-2015-11-15,2015,10,Miami Dolphins,20,Philadelphia Eagles,19,1,0
-2015-11-15,2015,10,Oakland Raiders,14,Minnesota Vikings,30,0,1
-2015-11-15,2015,10,Minnesota Vikings,30,Oakland Raiders,14,1,0
-2015-11-15,2015,10,Denver Broncos,13,Kansas City Chiefs,29,0,1
-2015-11-15,2015,10,Kansas City Chiefs,29,Denver Broncos,13,1,0
-2015-11-15,2015,10,New York Giants,26,New England Patriots,27,0,1
-2015-11-15,2015,10,New England Patriots,27,New York Giants,26,1,0
-2015-11-15,2015,10,Seattle Seahawks,32,Arizona Cardinals,39,0,1
-2015-11-15,2015,10,Arizona Cardinals,39,Seattle Seahawks,32,1,0
-2015-11-16,2015,10,Cincinnati Bengals,6,Houston Texans,10,0,1
-2015-11-16,2015,10,Houston Texans,10,Cincinnati Bengals,6,1,0
-2015-11-19,2015,11,Jacksonville Jaguars,19,Tennessee Titans,13,1,1
-2015-11-19,2015,11,Tennessee Titans,13,Jacksonville Jaguars,19,0,0
-2015-11-22,2015,11,Carolina Panthers,44,Washington Redskins,16,1,1
-2015-11-22,2015,11,Washington Redskins,16,Carolina Panthers,44,0,0
-2015-11-22,2015,11,Atlanta Falcons,21,Indianapolis Colts,24,0,1
-2015-11-22,2015,11,Indianapolis Colts,24,Atlanta Falcons,21,1,0
-2015-11-22,2015,11,Baltimore Ravens,16,St. Louis Rams,13,1,1
-2015-11-22,2015,11,St. Louis Rams,13,Baltimore Ravens,16,0,0
-2015-11-22,2015,11,Philadelphia Eagles,17,Tampa Bay Buccaneers,45,0,1
-2015-11-22,2015,11,Tampa Bay Buccaneers,45,Philadelphia Eagles,17,1,0
-2015-11-22,2015,11,Detroit Lions,18,Oakland Raiders,13,1,1
-2015-11-22,2015,11,Oakland Raiders,13,Detroit Lions,18,0,0
-2015-11-22,2015,11,Chicago Bears,15,Denver Broncos,17,0,1
-2015-11-22,2015,11,Denver Broncos,17,Chicago Bears,15,1,0
-2015-11-22,2015,11,Miami Dolphins,14,Dallas Cowboys,24,0,1
-2015-11-22,2015,11,Dallas Cowboys,24,Miami Dolphins,14,1,0
-2015-11-22,2015,11,Houston Texans,24,New York Jets,17,1,1
-2015-11-22,2015,11,New York Jets,17,Houston Texans,24,0,0
-2015-11-22,2015,11,San Diego Chargers,3,Kansas City Chiefs,33,0,1
-2015-11-22,2015,11,Kansas City Chiefs,33,San Diego Chargers,3,1,0
-2015-11-22,2015,11,Minnesota Vikings,13,Green Bay Packers,30,0,1
-2015-11-22,2015,11,Green Bay Packers,30,Minnesota Vikings,13,1,0
-2015-11-22,2015,11,Seattle Seahawks,29,San Francisco 49ers,13,1,1
-2015-11-22,2015,11,San Francisco 49ers,13,Seattle Seahawks,29,0,0
-2015-11-22,2015,11,Arizona Cardinals,34,Cincinnati Bengals,31,1,1
-2015-11-22,2015,11,Cincinnati Bengals,31,Arizona Cardinals,34,0,0
-2015-11-23,2015,11,New England Patriots,20,Buffalo Bills,13,1,1
-2015-11-23,2015,11,Buffalo Bills,13,New England Patriots,20,0,0
-2015-11-26,2015,12,Detroit Lions,45,Philadelphia Eagles,14,1,1
-2015-11-26,2015,12,Philadelphia Eagles,14,Detroit Lions,45,0,0
-2015-11-26,2015,12,Dallas Cowboys,14,Carolina Panthers,33,0,1
-2015-11-26,2015,12,Carolina Panthers,33,Dallas Cowboys,14,1,0
-2015-11-26,2015,12,Green Bay Packers,13,Chicago Bears,17,0,1
-2015-11-26,2015,12,Chicago Bears,17,Green Bay Packers,13,1,0
-2015-11-29,2015,12,Tennessee Titans,21,Oakland Raiders,24,0,1
-2015-11-29,2015,12,Oakland Raiders,24,Tennessee Titans,21,1,0
-2015-11-29,2015,12,New York Jets,38,Miami Dolphins,20,1,1
-2015-11-29,2015,12,Miami Dolphins,20,New York Jets,38,0,0
-2015-11-29,2015,12,Houston Texans,24,New Orleans Saints,6,1,1
-2015-11-29,2015,12,New Orleans Saints,6,Houston Texans,24,0,0
-2015-11-29,2015,12,Indianapolis Colts,25,Tampa Bay Buccaneers,12,1,1
-2015-11-29,2015,12,Tampa Bay Buccaneers,12,Indianapolis Colts,25,0,0
-2015-11-29,2015,12,Cincinnati Bengals,31,St. Louis Rams,7,1,1
-2015-11-29,2015,12,St. Louis Rams,7,Cincinnati Bengals,31,0,0
-2015-11-29,2015,12,Atlanta Falcons,10,Minnesota Vikings,20,0,1
-2015-11-29,2015,12,Minnesota Vikings,20,Atlanta Falcons,10,1,0
-2015-11-29,2015,12,Washington Redskins,20,New York Giants,14,1,1
-2015-11-29,2015,12,New York Giants,14,Washington Redskins,20,0,0
-2015-11-29,2015,12,Kansas City Chiefs,30,Buffalo Bills,22,1,1
-2015-11-29,2015,12,Buffalo Bills,22,Kansas City Chiefs,30,0,0
-2015-11-29,2015,12,Jacksonville Jaguars,25,San Diego Chargers,31,0,1
-2015-11-29,2015,12,San Diego Chargers,31,Jacksonville Jaguars,25,1,0
-2015-11-29,2015,12,San Francisco 49ers,13,Arizona Cardinals,19,0,1
-2015-11-29,2015,12,Arizona Cardinals,19,San Francisco 49ers,13,1,0
-2015-11-29,2015,12,Seattle Seahawks,39,Pittsburgh Steelers,30,1,1
-2015-11-29,2015,12,Pittsburgh Steelers,30,Seattle Seahawks,39,0,0
-2015-11-30,2015,12,Cleveland Browns,27,Baltimore Ravens,33,0,1
-2015-11-30,2015,12,Baltimore Ravens,33,Cleveland Browns,27,1,0
-2015-12-03,2015,13,Detroit Lions,23,Green Bay Packers,27,0,1
-2015-12-03,2015,13,Green Bay Packers,27,Detroit Lions,23,1,0
-2015-12-06,2015,13,St. Louis Rams,3,Arizona Cardinals,27,0,1
-2015-12-06,2015,13,Arizona Cardinals,27,St. Louis Rams,3,1,0
-2015-12-06,2015,13,Buffalo Bills,30,Houston Texans,21,1,1
-2015-12-06,2015,13,Houston Texans,21,Buffalo Bills,30,0,0
-2015-12-06,2015,13,Tennessee Titans,42,Jacksonville Jaguars,39,1,1
-2015-12-06,2015,13,Jacksonville Jaguars,39,Tennessee Titans,42,0,0
-2015-12-06,2015,13,Minnesota Vikings,7,Seattle Seahawks,38,0,1
-2015-12-06,2015,13,Seattle Seahawks,38,Minnesota Vikings,7,1,0
-2015-12-06,2015,13,Tampa Bay Buccaneers,23,Atlanta Falcons,19,1,1
-2015-12-06,2015,13,Atlanta Falcons,19,Tampa Bay Buccaneers,23,0,0
-2015-12-06,2015,13,Miami Dolphins,15,Baltimore Ravens,13,1,1
-2015-12-06,2015,13,Baltimore Ravens,13,Miami Dolphins,15,0,0
-2015-12-06,2015,13,Cleveland Browns,3,Cincinnati Bengals,37,0,1
-2015-12-06,2015,13,Cincinnati Bengals,37,Cleveland Browns,3,1,0
-2015-12-06,2015,13,San Diego Chargers,3,Denver Broncos,17,0,1
-2015-12-06,2015,13,Denver Broncos,17,San Diego Chargers,3,1,0
-2015-12-06,2015,13,Oakland Raiders,20,Kansas City Chiefs,34,0,1
-2015-12-06,2015,13,Kansas City Chiefs,34,Oakland Raiders,20,1,0
-2015-12-06,2015,13,New England Patriots,28,Philadelphia Eagles,35,0,1
-2015-12-06,2015,13,Philadelphia Eagles,35,New England Patriots,28,1,0
-2015-12-06,2015,13,New Orleans Saints,38,Carolina Panthers,41,0,1
-2015-12-06,2015,13,Carolina Panthers,41,New Orleans Saints,38,1,0
-2015-12-06,2015,13,Pittsburgh Steelers,45,Indianapolis Colts,10,1,1
-2015-12-06,2015,13,Indianapolis Colts,10,Pittsburgh Steelers,45,0,0
-2015-12-07,2015,13,Washington Redskins,16,Dallas Cowboys,19,0,1
-2015-12-07,2015,13,Dallas Cowboys,19,Washington Redskins,16,1,0
-2015-12-10,2015,14,Arizona Cardinals,23,Minnesota Vikings,20,1,1
-2015-12-10,2015,14,Minnesota Vikings,20,Arizona Cardinals,23,0,0
-2015-12-13,2015,14,Philadelphia Eagles,23,Buffalo Bills,20,1,1
-2015-12-13,2015,14,Buffalo Bills,20,Philadelphia Eagles,23,0,0
-2015-12-13,2015,14,Chicago Bears,21,Washington Redskins,24,0,1
-2015-12-13,2015,14,Washington Redskins,24,Chicago Bears,21,1,0
-2015-12-13,2015,14,Tampa Bay Buccaneers,17,New Orleans Saints,24,0,1
-2015-12-13,2015,14,New Orleans Saints,24,Tampa Bay Buccaneers,17,1,0
-2015-12-13,2015,14,Baltimore Ravens,6,Seattle Seahawks,35,0,1
-2015-12-13,2015,14,Seattle Seahawks,35,Baltimore Ravens,6,1,0
-2015-12-13,2015,14,St. Louis Rams,21,Detroit Lions,14,1,1
-2015-12-13,2015,14,Detroit Lions,14,St. Louis Rams,21,0,0
-2015-12-13,2015,14,New York Jets,30,Tennessee Titans,8,1,1
-2015-12-13,2015,14,Tennessee Titans,8,New York Jets,30,0,0
-2015-12-13,2015,14,Jacksonville Jaguars,51,Indianapolis Colts,16,1,1
-2015-12-13,2015,14,Indianapolis Colts,16,Jacksonville Jaguars,51,0,0
-2015-12-13,2015,14,Cleveland Browns,24,San Francisco 49ers,10,1,1
-2015-12-13,2015,14,San Francisco 49ers,10,Cleveland Browns,24,0,0
-2015-12-13,2015,14,Cincinnati Bengals,20,Pittsburgh Steelers,33,0,1
-2015-12-13,2015,14,Pittsburgh Steelers,33,Cincinnati Bengals,20,1,0
-2015-12-13,2015,14,Carolina Panthers,38,Atlanta Falcons,0,1,1
-2015-12-13,2015,14,Atlanta Falcons,0,Carolina Panthers,38,0,0
-2015-12-13,2015,14,Kansas City Chiefs,10,San Diego Chargers,3,1,1
-2015-12-13,2015,14,San Diego Chargers,3,Kansas City Chiefs,10,0,0
-2015-12-13,2015,14,Denver Broncos,12,Oakland Raiders,15,0,1
-2015-12-13,2015,14,Oakland Raiders,15,Denver Broncos,12,1,0
-2015-12-13,2015,14,Green Bay Packers,28,Dallas Cowboys,7,1,1
-2015-12-13,2015,14,Dallas Cowboys,7,Green Bay Packers,28,0,0
-2015-12-13,2015,14,Houston Texans,6,New England Patriots,27,0,1
-2015-12-13,2015,14,New England Patriots,27,Houston Texans,6,1,0
-2015-12-14,2015,14,Miami Dolphins,24,New York Giants,31,0,1
-2015-12-14,2015,14,New York Giants,31,Miami Dolphins,24,1,0
-2015-12-17,2015,15,St. Louis Rams,31,Tampa Bay Buccaneers,23,1,1
-2015-12-17,2015,15,Tampa Bay Buccaneers,23,St. Louis Rams,31,0,0
-2015-12-19,2015,15,Dallas Cowboys,16,New York Jets,19,0,1
-2015-12-19,2015,15,New York Jets,19,Dallas Cowboys,16,1,0
-2015-12-20,2015,15,Indianapolis Colts,10,Houston Texans,16,0,1
-2015-12-20,2015,15,Houston Texans,16,Indianapolis Colts,10,1,0
-2015-12-20,2015,15,Baltimore Ravens,14,Kansas City Chiefs,34,0,1
-2015-12-20,2015,15,Kansas City Chiefs,34,Baltimore Ravens,14,1,0
-2015-12-20,2015,15,New York Giants,35,Carolina Panthers,38,0,1
-2015-12-20,2015,15,Carolina Panthers,38,New York Giants,35,1,0
-2015-12-20,2015,15,New England Patriots,33,Tennessee Titans,16,1,1
-2015-12-20,2015,15,Tennessee Titans,16,New England Patriots,33,0,0
-2015-12-20,2015,15,Minnesota Vikings,38,Chicago Bears,17,1,1
-2015-12-20,2015,15,Chicago Bears,17,Minnesota Vikings,38,0,0
-2015-12-20,2015,15,Jacksonville Jaguars,17,Atlanta Falcons,23,0,1
-2015-12-20,2015,15,Atlanta Falcons,23,Jacksonville Jaguars,17,1,0
-2015-12-20,2015,15,Washington Redskins,35,Buffalo Bills,25,1,1
-2015-12-20,2015,15,Buffalo Bills,25,Washington Redskins,35,0,0
-2015-12-20,2015,15,Oakland Raiders,20,Green Bay Packers,30,0,1
-2015-12-20,2015,15,Green Bay Packers,30,Oakland Raiders,20,1,0
-2015-12-20,2015,15,Seattle Seahawks,30,Cleveland Browns,13,1,1
-2015-12-20,2015,15,Cleveland Browns,13,Seattle Seahawks,30,0,0
-2015-12-20,2015,15,San Francisco 49ers,14,Cincinnati Bengals,24,0,1
-2015-12-20,2015,15,Cincinnati Bengals,24,San Francisco 49ers,14,1,0
-2015-12-20,2015,15,San Diego Chargers,30,Miami Dolphins,14,1,1
-2015-12-20,2015,15,Miami Dolphins,14,San Diego Chargers,30,0,0
-2015-12-20,2015,15,Pittsburgh Steelers,34,Denver Broncos,27,1,1
-2015-12-20,2015,15,Denver Broncos,27,Pittsburgh Steelers,34,0,0
-2015-12-20,2015,15,Philadelphia Eagles,17,Arizona Cardinals,40,0,1
-2015-12-20,2015,15,Arizona Cardinals,40,Philadelphia Eagles,17,1,0
-2015-12-21,2015,15,New Orleans Saints,27,Detroit Lions,35,0,1
-2015-12-21,2015,15,Detroit Lions,35,New Orleans Saints,27,1,0
-2015-12-26,2015,16,Philadelphia Eagles,24,Washington Redskins,38,0,1
-2015-12-26,2015,16,Washington Redskins,38,Philadelphia Eagles,24,1,0
-2015-12-27,2015,16,Atlanta Falcons,20,Carolina Panthers,13,1,1
-2015-12-27,2015,16,Carolina Panthers,13,Atlanta Falcons,20,0,0
-2015-12-27,2015,16,Baltimore Ravens,20,Pittsburgh Steelers,17,1,1
-2015-12-27,2015,16,Pittsburgh Steelers,17,Baltimore Ravens,20,0,0
-2015-12-27,2015,16,Tennessee Titans,6,Houston Texans,34,0,1
-2015-12-27,2015,16,Houston Texans,34,Tennessee Titans,6,1,0
-2015-12-27,2015,16,Miami Dolphins,12,Indianapolis Colts,18,0,1
-2015-12-27,2015,16,Indianapolis Colts,18,Miami Dolphins,12,1,0
-2015-12-27,2015,16,Buffalo Bills,16,Dallas Cowboys,6,1,1
-2015-12-27,2015,16,Dallas Cowboys,6,Buffalo Bills,16,0,0
-2015-12-27,2015,16,Tampa Bay Buccaneers,21,Chicago Bears,26,0,1
-2015-12-27,2015,16,Chicago Bears,26,Tampa Bay Buccaneers,21,1,0
-2015-12-27,2015,16,Kansas City Chiefs,17,Cleveland Browns,13,1,1
-2015-12-27,2015,16,Cleveland Browns,13,Kansas City Chiefs,17,0,0
-2015-12-27,2015,16,Detroit Lions,32,San Francisco 49ers,17,1,1
-2015-12-27,2015,16,San Francisco 49ers,17,Detroit Lions,32,0,0
-2015-12-27,2015,16,New Orleans Saints,38,Jacksonville Jaguars,27,1,1
-2015-12-27,2015,16,Jacksonville Jaguars,27,New Orleans Saints,38,0,0
-2015-12-27,2015,16,Arizona Cardinals,38,Green Bay Packers,8,1,1
-2015-12-27,2015,16,Green Bay Packers,8,Arizona Cardinals,38,0,0
-2015-12-27,2015,16,Seattle Seahawks,17,St. Louis Rams,23,0,1
-2015-12-27,2015,16,St. Louis Rams,23,Seattle Seahawks,17,1,0
-2015-12-27,2015,16,Minnesota Vikings,49,New York Giants,17,1,1
-2015-12-27,2015,16,New York Giants,17,Minnesota Vikings,49,0,0
-2016-01-03,2015,17,Buffalo Bills,22,New York Jets,17,1,1
-2016-01-03,2015,17,New York Jets,17,Buffalo Bills,22,0,0
-2016-01-03,2015,17,Atlanta Falcons,17,New Orleans Saints,20,0,1
-2016-01-03,2015,17,New Orleans Saints,20,Atlanta Falcons,17,1,0
-2016-01-03,2015,17,Miami Dolphins,20,New England Patriots,10,1,1
-2016-01-03,2015,17,New England Patriots,10,Miami Dolphins,20,0,0
-2016-01-03,2015,17,Houston Texans,30,Jacksonville Jaguars,6,1,1
-2016-01-03,2015,17,Jacksonville Jaguars,6,Houston Texans,30,0,0
-2016-01-03,2015,17,Indianapolis Colts,30,Tennessee Titans,24,1,1
-2016-01-03,2015,17,Tennessee Titans,24,Indianapolis Colts,30,0,0
-2016-01-03,2015,17,Cleveland Browns,12,Pittsburgh Steelers,28,0,1
-2016-01-03,2015,17,Pittsburgh Steelers,28,Cleveland Browns,12,1,0
-2016-01-03,2015,17,Cincinnati Bengals,24,Baltimore Ravens,16,1,1
-2016-01-03,2015,17,Baltimore Ravens,16,Cincinnati Bengals,24,0,0
-2016-01-03,2015,17,Chicago Bears,20,Detroit Lions,24,0,1
-2016-01-03,2015,17,Detroit Lions,24,Chicago Bears,20,1,0
-2016-01-03,2015,17,New York Giants,30,Philadelphia Eagles,35,0,1
-2016-01-03,2015,17,Philadelphia Eagles,35,New York Giants,30,1,0
-2016-01-03,2015,17,Dallas Cowboys,23,Washington Redskins,34,0,1
-2016-01-03,2015,17,Washington Redskins,34,Dallas Cowboys,23,1,0
-2016-01-03,2015,17,Carolina Panthers,38,Tampa Bay Buccaneers,10,1,1
-2016-01-03,2015,17,Tampa Bay Buccaneers,10,Carolina Panthers,38,0,0
-2016-01-03,2015,17,Denver Broncos,27,San Diego Chargers,20,1,1
-2016-01-03,2015,17,San Diego Chargers,20,Denver Broncos,27,0,0
-2016-01-03,2015,17,Arizona Cardinals,6,Seattle Seahawks,36,0,1
-2016-01-03,2015,17,Seattle Seahawks,36,Arizona Cardinals,6,1,0
-2016-01-03,2015,17,Kansas City Chiefs,23,Oakland Raiders,17,1,1
-2016-01-03,2015,17,Oakland Raiders,17,Kansas City Chiefs,23,0,0
-2016-01-03,2015,17,Green Bay Packers,13,Minnesota Vikings,20,0,1
-2016-01-03,2015,17,Minnesota Vikings,20,Green Bay Packers,13,1,0
+date,year,week,team,team_score,opponent,opponent_score,win,home,overtime
+2015-09-10,2015,1,New England Patriots,28,Pittsburgh Steelers,21,1,1,0
+2015-09-10,2015,1,Pittsburgh Steelers,21,New England Patriots,28,0,0,0
+2015-09-13,2015,1,Chicago Bears,23,Green Bay Packers,31,0,1,0
+2015-09-13,2015,1,Green Bay Packers,31,Chicago Bears,23,1,0,0
+2015-09-13,2015,1,St. Louis Rams,34,Seattle Seahawks,31,1,1,1
+2015-09-13,2015,1,Seattle Seahawks,31,St. Louis Rams,34,0,0,1
+2015-09-13,2015,1,Washington Redskins,10,Miami Dolphins,17,0,1,0
+2015-09-13,2015,1,Miami Dolphins,17,Washington Redskins,10,1,0,0
+2015-09-13,2015,1,Houston Texans,20,Kansas City Chiefs,27,0,1,0
+2015-09-13,2015,1,Kansas City Chiefs,27,Houston Texans,20,1,0,0
+2015-09-13,2015,1,Buffalo Bills,27,Indianapolis Colts,14,1,1,0
+2015-09-13,2015,1,Indianapolis Colts,14,Buffalo Bills,27,0,0,0
+2015-09-13,2015,1,Jacksonville Jaguars,9,Carolina Panthers,20,0,1,0
+2015-09-13,2015,1,Carolina Panthers,20,Jacksonville Jaguars,9,1,0,0
+2015-09-13,2015,1,New York Jets,31,Cleveland Browns,10,1,1,0
+2015-09-13,2015,1,Cleveland Browns,10,New York Jets,31,0,0,0
+2015-09-13,2015,1,San Diego Chargers,33,Detroit Lions,28,1,1,0
+2015-09-13,2015,1,Detroit Lions,28,San Diego Chargers,33,0,0,0
+2015-09-13,2015,1,Arizona Cardinals,31,New Orleans Saints,19,1,1,0
+2015-09-13,2015,1,New Orleans Saints,19,Arizona Cardinals,31,0,0,0
+2015-09-13,2015,1,Tampa Bay Buccaneers,14,Tennessee Titans,42,0,1,0
+2015-09-13,2015,1,Tennessee Titans,42,Tampa Bay Buccaneers,14,1,0,0
+2015-09-13,2015,1,Oakland Raiders,13,Cincinnati Bengals,33,0,1,0
+2015-09-13,2015,1,Cincinnati Bengals,33,Oakland Raiders,13,1,0,0
+2015-09-13,2015,1,Denver Broncos,19,Baltimore Ravens,13,1,1,0
+2015-09-13,2015,1,Baltimore Ravens,13,Denver Broncos,19,0,0,0
+2015-09-13,2015,1,Dallas Cowboys,27,New York Giants,26,1,1,0
+2015-09-13,2015,1,New York Giants,26,Dallas Cowboys,27,0,0,0
+2015-09-14,2015,1,Atlanta Falcons,26,Philadelphia Eagles,24,1,1,0
+2015-09-14,2015,1,Philadelphia Eagles,24,Atlanta Falcons,26,0,0,0
+2015-09-14,2015,1,San Francisco 49ers,20,Minnesota Vikings,3,1,1,0
+2015-09-14,2015,1,Minnesota Vikings,3,San Francisco 49ers,20,0,0,0
+2015-09-17,2015,2,Kansas City Chiefs,24,Denver Broncos,31,0,1,0
+2015-09-17,2015,2,Denver Broncos,31,Kansas City Chiefs,24,1,0,0
+2015-09-20,2015,2,Chicago Bears,23,Arizona Cardinals,48,0,1,0
+2015-09-20,2015,2,Arizona Cardinals,48,Chicago Bears,23,1,0,0
+2015-09-20,2015,2,Carolina Panthers,24,Houston Texans,17,1,1,0
+2015-09-20,2015,2,Houston Texans,17,Carolina Panthers,24,0,0,0
+2015-09-20,2015,2,Buffalo Bills,32,New England Patriots,40,0,1,0
+2015-09-20,2015,2,New England Patriots,40,Buffalo Bills,32,1,0,0
+2015-09-20,2015,2,Pittsburgh Steelers,43,San Francisco 49ers,18,1,1,0
+2015-09-20,2015,2,San Francisco 49ers,18,Pittsburgh Steelers,43,0,0,0
+2015-09-20,2015,2,New York Giants,20,Atlanta Falcons,24,0,1,0
+2015-09-20,2015,2,Atlanta Falcons,24,New York Giants,20,1,0,0
+2015-09-20,2015,2,New Orleans Saints,19,Tampa Bay Buccaneers,26,0,1,0
+2015-09-20,2015,2,Tampa Bay Buccaneers,26,New Orleans Saints,19,1,0,0
+2015-09-20,2015,2,Cleveland Browns,28,Tennessee Titans,14,1,1,0
+2015-09-20,2015,2,Tennessee Titans,14,Cleveland Browns,28,0,0,0
+2015-09-20,2015,2,Washington Redskins,24,St. Louis Rams,10,1,1,0
+2015-09-20,2015,2,St. Louis Rams,10,Washington Redskins,24,0,0,0
+2015-09-20,2015,2,Minnesota Vikings,26,Detroit Lions,16,1,1,0
+2015-09-20,2015,2,Detroit Lions,16,Minnesota Vikings,26,0,0,0
+2015-09-20,2015,2,Cincinnati Bengals,24,San Diego Chargers,19,1,1,0
+2015-09-20,2015,2,San Diego Chargers,19,Cincinnati Bengals,24,0,0,0
+2015-09-20,2015,2,Oakland Raiders,37,Baltimore Ravens,33,1,1,0
+2015-09-20,2015,2,Baltimore Ravens,33,Oakland Raiders,37,0,0,0
+2015-09-20,2015,2,Jacksonville Jaguars,23,Miami Dolphins,20,1,1,0
+2015-09-20,2015,2,Miami Dolphins,20,Jacksonville Jaguars,23,0,0,0
+2015-09-20,2015,2,Philadelphia Eagles,10,Dallas Cowboys,20,0,1,0
+2015-09-20,2015,2,Dallas Cowboys,20,Philadelphia Eagles,10,1,0,0
+2015-09-20,2015,2,Green Bay Packers,27,Seattle Seahawks,17,1,1,0
+2015-09-20,2015,2,Seattle Seahawks,17,Green Bay Packers,27,0,0,0
+2015-09-21,2015,2,Indianapolis Colts,7,New York Jets,20,0,1,0
+2015-09-21,2015,2,New York Jets,20,Indianapolis Colts,7,1,0,0
+2015-09-24,2015,3,New York Giants,32,Washington Redskins,21,1,1,0
+2015-09-24,2015,3,Washington Redskins,21,New York Giants,32,0,0,0
+2015-09-27,2015,3,St. Louis Rams,6,Pittsburgh Steelers,12,0,1,0
+2015-09-27,2015,3,Pittsburgh Steelers,12,St. Louis Rams,6,1,0,0
+2015-09-27,2015,3,Cleveland Browns,20,Oakland Raiders,27,0,1,0
+2015-09-27,2015,3,Oakland Raiders,27,Cleveland Browns,20,1,0,0
+2015-09-27,2015,3,Baltimore Ravens,24,Cincinnati Bengals,28,0,1,0
+2015-09-27,2015,3,Cincinnati Bengals,28,Baltimore Ravens,24,1,0,0
+2015-09-27,2015,3,Minnesota Vikings,31,San Diego Chargers,14,1,1,0
+2015-09-27,2015,3,San Diego Chargers,14,Minnesota Vikings,31,0,0,0
+2015-09-27,2015,3,Carolina Panthers,27,New Orleans Saints,22,1,1,0
+2015-09-27,2015,3,New Orleans Saints,22,Carolina Panthers,27,0,0,0
+2015-09-27,2015,3,Tennessee Titans,33,Indianapolis Colts,35,0,1,0
+2015-09-27,2015,3,Indianapolis Colts,35,Tennessee Titans,33,1,0,0
+2015-09-27,2015,3,New York Jets,17,Philadelphia Eagles,24,0,1,0
+2015-09-27,2015,3,Philadelphia Eagles,24,New York Jets,17,1,0,0
+2015-09-27,2015,3,Houston Texans,19,Tampa Bay Buccaneers,9,1,1,0
+2015-09-27,2015,3,Tampa Bay Buccaneers,9,Houston Texans,19,0,0,0
+2015-09-27,2015,3,Dallas Cowboys,28,Atlanta Falcons,39,0,1,0
+2015-09-27,2015,3,Atlanta Falcons,39,Dallas Cowboys,28,1,0,0
+2015-09-27,2015,3,New England Patriots,51,Jacksonville Jaguars,17,1,1,0
+2015-09-27,2015,3,Jacksonville Jaguars,17,New England Patriots,51,0,0,0
+2015-09-27,2015,3,Arizona Cardinals,47,San Francisco 49ers,7,1,1,0
+2015-09-27,2015,3,San Francisco 49ers,7,Arizona Cardinals,47,0,0,0
+2015-09-27,2015,3,Miami Dolphins,14,Buffalo Bills,41,0,1,0
+2015-09-27,2015,3,Buffalo Bills,41,Miami Dolphins,14,1,0,0
+2015-09-27,2015,3,Seattle Seahawks,26,Chicago Bears,0,1,1,0
+2015-09-27,2015,3,Chicago Bears,0,Seattle Seahawks,26,0,0,0
+2015-09-27,2015,3,Detroit Lions,12,Denver Broncos,24,0,1,0
+2015-09-27,2015,3,Denver Broncos,24,Detroit Lions,12,1,0,0
+2015-09-28,2015,3,Green Bay Packers,38,Kansas City Chiefs,28,1,1,0
+2015-09-28,2015,3,Kansas City Chiefs,28,Green Bay Packers,38,0,0,0
+2015-10-01,2015,4,Pittsburgh Steelers,20,Baltimore Ravens,23,0,1,1
+2015-10-01,2015,4,Baltimore Ravens,23,Pittsburgh Steelers,20,1,0,1
+2015-10-04,2015,4,Miami Dolphins,14,New York Jets,27,0,1,0
+2015-10-04,2015,4,New York Jets,27,Miami Dolphins,14,1,0,0
+2015-10-04,2015,4,Buffalo Bills,10,New York Giants,24,0,1,0
+2015-10-04,2015,4,New York Giants,24,Buffalo Bills,10,1,0,0
+2015-10-04,2015,4,Atlanta Falcons,48,Houston Texans,21,1,1,0
+2015-10-04,2015,4,Houston Texans,21,Atlanta Falcons,48,0,0,0
+2015-10-04,2015,4,Indianapolis Colts,16,Jacksonville Jaguars,13,1,1,1
+2015-10-04,2015,4,Jacksonville Jaguars,13,Indianapolis Colts,16,0,0,1
+2015-10-04,2015,4,Chicago Bears,22,Oakland Raiders,20,1,1,0
+2015-10-04,2015,4,Oakland Raiders,20,Chicago Bears,22,0,0,0
+2015-10-04,2015,4,Washington Redskins,23,Philadelphia Eagles,20,1,1,0
+2015-10-04,2015,4,Philadelphia Eagles,20,Washington Redskins,23,0,0,0
+2015-10-04,2015,4,Tampa Bay Buccaneers,23,Carolina Panthers,37,0,1,0
+2015-10-04,2015,4,Carolina Panthers,37,Tampa Bay Buccaneers,23,1,0,0
+2015-10-04,2015,4,Cincinnati Bengals,36,Kansas City Chiefs,21,1,1,0
+2015-10-04,2015,4,Kansas City Chiefs,21,Cincinnati Bengals,36,0,0,0
+2015-10-04,2015,4,San Diego Chargers,30,Cleveland Browns,27,1,1,0
+2015-10-04,2015,4,Cleveland Browns,27,San Diego Chargers,30,0,0,0
+2015-10-04,2015,4,San Francisco 49ers,3,Green Bay Packers,17,0,1,0
+2015-10-04,2015,4,Green Bay Packers,17,San Francisco 49ers,3,1,0,0
+2015-10-04,2015,4,Denver Broncos,23,Minnesota Vikings,20,1,1,0
+2015-10-04,2015,4,Minnesota Vikings,20,Denver Broncos,23,0,0,0
+2015-10-04,2015,4,Arizona Cardinals,22,St. Louis Rams,24,0,1,0
+2015-10-04,2015,4,St. Louis Rams,24,Arizona Cardinals,22,1,0,0
+2015-10-04,2015,4,New Orleans Saints,26,Dallas Cowboys,20,1,1,1
+2015-10-04,2015,4,Dallas Cowboys,20,New Orleans Saints,26,0,0,1
+2015-10-05,2015,4,Seattle Seahawks,13,Detroit Lions,10,1,1,0
+2015-10-05,2015,4,Detroit Lions,10,Seattle Seahawks,13,0,0,0
+2015-10-08,2015,5,Houston Texans,20,Indianapolis Colts,27,0,1,0
+2015-10-08,2015,5,Indianapolis Colts,27,Houston Texans,20,1,0,0
+2015-10-11,2015,5,Atlanta Falcons,25,Washington Redskins,19,1,1,1
+2015-10-11,2015,5,Washington Redskins,19,Atlanta Falcons,25,0,0,1
+2015-10-11,2015,5,Tampa Bay Buccaneers,38,Jacksonville Jaguars,31,1,1,0
+2015-10-11,2015,5,Jacksonville Jaguars,31,Tampa Bay Buccaneers,38,0,0,0
+2015-10-11,2015,5,Baltimore Ravens,30,Cleveland Browns,33,0,1,1
+2015-10-11,2015,5,Cleveland Browns,33,Baltimore Ravens,30,1,0,1
+2015-10-11,2015,5,Kansas City Chiefs,17,Chicago Bears,18,0,1,0
+2015-10-11,2015,5,Chicago Bears,18,Kansas City Chiefs,17,1,0,0
+2015-10-11,2015,5,Green Bay Packers,24,St. Louis Rams,10,1,1,0
+2015-10-11,2015,5,St. Louis Rams,10,Green Bay Packers,24,0,0,0
+2015-10-11,2015,5,Cincinnati Bengals,27,Seattle Seahawks,24,1,1,1
+2015-10-11,2015,5,Seattle Seahawks,24,Cincinnati Bengals,27,0,0,1
+2015-10-11,2015,5,Tennessee Titans,13,Buffalo Bills,14,0,1,0
+2015-10-11,2015,5,Buffalo Bills,14,Tennessee Titans,13,1,0,0
+2015-10-11,2015,5,Philadelphia Eagles,39,New Orleans Saints,17,1,1,0
+2015-10-11,2015,5,New Orleans Saints,17,Philadelphia Eagles,39,0,0,0
+2015-10-11,2015,5,Detroit Lions,17,Arizona Cardinals,42,0,1,0
+2015-10-11,2015,5,Arizona Cardinals,42,Detroit Lions,17,1,0,0
+2015-10-11,2015,5,Oakland Raiders,10,Denver Broncos,16,0,1,0
+2015-10-11,2015,5,Denver Broncos,16,Oakland Raiders,10,1,0,0
+2015-10-11,2015,5,Dallas Cowboys,6,New England Patriots,30,0,1,0
+2015-10-11,2015,5,New England Patriots,30,Dallas Cowboys,6,1,0,0
+2015-10-11,2015,5,New York Giants,30,San Francisco 49ers,27,1,1,0
+2015-10-11,2015,5,San Francisco 49ers,27,New York Giants,30,0,0,0
+2015-10-12,2015,5,San Diego Chargers,20,Pittsburgh Steelers,24,0,1,0
+2015-10-12,2015,5,Pittsburgh Steelers,24,San Diego Chargers,20,1,0,0
+2015-10-15,2015,6,New Orleans Saints,31,Atlanta Falcons,21,1,1,0
+2015-10-15,2015,6,Atlanta Falcons,21,New Orleans Saints,31,0,0,0
+2015-10-18,2015,6,Cleveland Browns,23,Denver Broncos,26,0,1,1
+2015-10-18,2015,6,Denver Broncos,26,Cleveland Browns,23,1,0,1
+2015-10-18,2015,6,Buffalo Bills,21,Cincinnati Bengals,34,0,1,0
+2015-10-18,2015,6,Cincinnati Bengals,34,Buffalo Bills,21,1,0,0
+2015-10-18,2015,6,New York Jets,34,Washington Redskins,20,1,1,0
+2015-10-18,2015,6,Washington Redskins,20,New York Jets,34,0,0,0
+2015-10-18,2015,6,Minnesota Vikings,16,Kansas City Chiefs,10,1,1,0
+2015-10-18,2015,6,Kansas City Chiefs,10,Minnesota Vikings,16,0,0,0
+2015-10-18,2015,6,Jacksonville Jaguars,20,Houston Texans,31,0,1,0
+2015-10-18,2015,6,Houston Texans,31,Jacksonville Jaguars,20,1,0,0
+2015-10-18,2015,6,Detroit Lions,37,Chicago Bears,34,1,1,1
+2015-10-18,2015,6,Chicago Bears,34,Detroit Lions,37,0,0,1
+2015-10-18,2015,6,Tennessee Titans,10,Miami Dolphins,38,0,1,0
+2015-10-18,2015,6,Miami Dolphins,38,Tennessee Titans,10,1,0,0
+2015-10-18,2015,6,Pittsburgh Steelers,25,Arizona Cardinals,13,1,1,0
+2015-10-18,2015,6,Arizona Cardinals,13,Pittsburgh Steelers,25,0,0,0
+2015-10-18,2015,6,Seattle Seahawks,23,Carolina Panthers,27,0,1,0
+2015-10-18,2015,6,Carolina Panthers,27,Seattle Seahawks,23,1,0,0
+2015-10-18,2015,6,San Francisco 49ers,25,Baltimore Ravens,20,1,1,0
+2015-10-18,2015,6,Baltimore Ravens,20,San Francisco 49ers,25,0,0,0
+2015-10-18,2015,6,Green Bay Packers,27,San Diego Chargers,20,1,1,0
+2015-10-18,2015,6,San Diego Chargers,20,Green Bay Packers,27,0,0,0
+2015-10-18,2015,6,Indianapolis Colts,27,New England Patriots,34,0,1,0
+2015-10-18,2015,6,New England Patriots,34,Indianapolis Colts,27,1,0,0
+2015-10-19,2015,6,Philadelphia Eagles,27,New York Giants,7,1,1,0
+2015-10-19,2015,6,New York Giants,7,Philadelphia Eagles,27,0,0,0
+2015-10-22,2015,7,San Francisco 49ers,3,Seattle Seahawks,20,0,1,0
+2015-10-22,2015,7,Seattle Seahawks,20,San Francisco 49ers,3,1,0,0
+2015-10-25,2015,7,Jacksonville Jaguars,34,Buffalo Bills,31,1,1,0
+2015-10-25,2015,7,Buffalo Bills,31,Jacksonville Jaguars,34,0,0,0
+2015-10-25,2015,7,St. Louis Rams,24,Cleveland Browns,6,1,1,0
+2015-10-25,2015,7,Cleveland Browns,6,St. Louis Rams,24,0,0,0
+2015-10-25,2015,7,Tennessee Titans,7,Atlanta Falcons,10,0,1,0
+2015-10-25,2015,7,Atlanta Falcons,10,Tennessee Titans,7,1,0,0
+2015-10-25,2015,7,New England Patriots,30,New York Jets,23,1,1,0
+2015-10-25,2015,7,New York Jets,23,New England Patriots,30,0,0,0
+2015-10-25,2015,7,Miami Dolphins,44,Houston Texans,26,1,1,0
+2015-10-25,2015,7,Houston Texans,26,Miami Dolphins,44,0,0,0
+2015-10-25,2015,7,Detroit Lions,19,Minnesota Vikings,28,0,1,0
+2015-10-25,2015,7,Minnesota Vikings,28,Detroit Lions,19,1,0,0
+2015-10-25,2015,7,Indianapolis Colts,21,New Orleans Saints,27,0,1,0
+2015-10-25,2015,7,New Orleans Saints,27,Indianapolis Colts,21,1,0,0
+2015-10-25,2015,7,Kansas City Chiefs,23,Pittsburgh Steelers,13,1,1,0
+2015-10-25,2015,7,Pittsburgh Steelers,13,Kansas City Chiefs,23,0,0,0
+2015-10-25,2015,7,Washington Redskins,31,Tampa Bay Buccaneers,30,1,1,0
+2015-10-25,2015,7,Tampa Bay Buccaneers,30,Washington Redskins,31,0,0,0
+2015-10-25,2015,7,San Diego Chargers,29,Oakland Raiders,37,0,1,0
+2015-10-25,2015,7,Oakland Raiders,37,San Diego Chargers,29,1,0,0
+2015-10-25,2015,7,New York Giants,27,Dallas Cowboys,20,1,1,0
+2015-10-25,2015,7,Dallas Cowboys,20,New York Giants,27,0,0,0
+2015-10-25,2015,7,Carolina Panthers,27,Philadelphia Eagles,16,1,1,0
+2015-10-25,2015,7,Philadelphia Eagles,16,Carolina Panthers,27,0,0,0
+2015-10-26,2015,7,Arizona Cardinals,26,Baltimore Ravens,18,1,1,0
+2015-10-26,2015,7,Baltimore Ravens,18,Arizona Cardinals,26,0,0,0
+2015-10-29,2015,8,New England Patriots,36,Miami Dolphins,7,1,1,0
+2015-10-29,2015,8,Miami Dolphins,7,New England Patriots,36,0,0,0
+2015-11-01,2015,8,Kansas City Chiefs,45,Detroit Lions,10,1,1,0
+2015-11-01,2015,8,Detroit Lions,10,Kansas City Chiefs,45,0,0,0
+2015-11-01,2015,8,Chicago Bears,20,Minnesota Vikings,23,0,1,0
+2015-11-01,2015,8,Minnesota Vikings,23,Chicago Bears,20,1,0,0
+2015-11-01,2015,8,St. Louis Rams,27,San Francisco 49ers,6,1,1,0
+2015-11-01,2015,8,San Francisco 49ers,6,St. Louis Rams,27,0,0,0
+2015-11-01,2015,8,Atlanta Falcons,20,Tampa Bay Buccaneers,23,0,1,1
+2015-11-01,2015,8,Tampa Bay Buccaneers,23,Atlanta Falcons,20,1,0,1
+2015-11-01,2015,8,Baltimore Ravens,29,San Diego Chargers,26,1,1,0
+2015-11-01,2015,8,San Diego Chargers,26,Baltimore Ravens,29,0,0,0
+2015-11-01,2015,8,Pittsburgh Steelers,10,Cincinnati Bengals,16,0,1,0
+2015-11-01,2015,8,Cincinnati Bengals,16,Pittsburgh Steelers,10,1,0,0
+2015-11-01,2015,8,New Orleans Saints,52,New York Giants,49,1,1,0
+2015-11-01,2015,8,New York Giants,49,New Orleans Saints,52,0,0,0
+2015-11-01,2015,8,Houston Texans,20,Tennessee Titans,6,1,1,0
+2015-11-01,2015,8,Tennessee Titans,6,Houston Texans,20,0,0,0
+2015-11-01,2015,8,Cleveland Browns,20,Arizona Cardinals,34,0,1,0
+2015-11-01,2015,8,Arizona Cardinals,34,Cleveland Browns,20,1,0,0
+2015-11-01,2015,8,Oakland Raiders,34,New York Jets,20,1,1,0
+2015-11-01,2015,8,New York Jets,20,Oakland Raiders,34,0,0,0
+2015-11-01,2015,8,Dallas Cowboys,12,Seattle Seahawks,13,0,1,0
+2015-11-01,2015,8,Seattle Seahawks,13,Dallas Cowboys,12,1,0,0
+2015-11-01,2015,8,Denver Broncos,29,Green Bay Packers,10,1,1,0
+2015-11-01,2015,8,Green Bay Packers,10,Denver Broncos,29,0,0,0
+2015-11-02,2015,8,Carolina Panthers,29,Indianapolis Colts,26,1,1,1
+2015-11-02,2015,8,Indianapolis Colts,26,Carolina Panthers,29,0,0,1
+2015-11-05,2015,9,Cincinnati Bengals,31,Cleveland Browns,10,1,1,0
+2015-11-05,2015,9,Cleveland Browns,10,Cincinnati Bengals,31,0,0,0
+2015-11-08,2015,9,Buffalo Bills,33,Miami Dolphins,17,1,1,0
+2015-11-08,2015,9,Miami Dolphins,17,Buffalo Bills,33,0,0,0
+2015-11-08,2015,9,Pittsburgh Steelers,38,Oakland Raiders,35,1,1,0
+2015-11-08,2015,9,Oakland Raiders,35,Pittsburgh Steelers,38,0,0,0
+2015-11-08,2015,9,New York Jets,28,Jacksonville Jaguars,23,1,1,0
+2015-11-08,2015,9,Jacksonville Jaguars,23,New York Jets,28,0,0,0
+2015-11-08,2015,9,New England Patriots,27,Washington Redskins,10,1,1,0
+2015-11-08,2015,9,Washington Redskins,10,New England Patriots,27,0,0,0
+2015-11-08,2015,9,New Orleans Saints,28,Tennessee Titans,34,0,1,1
+2015-11-08,2015,9,Tennessee Titans,34,New Orleans Saints,28,1,0,1
+2015-11-08,2015,9,Minnesota Vikings,21,St. Louis Rams,18,1,1,1
+2015-11-08,2015,9,St. Louis Rams,18,Minnesota Vikings,21,0,0,1
+2015-11-08,2015,9,Carolina Panthers,37,Green Bay Packers,29,1,1,0
+2015-11-08,2015,9,Green Bay Packers,29,Carolina Panthers,37,0,0,0
+2015-11-08,2015,9,Tampa Bay Buccaneers,18,New York Giants,32,0,1,0
+2015-11-08,2015,9,New York Giants,32,Tampa Bay Buccaneers,18,1,0,0
+2015-11-08,2015,9,San Francisco 49ers,17,Atlanta Falcons,16,1,1,0
+2015-11-08,2015,9,Atlanta Falcons,16,San Francisco 49ers,17,0,0,0
+2015-11-08,2015,9,Indianapolis Colts,27,Denver Broncos,24,1,1,0
+2015-11-08,2015,9,Denver Broncos,24,Indianapolis Colts,27,0,0,0
+2015-11-08,2015,9,Dallas Cowboys,27,Philadelphia Eagles,33,0,1,1
+2015-11-08,2015,9,Philadelphia Eagles,33,Dallas Cowboys,27,1,0,1
+2015-11-09,2015,9,San Diego Chargers,19,Chicago Bears,22,0,1,0
+2015-11-09,2015,9,Chicago Bears,22,San Diego Chargers,19,1,0,0
+2015-11-12,2015,10,New York Jets,17,Buffalo Bills,22,0,1,0
+2015-11-12,2015,10,Buffalo Bills,22,New York Jets,17,1,0,0
+2015-11-15,2015,10,St. Louis Rams,13,Chicago Bears,37,0,1,0
+2015-11-15,2015,10,Chicago Bears,37,St. Louis Rams,13,1,0,0
+2015-11-15,2015,10,Tennessee Titans,10,Carolina Panthers,27,0,1,0
+2015-11-15,2015,10,Carolina Panthers,27,Tennessee Titans,10,1,0,0
+2015-11-15,2015,10,Green Bay Packers,16,Detroit Lions,18,0,1,0
+2015-11-15,2015,10,Detroit Lions,18,Green Bay Packers,16,1,0,0
+2015-11-15,2015,10,Pittsburgh Steelers,30,Cleveland Browns,9,1,1,0
+2015-11-15,2015,10,Cleveland Browns,9,Pittsburgh Steelers,30,0,0,0
+2015-11-15,2015,10,Washington Redskins,47,New Orleans Saints,14,1,1,0
+2015-11-15,2015,10,New Orleans Saints,14,Washington Redskins,47,0,0,0
+2015-11-15,2015,10,Tampa Bay Buccaneers,10,Dallas Cowboys,6,1,1,0
+2015-11-15,2015,10,Dallas Cowboys,6,Tampa Bay Buccaneers,10,0,0,0
+2015-11-15,2015,10,Baltimore Ravens,20,Jacksonville Jaguars,22,0,1,0
+2015-11-15,2015,10,Jacksonville Jaguars,22,Baltimore Ravens,20,1,0,0
+2015-11-15,2015,10,Philadelphia Eagles,19,Miami Dolphins,20,0,1,0
+2015-11-15,2015,10,Miami Dolphins,20,Philadelphia Eagles,19,1,0,0
+2015-11-15,2015,10,Oakland Raiders,14,Minnesota Vikings,30,0,1,0
+2015-11-15,2015,10,Minnesota Vikings,30,Oakland Raiders,14,1,0,0
+2015-11-15,2015,10,Denver Broncos,13,Kansas City Chiefs,29,0,1,0
+2015-11-15,2015,10,Kansas City Chiefs,29,Denver Broncos,13,1,0,0
+2015-11-15,2015,10,New York Giants,26,New England Patriots,27,0,1,0
+2015-11-15,2015,10,New England Patriots,27,New York Giants,26,1,0,0
+2015-11-15,2015,10,Seattle Seahawks,32,Arizona Cardinals,39,0,1,0
+2015-11-15,2015,10,Arizona Cardinals,39,Seattle Seahawks,32,1,0,0
+2015-11-16,2015,10,Cincinnati Bengals,6,Houston Texans,10,0,1,0
+2015-11-16,2015,10,Houston Texans,10,Cincinnati Bengals,6,1,0,0
+2015-11-19,2015,11,Jacksonville Jaguars,19,Tennessee Titans,13,1,1,0
+2015-11-19,2015,11,Tennessee Titans,13,Jacksonville Jaguars,19,0,0,0
+2015-11-22,2015,11,Carolina Panthers,44,Washington Redskins,16,1,1,0
+2015-11-22,2015,11,Washington Redskins,16,Carolina Panthers,44,0,0,0
+2015-11-22,2015,11,Atlanta Falcons,21,Indianapolis Colts,24,0,1,0
+2015-11-22,2015,11,Indianapolis Colts,24,Atlanta Falcons,21,1,0,0
+2015-11-22,2015,11,Baltimore Ravens,16,St. Louis Rams,13,1,1,0
+2015-11-22,2015,11,St. Louis Rams,13,Baltimore Ravens,16,0,0,0
+2015-11-22,2015,11,Philadelphia Eagles,17,Tampa Bay Buccaneers,45,0,1,0
+2015-11-22,2015,11,Tampa Bay Buccaneers,45,Philadelphia Eagles,17,1,0,0
+2015-11-22,2015,11,Detroit Lions,18,Oakland Raiders,13,1,1,0
+2015-11-22,2015,11,Oakland Raiders,13,Detroit Lions,18,0,0,0
+2015-11-22,2015,11,Chicago Bears,15,Denver Broncos,17,0,1,0
+2015-11-22,2015,11,Denver Broncos,17,Chicago Bears,15,1,0,0
+2015-11-22,2015,11,Miami Dolphins,14,Dallas Cowboys,24,0,1,0
+2015-11-22,2015,11,Dallas Cowboys,24,Miami Dolphins,14,1,0,0
+2015-11-22,2015,11,Houston Texans,24,New York Jets,17,1,1,0
+2015-11-22,2015,11,New York Jets,17,Houston Texans,24,0,0,0
+2015-11-22,2015,11,San Diego Chargers,3,Kansas City Chiefs,33,0,1,0
+2015-11-22,2015,11,Kansas City Chiefs,33,San Diego Chargers,3,1,0,0
+2015-11-22,2015,11,Minnesota Vikings,13,Green Bay Packers,30,0,1,0
+2015-11-22,2015,11,Green Bay Packers,30,Minnesota Vikings,13,1,0,0
+2015-11-22,2015,11,Seattle Seahawks,29,San Francisco 49ers,13,1,1,0
+2015-11-22,2015,11,San Francisco 49ers,13,Seattle Seahawks,29,0,0,0
+2015-11-22,2015,11,Arizona Cardinals,34,Cincinnati Bengals,31,1,1,0
+2015-11-22,2015,11,Cincinnati Bengals,31,Arizona Cardinals,34,0,0,0
+2015-11-23,2015,11,New England Patriots,20,Buffalo Bills,13,1,1,0
+2015-11-23,2015,11,Buffalo Bills,13,New England Patriots,20,0,0,0
+2015-11-26,2015,12,Detroit Lions,45,Philadelphia Eagles,14,1,1,0
+2015-11-26,2015,12,Philadelphia Eagles,14,Detroit Lions,45,0,0,0
+2015-11-26,2015,12,Dallas Cowboys,14,Carolina Panthers,33,0,1,0
+2015-11-26,2015,12,Carolina Panthers,33,Dallas Cowboys,14,1,0,0
+2015-11-26,2015,12,Green Bay Packers,13,Chicago Bears,17,0,1,0
+2015-11-26,2015,12,Chicago Bears,17,Green Bay Packers,13,1,0,0
+2015-11-29,2015,12,Tennessee Titans,21,Oakland Raiders,24,0,1,0
+2015-11-29,2015,12,Oakland Raiders,24,Tennessee Titans,21,1,0,0
+2015-11-29,2015,12,New York Jets,38,Miami Dolphins,20,1,1,0
+2015-11-29,2015,12,Miami Dolphins,20,New York Jets,38,0,0,0
+2015-11-29,2015,12,Houston Texans,24,New Orleans Saints,6,1,1,0
+2015-11-29,2015,12,New Orleans Saints,6,Houston Texans,24,0,0,0
+2015-11-29,2015,12,Indianapolis Colts,25,Tampa Bay Buccaneers,12,1,1,0
+2015-11-29,2015,12,Tampa Bay Buccaneers,12,Indianapolis Colts,25,0,0,0
+2015-11-29,2015,12,Cincinnati Bengals,31,St. Louis Rams,7,1,1,0
+2015-11-29,2015,12,St. Louis Rams,7,Cincinnati Bengals,31,0,0,0
+2015-11-29,2015,12,Atlanta Falcons,10,Minnesota Vikings,20,0,1,0
+2015-11-29,2015,12,Minnesota Vikings,20,Atlanta Falcons,10,1,0,0
+2015-11-29,2015,12,Washington Redskins,20,New York Giants,14,1,1,0
+2015-11-29,2015,12,New York Giants,14,Washington Redskins,20,0,0,0
+2015-11-29,2015,12,Kansas City Chiefs,30,Buffalo Bills,22,1,1,0
+2015-11-29,2015,12,Buffalo Bills,22,Kansas City Chiefs,30,0,0,0
+2015-11-29,2015,12,Jacksonville Jaguars,25,San Diego Chargers,31,0,1,0
+2015-11-29,2015,12,San Diego Chargers,31,Jacksonville Jaguars,25,1,0,0
+2015-11-29,2015,12,San Francisco 49ers,13,Arizona Cardinals,19,0,1,0
+2015-11-29,2015,12,Arizona Cardinals,19,San Francisco 49ers,13,1,0,0
+2015-11-29,2015,12,Seattle Seahawks,39,Pittsburgh Steelers,30,1,1,0
+2015-11-29,2015,12,Pittsburgh Steelers,30,Seattle Seahawks,39,0,0,0
+2015-11-29,2015,12,Denver Broncos,30,New England Patriots,24,1,1,1
+2015-11-29,2015,12,New England Patriots,24,Denver Broncos,30,0,0,1
+2015-11-30,2015,12,Cleveland Browns,27,Baltimore Ravens,33,0,1,0
+2015-11-30,2015,12,Baltimore Ravens,33,Cleveland Browns,27,1,0,0
+2015-12-03,2015,13,Detroit Lions,23,Green Bay Packers,27,0,1,0
+2015-12-03,2015,13,Green Bay Packers,27,Detroit Lions,23,1,0,0
+2015-12-06,2015,13,St. Louis Rams,3,Arizona Cardinals,27,0,1,0
+2015-12-06,2015,13,Arizona Cardinals,27,St. Louis Rams,3,1,0,0
+2015-12-06,2015,13,Chicago Bears,20,San Francisco 49ers,26,0,1,1
+2015-12-06,2015,13,San Francisco 49ers,26,Chicago Bears,20,1,0,1
+2015-12-06,2015,13,Buffalo Bills,30,Houston Texans,21,1,1,0
+2015-12-06,2015,13,Houston Texans,21,Buffalo Bills,30,0,0,0
+2015-12-06,2015,13,Tennessee Titans,42,Jacksonville Jaguars,39,1,1,0
+2015-12-06,2015,13,Jacksonville Jaguars,39,Tennessee Titans,42,0,0,0
+2015-12-06,2015,13,Minnesota Vikings,7,Seattle Seahawks,38,0,1,0
+2015-12-06,2015,13,Seattle Seahawks,38,Minnesota Vikings,7,1,0,0
+2015-12-06,2015,13,Tampa Bay Buccaneers,23,Atlanta Falcons,19,1,1,0
+2015-12-06,2015,13,Atlanta Falcons,19,Tampa Bay Buccaneers,23,0,0,0
+2015-12-06,2015,13,New York Giants,20,New York Jets,23,0,1,1
+2015-12-06,2015,13,New York Jets,23,New York Giants,20,1,0,1
+2015-12-06,2015,13,Miami Dolphins,15,Baltimore Ravens,13,1,1,0
+2015-12-06,2015,13,Baltimore Ravens,13,Miami Dolphins,15,0,0,0
+2015-12-06,2015,13,Cleveland Browns,3,Cincinnati Bengals,37,0,1,0
+2015-12-06,2015,13,Cincinnati Bengals,37,Cleveland Browns,3,1,0,0
+2015-12-06,2015,13,San Diego Chargers,3,Denver Broncos,17,0,1,0
+2015-12-06,2015,13,Denver Broncos,17,San Diego Chargers,3,1,0,0
+2015-12-06,2015,13,Oakland Raiders,20,Kansas City Chiefs,34,0,1,0
+2015-12-06,2015,13,Kansas City Chiefs,34,Oakland Raiders,20,1,0,0
+2015-12-06,2015,13,New England Patriots,28,Philadelphia Eagles,35,0,1,0
+2015-12-06,2015,13,Philadelphia Eagles,35,New England Patriots,28,1,0,0
+2015-12-06,2015,13,New Orleans Saints,38,Carolina Panthers,41,0,1,0
+2015-12-06,2015,13,Carolina Panthers,41,New Orleans Saints,38,1,0,0
+2015-12-06,2015,13,Pittsburgh Steelers,45,Indianapolis Colts,10,1,1,0
+2015-12-06,2015,13,Indianapolis Colts,10,Pittsburgh Steelers,45,0,0,0
+2015-12-07,2015,13,Washington Redskins,16,Dallas Cowboys,19,0,1,0
+2015-12-07,2015,13,Dallas Cowboys,19,Washington Redskins,16,1,0,0
+2015-12-10,2015,14,Arizona Cardinals,23,Minnesota Vikings,20,1,1,0
+2015-12-10,2015,14,Minnesota Vikings,20,Arizona Cardinals,23,0,0,0
+2015-12-13,2015,14,Philadelphia Eagles,23,Buffalo Bills,20,1,1,0
+2015-12-13,2015,14,Buffalo Bills,20,Philadelphia Eagles,23,0,0,0
+2015-12-13,2015,14,Chicago Bears,21,Washington Redskins,24,0,1,0
+2015-12-13,2015,14,Washington Redskins,24,Chicago Bears,21,1,0,0
+2015-12-13,2015,14,Tampa Bay Buccaneers,17,New Orleans Saints,24,0,1,0
+2015-12-13,2015,14,New Orleans Saints,24,Tampa Bay Buccaneers,17,1,0,0
+2015-12-13,2015,14,Baltimore Ravens,6,Seattle Seahawks,35,0,1,0
+2015-12-13,2015,14,Seattle Seahawks,35,Baltimore Ravens,6,1,0,0
+2015-12-13,2015,14,St. Louis Rams,21,Detroit Lions,14,1,1,0
+2015-12-13,2015,14,Detroit Lions,14,St. Louis Rams,21,0,0,0
+2015-12-13,2015,14,New York Jets,30,Tennessee Titans,8,1,1,0
+2015-12-13,2015,14,Tennessee Titans,8,New York Jets,30,0,0,0
+2015-12-13,2015,14,Jacksonville Jaguars,51,Indianapolis Colts,16,1,1,0
+2015-12-13,2015,14,Indianapolis Colts,16,Jacksonville Jaguars,51,0,0,0
+2015-12-13,2015,14,Cleveland Browns,24,San Francisco 49ers,10,1,1,0
+2015-12-13,2015,14,San Francisco 49ers,10,Cleveland Browns,24,0,0,0
+2015-12-13,2015,14,Cincinnati Bengals,20,Pittsburgh Steelers,33,0,1,0
+2015-12-13,2015,14,Pittsburgh Steelers,33,Cincinnati Bengals,20,1,0,0
+2015-12-13,2015,14,Carolina Panthers,38,Atlanta Falcons,0,1,1,0
+2015-12-13,2015,14,Atlanta Falcons,0,Carolina Panthers,38,0,0,0
+2015-12-13,2015,14,Kansas City Chiefs,10,San Diego Chargers,3,1,1,0
+2015-12-13,2015,14,San Diego Chargers,3,Kansas City Chiefs,10,0,0,0
+2015-12-13,2015,14,Denver Broncos,12,Oakland Raiders,15,0,1,0
+2015-12-13,2015,14,Oakland Raiders,15,Denver Broncos,12,1,0,0
+2015-12-13,2015,14,Green Bay Packers,28,Dallas Cowboys,7,1,1,0
+2015-12-13,2015,14,Dallas Cowboys,7,Green Bay Packers,28,0,0,0
+2015-12-13,2015,14,Houston Texans,6,New England Patriots,27,0,1,0
+2015-12-13,2015,14,New England Patriots,27,Houston Texans,6,1,0,0
+2015-12-14,2015,14,Miami Dolphins,24,New York Giants,31,0,1,0
+2015-12-14,2015,14,New York Giants,31,Miami Dolphins,24,1,0,0
+2015-12-17,2015,15,St. Louis Rams,31,Tampa Bay Buccaneers,23,1,1,0
+2015-12-17,2015,15,Tampa Bay Buccaneers,23,St. Louis Rams,31,0,0,0
+2015-12-19,2015,15,Dallas Cowboys,16,New York Jets,19,0,1,0
+2015-12-19,2015,15,New York Jets,19,Dallas Cowboys,16,1,0,0
+2015-12-20,2015,15,Indianapolis Colts,10,Houston Texans,16,0,1,0
+2015-12-20,2015,15,Houston Texans,16,Indianapolis Colts,10,1,0,0
+2015-12-20,2015,15,Baltimore Ravens,14,Kansas City Chiefs,34,0,1,0
+2015-12-20,2015,15,Kansas City Chiefs,34,Baltimore Ravens,14,1,0,0
+2015-12-20,2015,15,New York Giants,35,Carolina Panthers,38,0,1,0
+2015-12-20,2015,15,Carolina Panthers,38,New York Giants,35,1,0,0
+2015-12-20,2015,15,New England Patriots,33,Tennessee Titans,16,1,1,0
+2015-12-20,2015,15,Tennessee Titans,16,New England Patriots,33,0,0,0
+2015-12-20,2015,15,Minnesota Vikings,38,Chicago Bears,17,1,1,0
+2015-12-20,2015,15,Chicago Bears,17,Minnesota Vikings,38,0,0,0
+2015-12-20,2015,15,Jacksonville Jaguars,17,Atlanta Falcons,23,0,1,0
+2015-12-20,2015,15,Atlanta Falcons,23,Jacksonville Jaguars,17,1,0,0
+2015-12-20,2015,15,Washington Redskins,35,Buffalo Bills,25,1,1,0
+2015-12-20,2015,15,Buffalo Bills,25,Washington Redskins,35,0,0,0
+2015-12-20,2015,15,Oakland Raiders,20,Green Bay Packers,30,0,1,0
+2015-12-20,2015,15,Green Bay Packers,30,Oakland Raiders,20,1,0,0
+2015-12-20,2015,15,Seattle Seahawks,30,Cleveland Browns,13,1,1,0
+2015-12-20,2015,15,Cleveland Browns,13,Seattle Seahawks,30,0,0,0
+2015-12-20,2015,15,San Francisco 49ers,14,Cincinnati Bengals,24,0,1,0
+2015-12-20,2015,15,Cincinnati Bengals,24,San Francisco 49ers,14,1,0,0
+2015-12-20,2015,15,San Diego Chargers,30,Miami Dolphins,14,1,1,0
+2015-12-20,2015,15,Miami Dolphins,14,San Diego Chargers,30,0,0,0
+2015-12-20,2015,15,Pittsburgh Steelers,34,Denver Broncos,27,1,1,0
+2015-12-20,2015,15,Denver Broncos,27,Pittsburgh Steelers,34,0,0,0
+2015-12-20,2015,15,Philadelphia Eagles,17,Arizona Cardinals,40,0,1,0
+2015-12-20,2015,15,Arizona Cardinals,40,Philadelphia Eagles,17,1,0,0
+2015-12-21,2015,15,New Orleans Saints,27,Detroit Lions,35,0,1,0
+2015-12-21,2015,15,Detroit Lions,35,New Orleans Saints,27,1,0,0
+2015-12-24,2015,16,Oakland Raiders,23,San Diego Chargers,20,1,1,1
+2015-12-24,2015,16,San Diego Chargers,20,Oakland Raiders,23,0,0,1
+2015-12-26,2015,16,Philadelphia Eagles,24,Washington Redskins,38,0,1,0
+2015-12-26,2015,16,Washington Redskins,38,Philadelphia Eagles,24,1,0,0
+2015-12-27,2015,16,Atlanta Falcons,20,Carolina Panthers,13,1,1,0
+2015-12-27,2015,16,Carolina Panthers,13,Atlanta Falcons,20,0,0,0
+2015-12-27,2015,16,Baltimore Ravens,20,Pittsburgh Steelers,17,1,1,0
+2015-12-27,2015,16,Pittsburgh Steelers,17,Baltimore Ravens,20,0,0,0
+2015-12-27,2015,16,Tennessee Titans,6,Houston Texans,34,0,1,0
+2015-12-27,2015,16,Houston Texans,34,Tennessee Titans,6,1,0,0
+2015-12-27,2015,16,New York Jets,26,New England Patriots,20,1,1,1
+2015-12-27,2015,16,New England Patriots,20,New York Jets,26,0,0,1
+2015-12-27,2015,16,Miami Dolphins,12,Indianapolis Colts,18,0,1,0
+2015-12-27,2015,16,Indianapolis Colts,18,Miami Dolphins,12,1,0,0
+2015-12-27,2015,16,Buffalo Bills,16,Dallas Cowboys,6,1,1,0
+2015-12-27,2015,16,Dallas Cowboys,6,Buffalo Bills,16,0,0,0
+2015-12-27,2015,16,Tampa Bay Buccaneers,21,Chicago Bears,26,0,1,0
+2015-12-27,2015,16,Chicago Bears,26,Tampa Bay Buccaneers,21,1,0,0
+2015-12-27,2015,16,Kansas City Chiefs,17,Cleveland Browns,13,1,1,0
+2015-12-27,2015,16,Cleveland Browns,13,Kansas City Chiefs,17,0,0,0
+2015-12-27,2015,16,Detroit Lions,32,San Francisco 49ers,17,1,1,0
+2015-12-27,2015,16,San Francisco 49ers,17,Detroit Lions,32,0,0,0
+2015-12-27,2015,16,New Orleans Saints,38,Jacksonville Jaguars,27,1,1,0
+2015-12-27,2015,16,Jacksonville Jaguars,27,New Orleans Saints,38,0,0,0
+2015-12-27,2015,16,Arizona Cardinals,38,Green Bay Packers,8,1,1,0
+2015-12-27,2015,16,Green Bay Packers,8,Arizona Cardinals,38,0,0,0
+2015-12-27,2015,16,Seattle Seahawks,17,St. Louis Rams,23,0,1,0
+2015-12-27,2015,16,St. Louis Rams,23,Seattle Seahawks,17,1,0,0
+2015-12-27,2015,16,Minnesota Vikings,49,New York Giants,17,1,1,0
+2015-12-27,2015,16,New York Giants,17,Minnesota Vikings,49,0,0,0
+2015-12-28,2015,16,Denver Broncos,20,Cincinnati Bengals,17,1,1,1
+2015-12-28,2015,16,Cincinnati Bengals,17,Denver Broncos,20,0,0,1
+2016-01-03,2015,17,Buffalo Bills,22,New York Jets,17,1,1,0
+2016-01-03,2015,17,New York Jets,17,Buffalo Bills,22,0,0,0
+2016-01-03,2015,17,Atlanta Falcons,17,New Orleans Saints,20,0,1,0
+2016-01-03,2015,17,New Orleans Saints,20,Atlanta Falcons,17,1,0,0
+2016-01-03,2015,17,Miami Dolphins,20,New England Patriots,10,1,1,0
+2016-01-03,2015,17,New England Patriots,10,Miami Dolphins,20,0,0,0
+2016-01-03,2015,17,Houston Texans,30,Jacksonville Jaguars,6,1,1,0
+2016-01-03,2015,17,Jacksonville Jaguars,6,Houston Texans,30,0,0,0
+2016-01-03,2015,17,Indianapolis Colts,30,Tennessee Titans,24,1,1,0
+2016-01-03,2015,17,Tennessee Titans,24,Indianapolis Colts,30,0,0,0
+2016-01-03,2015,17,Cleveland Browns,12,Pittsburgh Steelers,28,0,1,0
+2016-01-03,2015,17,Pittsburgh Steelers,28,Cleveland Browns,12,1,0,0
+2016-01-03,2015,17,Cincinnati Bengals,24,Baltimore Ravens,16,1,1,0
+2016-01-03,2015,17,Baltimore Ravens,16,Cincinnati Bengals,24,0,0,0
+2016-01-03,2015,17,Chicago Bears,20,Detroit Lions,24,0,1,0
+2016-01-03,2015,17,Detroit Lions,24,Chicago Bears,20,1,0,0
+2016-01-03,2015,17,New York Giants,30,Philadelphia Eagles,35,0,1,0
+2016-01-03,2015,17,Philadelphia Eagles,35,New York Giants,30,1,0,0
+2016-01-03,2015,17,Dallas Cowboys,23,Washington Redskins,34,0,1,0
+2016-01-03,2015,17,Washington Redskins,34,Dallas Cowboys,23,1,0,0
+2016-01-03,2015,17,Carolina Panthers,38,Tampa Bay Buccaneers,10,1,1,0
+2016-01-03,2015,17,Tampa Bay Buccaneers,10,Carolina Panthers,38,0,0,0
+2016-01-03,2015,17,San Francisco 49ers,19,St. Louis Rams,16,1,1,1
+2016-01-03,2015,17,St. Louis Rams,16,San Francisco 49ers,19,0,0,1
+2016-01-03,2015,17,Denver Broncos,27,San Diego Chargers,20,1,1,0
+2016-01-03,2015,17,San Diego Chargers,20,Denver Broncos,27,0,0,0
+2016-01-03,2015,17,Arizona Cardinals,6,Seattle Seahawks,36,0,1,0
+2016-01-03,2015,17,Seattle Seahawks,36,Arizona Cardinals,6,1,0,0
+2016-01-03,2015,17,Kansas City Chiefs,23,Oakland Raiders,17,1,1,0
+2016-01-03,2015,17,Oakland Raiders,17,Kansas City Chiefs,23,0,0,0
+2016-01-03,2015,17,Green Bay Packers,13,Minnesota Vikings,20,0,1,0
+2016-01-03,2015,17,Minnesota Vikings,20,Green Bay Packers,13,1,0,0
