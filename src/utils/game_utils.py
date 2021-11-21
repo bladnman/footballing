@@ -294,7 +294,7 @@ TEAM_NAME = {
     'Raiders': 'Oakland Raiders',
     'Eagles': 'Philadelphia Eagles',
     'Steelers': 'Pittsburgh Steelers',
-    'Chargers': 'San Diego Chargers',
+    'SDChargers': 'San Diego Chargers',
     '49ers': 'San Francisco 49ers',
     'Seahawks': 'Seattle Seahawks',
     'StlRams': 'St. Louis Rams',
