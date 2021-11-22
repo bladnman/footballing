@@ -113,7 +113,10 @@ def get_new_field_roots():
         
     'points_cml_before',         'points_cml_after',
     'rush_yards_cml_before',     'pass_yards_cml_before',      'total_yards_cml_before',
-    'rush_yards_cml_after',      'pass_yards_cml_after',       'total_yards_cml_after',]
+    'rush_yards_cml_after',      'pass_yards_cml_after',       'total_yards_cml_after',
+    
+    'opp_trn',
+    ]
 
 def get_both_fields_list(field_roots):
   final_fields = []
@@ -130,17 +133,18 @@ def get_df_with_new_columns(all_games_df):
   return agp_df
   
 ## MAIN WORKER
-def get_df_with_aggregates(index, all_games_df, side='team'):
+# def update_df_with_aggregates(game_df, all_games_df, side='team'):
+def update_df_with_aggregates(index, all_games_df, side='team'):
     SIDE = side # can be opponent
     OTHER_SIDE = 'opponent' if SIDE == 'team' else 'team'
     WEEK_1_TRN = 0.5
+    
     game_df = all_games_df.iloc[index]
+    
     year = int(game_df['year'])
     week = int(game_df['week'])
     team = game_df[SIDE]
     opp_team = game_df[OTHER_SIDE]
-
-    print(f'[{index}:{side}] {team} v {opp_team}')
 
     previous_df = get_previous_record(year, week, team, all_games_df)
     this_prev = data_from_previous_records(year, week, team, all_games_df, include_last_record=False)
@@ -165,7 +169,6 @@ def get_df_with_aggregates(index, all_games_df, side='team'):
     pass_yards_cml_after = 0
     total_yards_cml_after = 0
 
-    # todo: still need to handle these (before and after?)
     record_total_before = 0
     record_total_after = 0
     record_normal_before = 0
@@ -401,6 +404,7 @@ def get_df_with_aggregates(index, all_games_df, side='team'):
     record_normal_after = get_normalized(record_total_after, week * -1, week)
 
     ## WRITE THE RECORD
+    # game_df[[
     all_games_df.at[index, [
         f'{SIDE}_tie',                        f'{SIDE}_loss',
         f'{SIDE}_wins_before',                f'{SIDE}_wins_after',
@@ -454,10 +458,14 @@ def get_df_with_aggregates(index, all_games_df, side='team'):
         float(cml_comb_off_perf_after),    float(cml_comb_def_perf_after),    float(cml_comb_comp_perf_after),
     ]
 
-    return all_games_df.iloc[index]
+    return game_df
 
 ## CALLED INTERFACE  
 def create_year_file(year, data_path='../../data'):
+  
+  # pd.set_option('mode.chained_assignment', None) # we know we're about to violate chain assignment updates
+                                                  # remove in DEV mode!
+                                                  
   all_games_df = pd.read_csv(f'{data_path}/games/all_games_with_data.csv')
   
   if year is None:
@@ -465,13 +473,17 @@ def create_year_file(year, data_path='../../data'):
     return
   
   work_df = get_year_df(year, all_games_df)
-  work_df = get_df_with_new_columns(work_df)
-  work_df.reset_index()
+  work_df = get_df_with_new_columns(work_df).copy()
   
   ## work each index in our sample
-  for i in np.arange(0, len(work_df)):
-      get_df_with_aggregates(i, work_df, side='team')
-      get_df_with_aggregates(i, work_df, side='opponent')
+  total_count = len(work_df.index.values)
+  for index in np.arange(0, total_count):
+      # game_df = work_df.iloc[index]
+      # update_df_with_aggregates(game_df, work_df, side='team')
+      # update_df_with_aggregates(game_df, work_df, side='opponent')
+      update_df_with_aggregates(index, work_df, side='team')
+      update_df_with_aggregates(index, work_df, side='opponent')
+      print(f'{(index / total_count)* 100:.2f} %')
 
   ## PATCH TO NUMERIC
   # new_field_list = get_both_fields_list(get_new_field_roots())
