@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+import glob
+import re
 
 def get_previous_record(year, week, team, all_games_df):
     records = all_games_df[(all_games_df['year'] == year)
@@ -404,68 +406,75 @@ def update_df_with_aggregates(index, all_games_df, side='team'):
     record_normal_after = get_normalized(record_total_after, week * -1, week)
 
     ## WRITE THE RECORD
-    # game_df[[
-    all_games_df.at[index, [
-        f'{SIDE}_tie',                        f'{SIDE}_loss',
-        f'{SIDE}_wins_before',                f'{SIDE}_wins_after',
-        f'{SIDE}_losses_before',              f'{SIDE}_losses_after',
-        f'{SIDE}_ties_before',                f'{SIDE}_ties_after',
-        f'{SIDE}_record_total_before',        f'{SIDE}_record_total_after',
-        f'{SIDE}_record_normal_before',       f'{SIDE}_record_normal_after',
-        f'{SIDE}_opp_strength_before',        f'{SIDE}_opp_strength_after',
-        f'{SIDE}_opp_trn_before',             f'{SIDE}_opp_trn_after',
-        f'{SIDE}_opp_trn',
-        f'{SIDE}_week_rush_off_perf',         f'{SIDE}_week_rush_def_perf',        f'{SIDE}_week_rush_comp_perf',
-        f'{SIDE}_week_pass_off_perf',         f'{SIDE}_week_pass_def_perf',        f'{SIDE}_week_pass_comp_perf',
-        f'{SIDE}_week_comb_off_perf',         f'{SIDE}_week_comb_def_perf',        f'{SIDE}_week_comb_comp_perf',
-        
-        f'{SIDE}_points_cml_before',          f'{SIDE}_points_cml_after',
-        f'{SIDE}_rush_yards_cml_before',      f'{SIDE}_pass_yards_cml_before',     f'{SIDE}_total_yards_cml_before',
-        f'{SIDE}_rush_yards_cml_after',       f'{SIDE}_pass_yards_cml_after',      f'{SIDE}_total_yards_cml_after',
-        
-        f'{SIDE}_cml_rush_off_perf_before',    f'{SIDE}_cml_rush_def_perf_before',    f'{SIDE}_cml_rush_comp_perf_before',
-        f'{SIDE}_cml_pass_off_perf_before',    f'{SIDE}_cml_pass_def_perf_before',    f'{SIDE}_cml_pass_comp_perf_before',
-        f'{SIDE}_cml_comb_off_perf_before',    f'{SIDE}_cml_comb_def_perf_before',    f'{SIDE}_cml_comb_comp_perf_before',
+    col_arr = all_games_df.columns.values
+    def update_df(col_name, value):
+      ''' 
+      heavily using globals! warned
+      
+      Had big problems updating with `at` and arrays so
+      moved to looking up the position of the field in the
+      column list and using iloc[row_idx,col_idx] to do updates
+      '''
+      col_idx = np.argmax(col_arr == col_name)
+      all_games_df.iloc[[index],[col_idx]] = value
     
-        f'{SIDE}_cml_rush_off_perf_after',    f'{SIDE}_cml_rush_def_perf_after',    f'{SIDE}_cml_rush_comp_perf_after',
-        f'{SIDE}_cml_pass_off_perf_after',    f'{SIDE}_cml_pass_def_perf_after',    f'{SIDE}_cml_pass_comp_perf_after',
-        f'{SIDE}_cml_comb_off_perf_after',    f'{SIDE}_cml_comb_def_perf_after',    f'{SIDE}_cml_comb_comp_perf_after',
-                
-    ]] = [
-        (1 if tie else 0),                (1 if loss else 0),
-        int(wins_before),                 int(wins_after), 
-        int(losses_before),               int(losses_after), 
-        int(ties_before),                 int(ties_after), 
-        int(record_total_before),         int(record_total_after),
-        float(record_normal_before),      float(record_normal_after), 
-        float(opp_strength_before),       float(opp_strength_after), 
-        float(opp_trn_before),            float(opp_trn_after), 
-        float(opp_trn),
-        float(week_rush_off_perf),        float(week_rush_def_perf),        float(week_rush_comp_perf),
-        float(week_pass_off_perf),        float(week_pass_def_perf),        float(week_pass_comp_perf),
-        float(week_comb_off_perf),        float(week_comb_def_perf),        float(week_comb_comp_perf),
-        
-        int(points_cml_before),           int(points_cml_after),
-        int(rush_yards_cml_before),       int(pass_yards_cml_before),        int(total_yards_cml_before),
-        int(rush_yards_cml_after),        int(pass_yards_cml_after),         int(total_yards_cml_after ),
-        
-        float(cml_rush_off_perf_before),    float(cml_rush_def_perf_before),    float(cml_rush_comp_perf_before),
-        float(cml_pass_off_perf_before),    float(cml_pass_def_perf_before),    float(cml_pass_comp_perf_before),
-        float(cml_comb_off_perf_before),    float(cml_comb_def_perf_before),    float(cml_comb_comp_perf_before),
+    update_df(f'{SIDE}_tie', (1 if tie else 0))
+    update_df(f'{SIDE}_loss', (1 if loss else 0))
+    update_df(f'{SIDE}_opp_trn', float(opp_trn))
+    update_df(f'{SIDE}_wins_before',int(wins_before))
+    update_df(f'{SIDE}_wins_after', int(wins_after))
+    update_df(f'{SIDE}_losses_before', int(losses_before))
+    update_df(f'{SIDE}_losses_after', int(losses_after))
+    update_df(f'{SIDE}_ties_before',int(ties_before))
+    update_df(f'{SIDE}_ties_after', int(ties_after))
+    update_df(f'{SIDE}_record_total_before', int(record_total_before))
+    update_df(f'{SIDE}_record_total_after', int(record_total_after))
+    update_df(f'{SIDE}_record_normal_before', float(record_normal_before))
+    update_df(f'{SIDE}_record_normal_after', float(record_normal_after))
+    update_df(f'{SIDE}_opp_strength_before', float(opp_strength_before))
+    update_df(f'{SIDE}_opp_strength_after', float(opp_strength_after))
+    update_df(f'{SIDE}_opp_trn_before', float(opp_trn_before))
+    update_df(f'{SIDE}_opp_trn_after', float(opp_trn_after))
+    update_df(f'{SIDE}_points_cml_before', int(points_cml_before))
+    update_df(f'{SIDE}_points_cml_after', int(points_cml_after))
+    update_df(f'{SIDE}_week_rush_off_perf', float(week_rush_off_perf))
+    update_df(f'{SIDE}_week_rush_def_perf', float(week_rush_def_perf))
+    update_df(f'{SIDE}_week_rush_comp_perf', float(week_rush_comp_perf))
+    update_df(f'{SIDE}_week_pass_off_perf', float(week_pass_off_perf))
+    update_df(f'{SIDE}_week_pass_def_perf', float(week_pass_def_perf))
+    update_df(f'{SIDE}_week_pass_comp_perf', float(week_pass_comp_perf))
+    update_df(f'{SIDE}_week_comb_off_perf', float(week_comb_off_perf))
+    update_df(f'{SIDE}_week_comb_def_perf', float(week_comb_def_perf))
+    update_df(f'{SIDE}_week_comb_comp_perf', float(week_comb_comp_perf))
+    update_df(f'{SIDE}_rush_yards_cml_before', int(rush_yards_cml_before))
+    update_df(f'{SIDE}_pass_yards_cml_before', int(pass_yards_cml_before))
+    update_df(f'{SIDE}_total_yards_cml_before', int(total_yards_cml_before))
+    update_df(f'{SIDE}_rush_yards_cml_after', int(rush_yards_cml_after))
+    update_df(f'{SIDE}_pass_yards_cml_after', int(pass_yards_cml_after))
+    update_df(f'{SIDE}_total_yards_cml_after', int(total_yards_cml_after))
+    update_df(f'{SIDE}_cml_rush_off_perf_before', float(cml_rush_off_perf_before))
+    update_df(f'{SIDE}_cml_rush_def_perf_before', float(cml_rush_def_perf_before))
+    update_df(f'{SIDE}_cml_rush_comp_perf_before', float(cml_rush_comp_perf_before))
+    update_df(f'{SIDE}_cml_pass_off_perf_before', float(cml_pass_off_perf_before))
+    update_df(f'{SIDE}_cml_pass_def_perf_before', float(cml_pass_def_perf_before))
+    update_df(f'{SIDE}_cml_pass_comp_perf_before', float(cml_pass_comp_perf_before))
+    update_df(f'{SIDE}_cml_comb_off_perf_before', float(cml_comb_off_perf_before))
+    update_df(f'{SIDE}_cml_comb_def_perf_before', float(cml_comb_def_perf_before))
+    update_df(f'{SIDE}_cml_comb_comp_perf_before', float(cml_comb_comp_perf_before))
+    update_df(f'{SIDE}_cml_rush_off_perf_after', float(cml_rush_off_perf_after))
+    update_df(f'{SIDE}_cml_rush_def_perf_after', float(cml_rush_def_perf_after))
+    update_df(f'{SIDE}_cml_rush_comp_perf_after', float(cml_rush_comp_perf_after))
+    update_df(f'{SIDE}_cml_pass_off_perf_after', float(cml_pass_off_perf_after))
+    update_df(f'{SIDE}_cml_pass_def_perf_after', float(cml_pass_def_perf_after))
+    update_df(f'{SIDE}_cml_pass_comp_perf_after', float(cml_pass_comp_perf_after))
+    update_df(f'{SIDE}_cml_comb_off_perf_after', float(cml_comb_off_perf_after))
+    update_df(f'{SIDE}_cml_comb_def_perf_after', float(cml_comb_def_perf_after))
+    update_df(f'{SIDE}_cml_comb_comp_perf_after', float(cml_comb_comp_perf_after))
     
-        float(cml_rush_off_perf_after),    float(cml_rush_def_perf_after),    float(cml_rush_comp_perf_after),
-        float(cml_pass_off_perf_after),    float(cml_pass_def_perf_after),    float(cml_pass_comp_perf_after),
-        float(cml_comb_off_perf_after),    float(cml_comb_def_perf_after),    float(cml_comb_comp_perf_after),
-    ]
-
     return game_df
 
 ## CALLED INTERFACE  
 def create_year_file(year, data_path='../../data'):
-  
-  # pd.set_option('mode.chained_assignment', None) # we know we're about to violate chain assignment updates
-                                                  # remove in DEV mode!
-                                                  
   all_games_df = pd.read_csv(f'{data_path}/games/all_games_with_data.csv')
   
   if year is None:
@@ -473,17 +482,20 @@ def create_year_file(year, data_path='../../data'):
     return
   
   work_df = get_year_df(year, all_games_df)
+  # work_df = work_df[work_df['week'] == 7]
   work_df = get_df_with_new_columns(work_df).copy()
+  work_df.reset_index()
   
   ## work each index in our sample
   total_count = len(work_df.index.values)
+  last_perc_string = None
   for index in np.arange(0, total_count):
-      # game_df = work_df.iloc[index]
-      # update_df_with_aggregates(game_df, work_df, side='team')
-      # update_df_with_aggregates(game_df, work_df, side='opponent')
       update_df_with_aggregates(index, work_df, side='team')
       update_df_with_aggregates(index, work_df, side='opponent')
-      print(f'{(index / total_count)* 100:.2f} %')
+      perc_str = f'{(index / total_count)* 100:.0f} %'
+      if perc_str != last_perc_string:
+        last_perc_string = perc_str
+        print(perc_str)
 
   ## PATCH TO NUMERIC
   # new_field_list = get_both_fields_list(get_new_field_roots())
@@ -492,29 +504,8 @@ def create_year_file(year, data_path='../../data'):
 
   return work_df
 
-## CALLED INTERFACE  
-def create_all_games_with_data_and_agg(year=None, data_path='../../data'):
-  df = pd.read_csv(f'{data_path}/games/all_games_with_data.csv')
-  ## all games with new columns
-  agp_df = get_df_with_new_columns(df)
-  
-  # define sample to work with (or all)
-  samp_df = agp_df
-  if year is not None:
-    samp_df = get_year_df(year, agp_df)
-
-  ## work each index in our sample
-  for index in samp_df.index:
-      get_df_with_aggregates(index, agp_df, side='team')
-      get_df_with_aggregates(index, agp_df, side='opponent')
-
-  ## PATCH TO NUMERIC
-  new_field_list = get_both_fields_list(get_new_field_roots())
-  agp_df[new_field_list] = agp_df[new_field_list].apply(pd.to_numeric)
-  agp_df.to_csv(f'{data_path}/games/all_games_with_data_and_agg.csv', index=False)
-
-  return agp_df
-
 ## TEMP DEV RUNS
-# create_all_games_with_data_and_agg('./data')
-create_year_file(2020, './data')
+# data_path='./data'
+# create_all_games_with_data_and_agg(data_path)
+# create_year_file(2020, data_path)
+
