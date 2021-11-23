@@ -1,3 +1,5 @@
+import pandas as pd
+
 def get_weathers(weather_str):
     ''' 
     Given a weather string will return the following
@@ -28,7 +30,6 @@ def get_weathers(weather_str):
     weather_parts = weather_str.split(', ')
     temperature, wind_speed, humidity = weather_pieces(weather_parts)
     return (temperature, wind_speed, humidity)
-
 
 def get_is_indoors(weather_str):
     ''' 
@@ -61,7 +62,6 @@ def get_is_indoors(weather_str):
     temperature, wind_speed, humidity = weather_pieces(weather_parts)
     return (temperature, wind_speed, humidity)
 
-
 def get_game_filename(game):
     '''
     Given a game df (series) this function will return
@@ -71,7 +71,6 @@ def get_game_filename(game):
     (y, month, day) = game['date'].split('-')
     team_name = game['team'] if game['home'] == 1 else game['opponent']
     return f"{y}{month}{day}0{TEAM_DICT[team_name]}"
-
 
 def get_stat_value(stat_df, field):
     '''
@@ -84,7 +83,6 @@ def get_stat_value(stat_df, field):
         return stat_df.loc[field]['value']
     except:
         return None
-
 
 def get_game_with_info(game_df, info_df):
     '''
@@ -108,7 +106,6 @@ def get_game_with_info(game_df, info_df):
 
     return game_df
 
-
 def get_game_teams(game):
     '''
     given a game will return (home,away)
@@ -117,7 +114,6 @@ def get_game_teams(game):
         return (game['team'], game['opponent'])
     else:
         return (game['opponent'], game['team'])
-
 
 def add_stats_to_game(game_df, stats_df, field_prefix, is_home):
     index_key = 'home' if is_home == True else 'away'
@@ -190,7 +186,6 @@ def add_stats_to_game(game_df, stats_df, field_prefix, is_home):
     game_df[f'{field_prefix}_fourth_down_ratio'] = get_ratio(
         fourth_down_conversions, fourth_down_count)
 
-
 def get_game_with_stats(game_df, stats_df):
     '''
   Given a game_df and stats_df
@@ -208,6 +203,24 @@ def get_game_with_stats(game_df, stats_df):
                       is_home=game_copy_df['home'] == False)
     return game_copy_df
 
+def get_team_name(team):
+  team_name = team
+        
+  # if there are no spaces, they sent us a nickname
+  if team_name.count(' ') < 1:
+    team_name = TEAM_NAME[team_name]
+  
+  return team_name
+
+def get_nfl_df(data_path = '../../data'):
+  return pd.read_csv(f'{data_path}/nfl.csv')
+
+def get_year(df, year):
+  return df[df['year'] == year]
+
+def get_team(df, team):
+  team_name = get_team_name(team)
+  return df[df['team'] == team_name]
 
 STAT_FIELDS = {
     'TOSS': 'Won Toss',
@@ -306,3 +319,31 @@ TEAM_NAME = {
     'Redskins': 'Washington Redskins',
     'Washington': 'Washington Redskins'
 }
+
+
+
+class NFL_Data:
+  data_path = '../../data'
+  nfl_df = None
+    
+  def __init__(self, data_path = '../../data'):
+    self.data_path = data_path
+    self.nfl_df = get_nfl_df(data_path)
+
+  def data(self):
+    return self.nfl_df
+  
+  def data_by_team(self):
+    return self.nfl_df
+  
+  def data_by_game(self):
+    return self.nfl_df[self.nfl_df['home'] == 1]
+    
+  def year(self, year):
+    return get_year(self.nfl_df, year)
+    
+  def team(self, team):
+    return get_team(self.nfl_df, team)
+
+  def team_year(self, team, year):
+    return get_team(self.year(year), team)

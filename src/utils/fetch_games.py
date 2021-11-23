@@ -99,6 +99,28 @@ def fetch_and_write_year(year, data_path='../../data'):
     year_df = get_games_df_for_year(year)
     year_df.to_csv(f'{data_path}/games/games_{year}.csv', index=False)
 
+### MAIN INTERFACE
+def fetch_and_write_years(years, data_path='../../data'):
+    # make a single an array
+    if type(years) == str or type(years) == int:
+      years = [years]
+      
+    if years is None or len(years) < 1:
+      print('must include year(s) to work. Failed.')
+      return
+  
+    ## work each year into a file
+    for year in years:
+      print(f'Processing Year : {year}   -- -- -- -- -- --')
+      year_df = get_games_df_for_year(year)
+      year_df.to_csv(f'{data_path}/games/games_{year}.csv', index=False)
+    
+    ## create the final single file
+    print('Writing final all games file')
+    build_all_game_files(data_path)
+    
+    print("Done fetching games.")
+
 
 def build_all_game_files(data_path='../../data'):
     # gather all file paths

@@ -473,20 +473,39 @@ def update_df_with_aggregates(index, all_games_df, side='team'):
     
     return game_df
 
-## CALLED INTERFACE  
-def create_year_file(year, data_path='../../data'):
-  all_games_df = pd.read_csv(f'{data_path}/games/all_games_with_data.csv')
+
+def create_final_file_from_year_files(data_path='../../data'):
+  file_paths = glob.glob(f"{data_path}/games/all_with_agg_*.csv")
+  file_paths.sort()
+  file_paths
   
+  all_games_df_list = []
+  for file_path in file_paths:
+      year_df = pd.read_csv(file_path)
+      all_games_df_list.append(year_df)
+
+  all_games_df = pd.concat(all_games_df_list, ignore_index=True)
+  all_games_df.to_csv(f'{data_path}/games/all_games_with_data_and_agg.csv', index=False)
+  home_df = all_games_df[all_games_df['home'] == 1]
+  
+  all_games_df.to_csv(f'{data_path}/nfl.csv', index=False)
+  home_df.to_csv(f'{data_path}/nfl_home.csv', index=False)
+
+  
+### CALLED INTERFACE  
+def create_single_year_file(year, data_path='../../data'):
+  all_games_df = pd.read_csv(f'{data_path}/games/all_games_with_data.csv')
+    
   if year is None:
     print('must include year to work. failed')
     return
-  
+    
   work_df = get_year_df(year, all_games_df)
   # work_df = work_df[work_df['week'] == 7]
   work_df = get_df_with_new_columns(work_df).copy()
   work_df.reset_index()
-  
-  ## work each index in our sample
+    
+  ## Work each index in our sample
   total_count = len(work_df.index.values)
   last_perc_string = None
   for index in np.arange(0, total_count):
@@ -503,6 +522,28 @@ def create_year_file(year, data_path='../../data'):
   work_df.to_csv(f'{data_path}/games/all_with_agg_{year}.csv', index=False)
 
   return work_df
+
+
+
+###  MAIN  :  CALLED INTERFACE  
+def create_year_files(years, data_path='../../data'):
+  
+  # make a single an array
+  if type(years) == str or type(years) == int:
+    years = [years]
+  
+  if years is None or len(years) < 1:
+    print('must include year to work. failed')
+    return
+  
+  ## work each year into a file
+  for year in years:
+    print(f'Processing Year : {year}   -- -- -- -- -- --')
+    create_single_year_file(year, data_path)
+
+  ## write the final files
+  create_final_file_from_year_files(data_path)
+
 
 ## TEMP DEV RUNS
 # data_path='./data'
