@@ -218,6 +218,9 @@ def get_nfl_df(data_path = '../../data'):
 def get_year(df, year):
   return df[df['year'] == year]
 
+def get_year_week(df, year, week):
+  return df[(df['year'] == year) & (df['week'] == week)]
+
 def get_team(df, team):
   team_name = get_team_name(team)
   return df[df['team'] == team_name]
