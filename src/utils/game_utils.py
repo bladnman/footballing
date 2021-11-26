@@ -225,6 +225,21 @@ def get_team(df, team):
   team_name = get_team_name(team)
   return df[df['team'] == team_name]
 
+def get_wins_with_more_in_field(df, field):
+  '''
+  Given a game dataframe this function will determine how many wins
+  happened by the team with more in the field provided.
+    
+  Returns a tuple:
+  (percentage, number of wins)
+  '''
+  wins_with_more = len(df[(
+      (df['win'] == 1)&(df[f'team_{field}'] > df[f'opponent_{field}']) |
+      (df['win'] == 0)&(df[f'team_{field}'] <= df[f'opponent_{field}'])
+    )])
+  return (wins_with_more / len(df) * 100, wins_with_more)
+
+
 STAT_FIELDS = {
     'TOSS': 'Won Toss',
     'ROOF': 'Roof',
