@@ -57,7 +57,6 @@ def estimate_accuracy(X, y, type='standard'):
   else:
     model = SVC()
     model.fit(X_train, y_train)
-    print(model.C)
     
   # now predict
   y_pred = model.predict(X_test)
@@ -100,6 +99,7 @@ data['passing'] = try_fields('pass_yards')
 # data['total'] = try_fields('total_yards')
 data['total (static)'] = try_fields('total_yards', 'static')
 # data['total (CV)'] = try_fields('total_yards', 'search')
+data['rush count (CV)'] = try_fields('rush_count', 'search')
 
 # convert values to arrays
 for item in data: data[item] = [data[item]]

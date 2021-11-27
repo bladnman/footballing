@@ -73,6 +73,7 @@ plt.title('Most Accumulated Yards', fontsize=17)
 plt.suptitle('Is having the most yards previously a predictor? : 2010-2021')
 
 # %%
+nfld = gu.NFL_Data(data_path)
 df = gu.get_year_week(nfld.data_by_game(), 2018, 6)
 count = len(df)
 df[
@@ -95,8 +96,8 @@ conf_list = [
   ('top_pass_won', 'pass_yards', 'Game Passing Yds'),
   ('top_rush_won', 'rush_yards', 'Game Rushing Yds'),
   ('top_total_won', 'total_yards', 'Game Total Yds'),
-  ('top_rush_cml_b4_won', 'rush_yards_cml_before', 'Most Cuml Rush Yds'),
-  ('top_total_cml_b4_won', 'total_yards_cml_before', 'Most Cuml Yds'),
+  ('cml_top_rush_b4_won', 'cml_rush_yards_before', 'Most Cuml Rush Yds'),
+  ('cml_top_total_b4_won', 'cml_total_yards_before', 'Most Cuml Yds'),
   ('top_total_pass_comp_perf_won', 'week_pass_comp_perf', 'Passing Perf'),
   ('top_total_rush_comp_perf_won', 'week_rush_comp_perf', 'Rushing Perf'),
   ('top_total_comb_comp_perf_won', 'week_comb_comp_perf', 'Combined Perf'),
@@ -149,8 +150,8 @@ df = df[df['year'] == 2018]
 fields = [
   'record_normal_before', 
   'third_down_ratio', 
-  'points_cml_before',
-  'rush_yards_cml_before',
+  'cml_points_before',
+  'cml_rush_yards_before',
   'cml_rush_off_perf_before',
   'fourth_down_conversions',
   'opp_trn_before',
@@ -195,6 +196,36 @@ def get_perc(df, field):
       ]
 
   return (len(wins_df) / len(df)) * 100
+def plot_data(dfOrData, min_year=0, max_year=0):
+  if isinstance(dfOrData, pd.DataFrame):
+    pdf = dfOrData
+  else:
+    for item in dfOrData: dfOrData[item] = [dfOrData[item]]
+    pdf = pd.DataFrame(dfOrData)
+  
+  ymin = min(45, pdf.T.min()[0] - 5)
+  ymax = max(55, pdf.T.max()[0] + 5)
+    
+  fig, ax = plt.subplots(figsize=(10,5),dpi=100)
+  # plt.figure(figsize=(10,6), dpi=150)
+  sns.barplot(data=pdf, ax=ax)
+  # plt.ylim(ymin, ymax)
+  plt.xticks(rotation=90);
+  plt.suptitle('Win % when leading in a stat:', fontsize=16)
+  if min_year == max_year:
+    plt.title(f'{min_year}')
+  else:
+    plt.title(f'{min_year} - {max_year}')
+  plt.axhline(y=50, color='gray', linestyle='-', lw=1, alpha=0.3)
+  # plt.axhline(y=75, color='gray', linestyle='-', lw=1, alpha=0.3)
+  # plt.axhline(y=25, color='gray', linestyle='-', lw=1, alpha=0.3)
+  for p in ax.patches:                 
+    ax.annotate(np.round(p.get_height(),decimals=2), 
+                (p.get_x()+p.get_width()/2., p.get_height()),                              
+                ha='center',                              
+                va='center',                              
+                xytext=(0, 10),                               
+                textcoords='offset points')
 def work_fields_by_year(df, fields):
   for field in fields:
     data = {}
@@ -216,58 +247,108 @@ def work_fields_by_year(df, fields):
     plt.axhline(y=50, color='gray', linestyle='-', lw=1, alpha=0.6)
     plt.axhline(y=75, color='red', linestyle='-', lw=1, alpha=0.6)
     plt.axhline(y=25, color='red', linestyle='-', lw=1, alpha=0.6)
-def work_fields(df, fields):
+def work_fields(df, fields, should_plot=True):
   data = {}
   for field in fields:
     data[field] = get_perc(df, field)
 
-  for item in data: data[item] = [data[item]]
-  pdf = pd.DataFrame(data)
-  # sort the columns
-  # pdf = pdf.T.sort_values(by=0).T
-  ymin = min(45, pdf.T.min()[0] - 5)
-  ymax = max(55, pdf.T.max()[0] + 5)
-  min_year = df['year'].min()
-  max_year = df['year'].max()
-  
-  fig, ax = plt.subplots(figsize=(10,5),dpi=100)
-  # plt.figure(figsize=(10,6), dpi=150)
-  sns.barplot(data=pdf, ax=ax)
-  # plt.ylim(ymin, ymax)
-  plt.xticks(rotation=90);
-  plt.suptitle('Win % when leading in a stat:', fontsize=16)
-  if min_year == max_year:
-    plt.title(f'{min_year}')
-  else:
-    plt.title(f'{min_year} - {max_year}')
-  plt.axhline(y=50, color='gray', linestyle='-', lw=1, alpha=0.3)
-  # plt.axhline(y=75, color='gray', linestyle='-', lw=1, alpha=0.3)
-  # plt.axhline(y=25, color='gray', linestyle='-', lw=1, alpha=0.3)
-  for p in ax.patches:                 
-    ax.annotate(np.round(p.get_height(),decimals=2), 
-                (p.get_x()+p.get_width()/2., p.get_height()),                              
-                ha='center',                              
-                va='center',                              
-                xytext=(0, 10),                               
-                textcoords='offset points')
-
+  if should_plot == True:
+    min_year = df['year'].min()
+    max_year = df['year'].max()
+    plot_data(data, min_year, max_year)
+    
+  return data
 
 fields = [
-    'score',
-    'rush_yards',
-    'pass_yards', 
-    'total_yards', 
-    'rush_count',
-    '!turnovers_lost',
-    '!sack_count',
-    'penalty_count',
-    'penalty_yards',
+    # 'score',
+    # 'rush_yards',
+    # 'pass_yards', 
+    # 'total_yards', 
+    # 'rush_count',
+    # 'turnovers_gained',
+    # '!sack_count',
+    # 'penalty_count',
+    # 'penalty_yards',
+    # 'cml_penalty_count_before',
+    # 'cml_rush_count_before',
+    # 'cml_turnovers_gained_before',
+    # 'cml_sack_count_before',
+    
+    
+    # 'cml_comb_comp_perf_after',
+    'cml_comb_comp_perf_before',
+    # 'cml_comb_def_perf_after',
+    'cml_comb_def_perf_before',
+    # 'cml_comb_off_perf_after',
+    'cml_comb_off_perf_before',
+    # 'cml_first_downs_after',
+    'cml_first_downs_before',
+    # 'cml_fumble_gained_after',
+    # 'cml_fumble_lost_after',
+    'cml_fumble_lost_before',
+    # 'cml_interceptions_gained_after',
+    'cml_interceptions_gained_before',
+    'cml_interceptions_gained_before',
+    # 'cml_interceptions_lost_after',
+    'cml_interceptions_lost_before',
+    # 'cml_pass_comp_perf_after',
+    'cml_pass_comp_perf_before',
+    # 'cml_pass_completions_after',
+    'cml_pass_completions_before',
+    # 'cml_pass_count_after',
+    'cml_pass_count_before',
+    # 'cml_pass_def_perf_after',
+    'cml_pass_def_perf_before',
+    # 'cml_pass_off_perf_after',
+    'cml_pass_off_perf_before',
+    # 'cml_pass_yards_after',
+    'cml_pass_yards_before',
+    # 'cml_penalty_count_after',
+    'cml_penalty_count_before',
+    # 'cml_points_after',
+    'cml_points_before',
+    # 'cml_rush_comp_perf_after',
+    'cml_rush_comp_perf_before',
+    # 'cml_rush_count_after',
+    'cml_rush_count_before',
+    # 'cml_rush_def_perf_after',
+    'cml_rush_def_perf_before',
+    # 'cml_rush_off_perf_after',
+    'cml_rush_off_perf_before',
+    # 'cml_rush_yards_after',
+    'cml_rush_yards_before',
+    # 'cml_sack_count_after',
+    'cml_sack_count_before',
+    # 'cml_sack_gained_after',
+    'cml_sack_gained_before',
+    # 'cml_top_sec_after',
+    'cml_top_sec_before',
+    # 'cml_total_yards_after',
+    'cml_total_yards_before',
+    # 'cml_turnovers_gained_after',
+    'cml_turnovers_gained_before',
+    # 'cml_turnovers_lost_after',
+    'cml_turnovers_lost_before',    
   ]
-games_df = nfld.data_by_game()
-work_fields(gu.get_year(games_df, 2021), fields)
-work_fields_by_year(games_df, fields)
 
+df = nfld.data_by_game()
+games_df = nfld.data_by_game()
+# work_fields(games_df, fields)
+data = work_fields(gu.get_year(games_df, 2021), fields, False)
+# work_fields_by_year(games_df, fields)
+
+for item in data: data[item] = [data[item]]
+pdf = pd.DataFrame(data)
+pdf = pdf.T.sort_values(by=0).T
+pdf.T
 
 # %%
-df['year'].unique().values
+
+# year_df = df[df['year_week'] == 202105]
+# year_df = df[df['year'] == 2021]
+year_week_df = df[df['year_week'] == '2021-10']
+year_week_df[['team_cml_sack_gained_after', 'opponent_sack_count']]
+# %%
+year_week_df.isna().sum()
+
 # %%

@@ -98,6 +98,12 @@ def get_new_field_roots():
     'wins_after',             'losses_after',             'ties_after', 
     'record_total_after',     'record_normal_after',  
     'opp_strength_after',     'opp_trn_after',
+    'opp_trn',
+    'interceptions_gained',
+    'fumble_gained',
+    'turnovers_gained',
+    'sack_gained',
+    'top_sec',
 
     # week performance values (week is always after)
     'week_rush_off_perf',        'week_rush_def_perf',        'week_rush_comp_perf',
@@ -113,11 +119,24 @@ def get_new_field_roots():
     'cml_pass_off_perf_after',    'cml_pass_def_perf_after',    'cml_pass_comp_perf_after',
     'cml_comb_off_perf_after',    'cml_comb_def_perf_after',    'cml_comb_comp_perf_after',
         
-    'points_cml_before',         'points_cml_after',
-    'rush_yards_cml_before',     'pass_yards_cml_before',      'total_yards_cml_before',
-    'rush_yards_cml_after',      'pass_yards_cml_after',       'total_yards_cml_after',
+    'cml_points_before',         'cml_points_after',
+    'cml_rush_yards_before',     'cml_pass_yards_before',      'cml_total_yards_before',
+    'cml_rush_yards_after',      'cml_pass_yards_after',       'cml_total_yards_after',
     
-    'opp_trn',
+    'cml_pass_count_before',              'cml_pass_count_after',
+    'cml_pass_completions_before',        'cml_pass_completions_after',
+    'cml_penalty_count_before',           'cml_penalty_count_after',
+    'cml_rush_count_before',              'cml_rush_count_after',
+    'cml_sack_count_before',              'cml_sack_count_after',
+    'cml_first_downs_before',             'cml_first_downs_after',
+    'cml_fumble_lost_before',             'cml_fumble_lost_after',
+    'cml_interceptions_lost_before',      'cml_interceptions_lost_after',
+    'cml_turnovers_lost_before',          'cml_turnovers_lost_after',
+    'cml_interceptions_gained_before',    'cml_interceptions_gained_after',
+    'cml_fumble_gained_before',           'cml_fumble_gained_after',
+    'cml_turnovers_gained_before',        'cml_turnovers_gained_after',
+    'cml_sack_gained_before',             'cml_sack_gained_after',
+    'cml_top_sec_before',                 'cml_top_sec_after',
     ]
 
 def get_both_fields_list(field_roots):
@@ -125,8 +144,7 @@ def get_both_fields_list(field_roots):
   for root in field_roots:
     final_fields.append(f'team_{root}')
     final_fields.append(f'opponent_{root}')
-  return final_fields
-  
+  return final_fields  
 def get_df_with_new_columns(all_games_df):
   ## ADD NEW COLUMNS TO ALL GAMES AND CREATE NEW ALL_GAMES_PLUS_DF (agp_df)
   new_field_list = get_both_fields_list(get_new_field_roots())
@@ -137,50 +155,58 @@ def get_df_with_new_columns(all_games_df):
 ## MAIN WORKER
 # def update_df_with_aggregates(game_df, all_games_df, side='team'):
 def update_df_with_aggregates(index, all_games_df, side='team'):
-    SIDE = side # can be opponent
-    OTHER_SIDE = 'opponent' if SIDE == 'team' else 'team'
-    WEEK_1_TRN = 0.5
+    SIDE        = side # can be opponent
+    OTHER_SIDE  = 'opponent' if SIDE == 'team' else 'team'
+    WEEK_1_TRN  = 0.5
     
-    game_df = all_games_df.iloc[index]
+    game_df     = all_games_df.iloc[index]
     
-    year = int(game_df['year'])
-    week = int(game_df['week'])
-    team = game_df[SIDE]
-    opp_team = game_df[OTHER_SIDE]
+    year        = int(game_df['year'])
+    week        = int(game_df['week'])
+    team        = game_df[SIDE]
+    opp_team    = game_df[OTHER_SIDE]
 
-    previous_df = get_previous_record(year, week, team, all_games_df)
-    this_prev = data_from_previous_records(year, week, team, all_games_df, include_last_record=False)
-    opp_prev_data = data_from_previous_records(year, week, opp_team, all_games_df, include_last_record=True)
-    opp_previous_df = opp_prev_data['last_record']
+    previous_df       = get_previous_record(year, week, team, all_games_df)
+    this_prev         = data_from_previous_records(year, week, team, all_games_df, include_last_record=False)
+    opp_prev_data     = data_from_previous_records(year, week, opp_team, all_games_df, include_last_record=True)
+    opp_previous_df   = opp_prev_data['last_record']
 
-    wins_before = 0
-    losses_before = 0
-    ties_before = 0
+    wins_before       = losses_before     = ties_before   = 0
+    wins_after        = losses_after      = ties_after    = 0
 
-    wins_after = 0
-    losses_after = 0
-    ties_after = 0
+    interceptions_gained      = 0
+    fumble_gained             = 0
+    turnovers_gained          = 0
+    sack_gained               = 0
+    top_sec                   = 0
     
     ## Accumulate some stat data for every record
-    points_cml_before = 0
-    rush_yards_cml_before = 0
-    pass_yards_cml_before = 0
-    total_yards_cml_before = 0
-    points_cml_after = 0
-    rush_yards_cml_after = 0
-    pass_yards_cml_after = 0
-    total_yards_cml_after = 0
+    cml_points_after            = cml_points_before       = 0
+    cml_rush_yards_before       = cml_pass_yards_before   = cml_total_yards_before  = 0
+    cml_rush_yards_after        = cml_pass_yards_after    = cml_total_yards_after   = 0
+    cml_pass_count_before           = cml_pass_count_after           = 0
+    cml_pass_completions_before     = cml_pass_completions_after     = 0
+    cml_penalty_count_before        = cml_penalty_count_after        = 0
+    cml_rush_count_before           = cml_rush_count_after           = 0
+    cml_sack_count_before           = cml_sack_count_after           = 0
+    cml_first_downs_before          = cml_first_downs_after          = 0
+    cml_fumble_lost_before          = cml_fumble_lost_after          = 0
+    cml_interceptions_lost_before   = cml_interceptions_lost_after   = 0
+    cml_turnovers_lost_before       = cml_turnovers_lost_after       = 0
+    cml_interceptions_gained_before = cml_interceptions_gained_after = 0
+    cml_fumble_gained_before        = cml_fumble_gained_after        = 0
+    cml_turnovers_gained_before     = cml_turnovers_gained_after     = 0
+    cml_sack_gained_before          = cml_sack_gained_after          = 0
+    cml_top_sec_before              = cml_top_sec_after              = 0
 
-    record_total_before = 0
-    record_total_after = 0
-    record_normal_before = 0
-    record_normal_after = 0
-    opp_strength_before = 0
-    opp_strength_after = WEEK_1_TRN  # first week everyone is a 50/50 team
+    record_total_before       = record_total_after    = 0
+    record_normal_before      = record_normal_after   = 0
+    opp_strength_before       = 0
+    opp_strength_after        = WEEK_1_TRN  # first week everyone is a 50/50 team
     # accumulated normalized records of all opponents
-    opp_trn_before = 0
-    opp_trn_after = 1.0
-    opp_trn = WEEK_1_TRN
+    opp_trn_before            = 0
+    opp_trn_after             = 1.0
+    opp_trn                   = WEEK_1_TRN
 
     '''
     ##  TEAM PERFORMANCE NUMBERS
@@ -195,49 +221,20 @@ def update_df_with_aggregates(index, all_games_df, side='team'):
         they can be +/- anywhere. These are not the same as the NORMAL
         values we calculate which all reside between 0 and 1
     '''
-    week_rush_off_perf = 0
-    week_rush_def_perf = 0
-    week_rush_comp_perf = 0   # comp = composite: offense & defense
+    week_rush_off_perf        = week_rush_def_perf        = week_rush_comp_perf       = 0
+    week_pass_off_perf        = week_pass_def_perf        = week_pass_comp_perf       = 0
+    week_comb_off_perf        = week_comb_def_perf        = week_comb_comp_perf       = 0
     
-    week_pass_off_perf = 0
-    week_pass_def_perf = 0
-    week_pass_comp_perf = 0   # comp = composite: offense & defense
+    cml_rush_off_perf_before  = cml_rush_def_perf_before  = cml_rush_comp_perf_before = 0
+    cml_pass_off_perf_before  = cml_pass_def_perf_before  = cml_pass_comp_perf_before = 0
+    cml_comb_off_perf_before  = cml_comb_def_perf_before  = cml_comb_comp_perf_before = 0
     
-    week_comb_off_perf = 0
-    week_comb_def_perf = 0
-    week_comb_comp_perf = 0   # comp = composite: offense & defense
-        
-    cml_rush_off_perf_before = 0
-    cml_rush_def_perf_before = 0
-    cml_rush_comp_perf_before = 0
+    cml_rush_off_perf_after   = cml_rush_def_perf_after   = cml_rush_comp_perf_after  = 0
+    cml_pass_off_perf_after   = cml_pass_def_perf_after   = cml_pass_comp_perf_after  = 0
+    cml_comb_off_perf_after   = cml_comb_def_perf_after   = cml_comb_comp_perf_after  = 0
     
-    cml_pass_off_perf_before = 0
-    cml_pass_def_perf_before = 0
-    cml_pass_comp_perf_before = 0
-    
-    cml_comb_off_perf_before = 0
-    cml_comb_def_perf_before = 0
-    cml_comb_comp_perf_before = 0
-    
-    cml_rush_off_perf_after = 0
-    cml_rush_def_perf_after = 0
-    cml_rush_comp_perf_after = 0
-    
-    cml_pass_off_perf_after = 0
-    cml_pass_def_perf_after = 0
-    cml_pass_comp_perf_after = 0
-    
-    cml_comb_off_perf_after = 0
-    cml_comb_def_perf_after = 0
-    cml_comb_comp_perf_after = 0
-        
-        
-        
-    ## INFO FROM THIS GAME
-    win = bool(game_df[f'{SIDE}_win'])
-    tie = game_df['team_score'] == game_df['opponent_score'] # no need for SIDE, just see if both scores are the same
-    loss = win == False and tie == False
-    
+    ################################################################    
+    ### HELPER FUNCTIONS ###
     def get_val_or(df, field):
       try:
         val = df.iloc[0][field]
@@ -269,8 +266,7 @@ def update_df_with_aggregates(index, all_games_df, side='team'):
         if min_val < max_val:
           return max(min(real_res, max_val), min_val)
           
-        return real_res
-        
+        return real_res   
     def get_opp_trn_after(opp_previous_df, record_normal_after):
         if opp_previous_df is None:
             return 1.0
@@ -299,35 +295,70 @@ def update_df_with_aggregates(index, all_games_df, side='team'):
         ar = [prev_avg] * prev_count
         ar.append(new_value)
         return np.mean(ar)
-
-    ## DATA FROM PREVIOUS GAME
-    if previous_df is not None:
-        wins_before = get_val_or(previous_df, f'{SIDE}_wins_after')
-        losses_before = get_val_or(previous_df, f'{SIDE}_losses_after')
-        ties_before = get_val_or(previous_df, f'{SIDE}_ties_after')
-        record_total_before = get_val_or(previous_df, f'{SIDE}_record_total_after')
-        record_normal_before = get_val_or(previous_df, f'{SIDE}_record_normal_after')
-        opp_trn_before = get_val_or(previous_df, f'{SIDE}_opp_trn_after')
-        opp_strength_before = get_val_or(previous_df, f'{SIDE}_opp_strength_after')
-
-        points_cml_before = get_val_or(previous_df, f'{SIDE}_points_cml_after')
-        rush_yards_cml_before = get_val_or(previous_df, f'{SIDE}_rush_yards_cml_after')
-        pass_yards_cml_before = get_val_or(previous_df, f'{SIDE}_pass_yards_cml_after')
-        total_yards_cml_before = get_val_or(previous_df, f'{SIDE}_total_yards_cml_after')
+    def get_top_sec(top_str):
+      '''
+      given a TOP      - 25:08
+      return seconds   - 1508
+      '''
+      min,sec = top_str.split(':')
+      return int(sec) + int(min) * 60
+    def update_df(col_name, value):
+      ''' 
+      # !! using globals! warned [all_games_df]
         
-        points_cml_after = points_cml_before
-        rush_yards_cml_after = rush_yards_cml_before
-        pass_yards_cml_after = pass_yards_cml_before
-        total_yards_cml_after = total_yards_cml_before
+      Had big problems updating with `at` and arrays so
+      moved to looking up the position of the field in the
+      column list and using iloc[row_idx,col_idx] to do updates
+      '''
+      col_arr = all_games_df.columns.values
+      col_idx = np.argmax(col_arr == col_name)
+      all_games_df.iloc[[index],[col_idx]] = value 
+    
+    ################################################################    
+    ### INFO FROM THIS GAME
+    ### this is an area used typically to augment data (not just map) from
+    ### the current record
+    win                       = bool(game_df[f'{SIDE}_win'])
+    tie                       = game_df['team_score'] == game_df['opponent_score'] # no need for SIDE, just see if both scores are the same
+    loss                      = win == False and tie == False
+    interceptions_gained      = game_df[f'{OTHER_SIDE}_interceptions_lost']
+    fumble_gained             = game_df[f'{OTHER_SIDE}_fumble_lost']
+    turnovers_gained          = game_df[f'{OTHER_SIDE}_turnovers_lost']
+    sack_gained               = game_df[f'{OTHER_SIDE}_sack_count']
+    top_sec                   = get_top_sec(game_df[f'{SIDE}_time_of_possession'])
+    
+    ################################################################    
+    ### PREVIOUS GAME
+    if previous_df is not None:
+        wins_before                     = wins_after                     = get_val_or(previous_df, f'{SIDE}_wins_after')
+        losses_before                   = losses_after                   = get_val_or(previous_df, f'{SIDE}_losses_after')
+        ties_before                     = ties_after                     = get_val_or(previous_df, f'{SIDE}_ties_after')
+        record_total_before             = record_total_after             = get_val_or(previous_df, f'{SIDE}_record_total_after')
+        record_normal_before            = record_normal_after            = get_val_or(previous_df, f'{SIDE}_record_normal_after')
+        opp_trn_before                  = opp_trn_after                  = get_val_or(previous_df, f'{SIDE}_opp_trn_after')
+        opp_strength_before             = opp_strength_after             = get_val_or(previous_df, f'{SIDE}_opp_strength_after')
+        cml_points_before               = cml_points_after               = get_val_or(previous_df, f'{SIDE}_cml_points_after')
+        cml_rush_yards_before           = cml_rush_yards_after           = get_val_or(previous_df, f'{SIDE}_cml_rush_yards_after')
+        cml_pass_yards_before           = cml_pass_yards_after           = get_val_or(previous_df, f'{SIDE}_cml_pass_yards_after')
+        cml_total_yards_before          = cml_total_yards_after          = get_val_or(previous_df, f'{SIDE}_cml_total_yards_after')
+        cml_pass_count_before           = cml_pass_count_after           = get_val_or(previous_df, f'{SIDE}_cml_pass_count_after')
+        cml_pass_completions_before     = cml_pass_completions_after     = get_val_or(previous_df, f'{SIDE}_cml_pass_completions_after')
+        cml_penalty_count_before        = cml_penalty_count_after        = get_val_or(previous_df, f'{SIDE}_cml_penalty_count_after')
+        cml_rush_count_before           = cml_rush_count_after           = get_val_or(previous_df, f'{SIDE}_cml_rush_count_after')
+        cml_sack_count_before           = cml_sack_count_after           = get_val_or(previous_df, f'{SIDE}_cml_sack_count_after')
+        cml_first_downs_before          = cml_first_downs_after          = get_val_or(previous_df, f'{SIDE}_cml_first_downs_after')
+        cml_fumble_lost_before          = cml_fumble_lost_after          = get_val_or(previous_df, f'{SIDE}_cml_fumble_lost_after')
+        cml_interceptions_lost_before   = cml_interceptions_lost_after   = get_val_or(previous_df, f'{SIDE}_cml_interceptions_lost_after')
+        cml_turnovers_lost_before       = cml_turnovers_lost_after       = get_val_or(previous_df, f'{SIDE}_cml_turnovers_lost_after')
+        cml_interceptions_gained_before = cml_interceptions_gained_after = get_val_or(previous_df, f'{SIDE}_cml_interceptions_gained_after')
+        cml_fumble_gained_before        = cml_fumble_gained_after        = get_val_or(previous_df, f'{SIDE}_cml_fumble_gained_after')
+        cml_turnovers_gained_before     = cml_turnovers_gained_after     = get_val_or(previous_df, f'{SIDE}_cml_turnovers_gained_after')
+        cml_sack_gained_before          = cml_sack_gained_after          = get_val_or(previous_df, f'{SIDE}_cml_sack_gained_after')
+        cml_top_sec_before              = cml_top_sec_after              = get_val_or(previous_df, f'{SIDE}_cml_top_sec_after')
 
-        wins_after = wins_before
-        losses_after = losses_before
-        ties_after = ties_before
-        record_total_after = record_total_before
-        record_normal_after = record_normal_before
-
-
-    # must perform this work before the performance calculations
+    ################################################################    
+    ### OPPONENT'S PREVIOUS GAME
+    ## !! must perform this work before the performance calculations
     if opp_previous_df is not None:
         opp_trn_after = get_opp_trn_after(opp_previous_df, record_normal_after)
         opp_strength_after = get_opp_strength_after(opp_previous_df, opp_strength_before)
@@ -346,7 +377,9 @@ def update_df_with_aggregates(index, all_games_df, side='team'):
         cml_comb_def_perf_before = get_val_or(opp_previous_df, f'{SIDE}_cml_comb_def_perf_before')
         cml_comb_comp_perf_before = get_val_or(opp_previous_df, f'{SIDE}_cml_comb_comp_perf_before')
             
-            
+       
+    ################################################################    
+    ### OPP_PREV_DATA - calculated data from the opponent's previous game     
     MIN_PERF = -3.0
     MAX_PERF = 3.0
     if opp_prev_data is not None:
@@ -387,40 +420,48 @@ def update_df_with_aggregates(index, all_games_df, side='team'):
         cml_comb_comp_perf_after = add_to_avg(cml_comb_comp_perf_before, week - 1, week_comb_comp_perf)
         
 
-    ## CALCULATE NEW DATA (after)
-    if win:
-        wins_after += 1
-    if tie:
-        ties_after += 1
-    if loss:
-        losses_after += 1
+    ################################################################    
+    ### CALCULATE NEW DATA - after
+    if win:   wins_after += 1
+    if tie:   ties_after += 1
+    if loss:  losses_after += 1
         
     ## CALCULATE CUMULATIVE DATA
-    points_cml_after += game_df[f'{SIDE}_score']
-    rush_yards_cml_after += game_df[f'{SIDE}_rush_yards']
-    pass_yards_cml_after += game_df[f'{SIDE}_pass_yards']
-    total_yards_cml_after += game_df[f'{SIDE}_total_yards']
+    cml_points_after                += game_df[f'{SIDE}_score']
+    cml_rush_yards_after            += game_df[f'{SIDE}_rush_yards']
+    cml_pass_yards_after            += game_df[f'{SIDE}_pass_yards']
+    cml_total_yards_after           += game_df[f'{SIDE}_total_yards']
+    cml_pass_count_after            += game_df[f'{SIDE}_pass_count']
+    cml_pass_completions_after      += game_df[f'{SIDE}_pass_completions']
+    cml_penalty_count_after         += game_df[f'{SIDE}_penalty_count']
+    cml_rush_count_after            += game_df[f'{SIDE}_rush_count']
+    cml_sack_count_after            += game_df[f'{SIDE}_sack_count']
+    cml_first_downs_after           += game_df[f'{SIDE}_first_downs']
+    cml_fumble_lost_after           += game_df[f'{SIDE}_fumble_lost']
+    cml_interceptions_lost_after    += game_df[f'{SIDE}_interceptions_lost']
+    cml_turnovers_lost_after        += game_df[f'{SIDE}_turnovers_lost']
+    
+    cml_interceptions_gained_after  += interceptions_gained
+    cml_fumble_gained_after         += fumble_gained
+    cml_turnovers_gained_after      += turnovers_gained
+    cml_sack_gained_after           += sack_gained
+    cml_top_sec_after               += top_sec
 
     ## CALCULATE RECORD NORMAL
     record_total_after = wins_after - losses_after # eg: +2 or -7 etc.
     record_normal_after = get_normalized(record_total_after, week * -1, week)
 
-    ## WRITE THE RECORD
-    col_arr = all_games_df.columns.values
-    def update_df(col_name, value):
-      ''' 
-      heavily using globals! warned
-      
-      Had big problems updating with `at` and arrays so
-      moved to looking up the position of the field in the
-      column list and using iloc[row_idx,col_idx] to do updates
-      '''
-      col_idx = np.argmax(col_arr == col_name)
-      all_games_df.iloc[[index],[col_idx]] = value
-    
+    ################################################################    
+    ### SETTING VALUES IN DATAFRAME
     update_df(f'{SIDE}_tie', (1 if tie else 0))
     update_df(f'{SIDE}_loss', (1 if loss else 0))
     update_df(f'{SIDE}_opp_trn', float(opp_trn))
+    update_df(f'{SIDE}_interceptions_gained', int(interceptions_gained))
+    update_df(f'{SIDE}_fumble_gained', int(fumble_gained))
+    update_df(f'{SIDE}_turnovers_gained', int(turnovers_gained))
+    update_df(f'{SIDE}_sack_gained', int(sack_gained))
+    update_df(f'{SIDE}_top_sec', int(top_sec))    
+    
     update_df(f'{SIDE}_wins_before',int(wins_before))
     update_df(f'{SIDE}_wins_after', int(wins_after))
     update_df(f'{SIDE}_losses_before', int(losses_before))
@@ -435,8 +476,7 @@ def update_df_with_aggregates(index, all_games_df, side='team'):
     update_df(f'{SIDE}_opp_strength_after', float(opp_strength_after))
     update_df(f'{SIDE}_opp_trn_before', float(opp_trn_before))
     update_df(f'{SIDE}_opp_trn_after', float(opp_trn_after))
-    update_df(f'{SIDE}_points_cml_before', int(points_cml_before))
-    update_df(f'{SIDE}_points_cml_after', int(points_cml_after))
+    
     update_df(f'{SIDE}_week_rush_off_perf', float(week_rush_off_perf))
     update_df(f'{SIDE}_week_rush_def_perf', float(week_rush_def_perf))
     update_df(f'{SIDE}_week_rush_comp_perf', float(week_rush_comp_perf))
@@ -446,12 +486,15 @@ def update_df_with_aggregates(index, all_games_df, side='team'):
     update_df(f'{SIDE}_week_comb_off_perf', float(week_comb_off_perf))
     update_df(f'{SIDE}_week_comb_def_perf', float(week_comb_def_perf))
     update_df(f'{SIDE}_week_comb_comp_perf', float(week_comb_comp_perf))
-    update_df(f'{SIDE}_rush_yards_cml_before', int(rush_yards_cml_before))
-    update_df(f'{SIDE}_pass_yards_cml_before', int(pass_yards_cml_before))
-    update_df(f'{SIDE}_total_yards_cml_before', int(total_yards_cml_before))
-    update_df(f'{SIDE}_rush_yards_cml_after', int(rush_yards_cml_after))
-    update_df(f'{SIDE}_pass_yards_cml_after', int(pass_yards_cml_after))
-    update_df(f'{SIDE}_total_yards_cml_after', int(total_yards_cml_after))
+    
+    update_df(f'{SIDE}_cml_points_before', int(cml_points_before))
+    update_df(f'{SIDE}_cml_points_after', int(cml_points_after))
+    update_df(f'{SIDE}_cml_rush_yards_before', int(cml_rush_yards_before))
+    update_df(f'{SIDE}_cml_pass_yards_before', int(cml_pass_yards_before))
+    update_df(f'{SIDE}_cml_total_yards_before', int(cml_total_yards_before))
+    update_df(f'{SIDE}_cml_rush_yards_after', int(cml_rush_yards_after))
+    update_df(f'{SIDE}_cml_pass_yards_after', int(cml_pass_yards_after))
+    update_df(f'{SIDE}_cml_total_yards_after', int(cml_total_yards_after))
     update_df(f'{SIDE}_cml_rush_off_perf_before', float(cml_rush_off_perf_before))
     update_df(f'{SIDE}_cml_rush_def_perf_before', float(cml_rush_def_perf_before))
     update_df(f'{SIDE}_cml_rush_comp_perf_before', float(cml_rush_comp_perf_before))
@@ -470,6 +513,34 @@ def update_df_with_aggregates(index, all_games_df, side='team'):
     update_df(f'{SIDE}_cml_comb_off_perf_after', float(cml_comb_off_perf_after))
     update_df(f'{SIDE}_cml_comb_def_perf_after', float(cml_comb_def_perf_after))
     update_df(f'{SIDE}_cml_comb_comp_perf_after', float(cml_comb_comp_perf_after))
+    update_df(f'{SIDE}_cml_pass_count_before', int(cml_pass_count_before))
+    update_df(f'{SIDE}_cml_pass_count_after', int(cml_pass_count_after))
+    update_df(f'{SIDE}_cml_pass_completions_before', int(cml_pass_completions_before))
+    update_df(f'{SIDE}_cml_pass_completions_after', int(cml_pass_completions_after))
+    update_df(f'{SIDE}_cml_penalty_count_before', int(cml_penalty_count_before))        
+    update_df(f'{SIDE}_cml_penalty_count_after', int(cml_penalty_count_after))
+    update_df(f'{SIDE}_cml_rush_count_before', int(cml_rush_count_before))
+    update_df(f'{SIDE}_cml_rush_count_after', int(cml_rush_count_after))
+    update_df(f'{SIDE}_cml_sack_count_before', int(cml_sack_count_before))
+    update_df(f'{SIDE}_cml_sack_count_after', int(cml_sack_count_after))
+    update_df(f'{SIDE}_cml_first_downs_before', int(cml_first_downs_before))
+    update_df(f'{SIDE}_cml_first_downs_after', int(cml_first_downs_after))
+    update_df(f'{SIDE}_cml_fumble_lost_before', int(cml_fumble_lost_before))
+    update_df(f'{SIDE}_cml_fumble_lost_after', int(cml_fumble_lost_after))
+    update_df(f'{SIDE}_cml_interceptions_lost_before', int(cml_interceptions_lost_before))
+    update_df(f'{SIDE}_cml_interceptions_lost_after', int(cml_interceptions_lost_after))
+    update_df(f'{SIDE}_cml_turnovers_lost_before', int(cml_turnovers_lost_before))
+    update_df(f'{SIDE}_cml_turnovers_lost_after', int(cml_turnovers_lost_after))
+    update_df(f'{SIDE}_cml_interceptions_gained_before', int(cml_interceptions_gained_before))
+    update_df(f'{SIDE}_cml_interceptions_gained_after', int(cml_interceptions_gained_after))
+    update_df(f'{SIDE}_cml_fumble_gained_before', int(cml_fumble_gained_before))
+    update_df(f'{SIDE}_cml_fumble_gained_after', int(cml_fumble_gained_after))
+    update_df(f'{SIDE}_cml_turnovers_gained_before', int(cml_turnovers_gained_before))
+    update_df(f'{SIDE}_cml_turnovers_gained_after', int(cml_turnovers_gained_after))
+    update_df(f'{SIDE}_cml_top_sec_before', int(cml_top_sec_before))
+    update_df(f'{SIDE}_cml_top_sec_after', int(cml_top_sec_after))
+    update_df(f'{SIDE}_cml_sack_gained_before', int(cml_sack_gained_before))
+    update_df(f'{SIDE}_cml_sack_gained_after', int(cml_sack_gained_after))
     
     return game_df
 
@@ -501,7 +572,6 @@ def create_single_year_file(year, data_path='../../data'):
     return
     
   work_df = get_year_df(year, all_games_df)
-  # work_df = work_df[work_df['week'] == 7]
   work_df = get_df_with_new_columns(work_df).copy()
   work_df.reset_index()
     
@@ -547,6 +617,5 @@ def create_year_files(years, data_path='../../data'):
 
 ## TEMP DEV RUNS
 # data_path='./data'
-# create_all_games_with_data_and_agg(data_path)
-# create_year_file(2020, data_path)
+# create_year_files(2021, data_path)
 
