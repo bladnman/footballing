@@ -10,7 +10,8 @@
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     "**/__pycache__": true,
-    "**/.vscode": true
+    "**/.vscode": true,
+    "*.egg-info": true
   },
   "explorerExclude.backup": null
 }
