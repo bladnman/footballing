@@ -1,3 +1,19 @@
+
+## Common Fields
+```yaml
+date
+year
+week
+team
+team_score
+opponent
+opponent_score
+win
+home
+```
+
+## All Fields
+```yaml
 date
 home
 humidity
@@ -236,3 +252,4 @@ win
 wind
 year
 year_week
+```

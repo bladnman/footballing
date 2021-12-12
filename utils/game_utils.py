@@ -1,4 +1,5 @@
 import pandas as pd
+import utils.env_utils as env_utils
 
 def get_weathers(weather_str):
     ''' 
@@ -337,16 +338,30 @@ TEAM_NAME = {
     'Redskins': 'Washington Redskins',
     'Washington': 'Washington Redskins'
 }
-
+COMMON_FIELDS = [
+  'date',
+  'year',
+  'week',
+  'team',
+  'team_score',
+  'opponent',
+  'opponent_score',
+  'win',
+  'home',  
+]
 
 
 class NFL_Data:
-  data_path = '../../data'
+  data_path = None
   nfl_df = None
     
-  def __init__(self, data_path = '../../data'):
-    self.data_path = data_path
-    self.nfl_df = get_nfl_df(data_path)
+  def __init__(self, data_path = None):
+    if data_path == None:
+      self.data_path = env_utils.get_data_path()
+    else:
+      self.data_path = data_path
+    self.nfl_df = get_nfl_df(self.data_path)
+
 
   def data(self):
     return self.nfl_df

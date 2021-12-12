@@ -145,6 +145,7 @@ def get_both_fields_list(field_roots):
     final_fields.append(f'team_{root}')
     final_fields.append(f'opponent_{root}')
   return final_fields  
+
 def get_df_with_new_columns(all_games_df):
   ## ADD NEW COLUMNS TO ALL GAMES AND CREATE NEW ALL_GAMES_PLUS_DF (agp_df)
   new_field_list = get_both_fields_list(get_new_field_roots())
@@ -544,7 +545,6 @@ def update_df_with_aggregates(index, all_games_df, side='team'):
     
     return game_df
 
-
 def create_final_file_from_year_files(data_path='../../data'):
   file_paths = glob.glob(f"{data_path}/games/all_with_agg_*.csv")
   file_paths.sort()
@@ -561,7 +561,6 @@ def create_final_file_from_year_files(data_path='../../data'):
   
   all_games_df.to_csv(f'{data_path}/nfl.csv', index=False)
   home_df.to_csv(f'{data_path}/nfl_home.csv', index=False)
-
   
 ### CALLED INTERFACE  
 def create_single_year_file(year, data_path='../../data'):
@@ -593,8 +592,6 @@ def create_single_year_file(year, data_path='../../data'):
 
   return work_df
 
-
-
 ###  MAIN  :  CALLED INTERFACE  
 def create_year_files(years, data_path='../../data'):
   
@@ -615,7 +612,8 @@ def create_year_files(years, data_path='../../data'):
   create_final_file_from_year_files(data_path)
 
 
-## TEMP DEV RUNS
-# data_path='./data'
-# create_year_files(2021, data_path)
 
+if __name__ == '__main__':
+  """TEMP DEV RUNS"""
+  # create_year_files(2021, './data')
+  pass
