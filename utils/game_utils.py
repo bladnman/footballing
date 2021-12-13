@@ -1,6 +1,7 @@
 import pandas as pd
 import utils.env_utils as env_utils
 
+
 def get_weathers(weather_str):
     ''' 
     Given a weather string will return the following
@@ -31,6 +32,7 @@ def get_weathers(weather_str):
     weather_parts = weather_str.split(', ')
     temperature, wind_speed, humidity = weather_pieces(weather_parts)
     return (temperature, wind_speed, humidity)
+
 
 def get_is_indoors(weather_str):
     ''' 
@@ -63,6 +65,7 @@ def get_is_indoors(weather_str):
     temperature, wind_speed, humidity = weather_pieces(weather_parts)
     return (temperature, wind_speed, humidity)
 
+
 def get_game_filename(game):
     '''
     Given a game df (series) this function will return
@@ -72,6 +75,7 @@ def get_game_filename(game):
     (y, month, day) = game['date'].split('-')
     team_name = game['team'] if game['home'] == 1 else game['opponent']
     return f"{y}{month}{day}0{TEAM_DICT[team_name]}"
+
 
 def get_stat_value(stat_df, field):
     '''
@@ -84,6 +88,7 @@ def get_stat_value(stat_df, field):
         return stat_df.loc[field]['value']
     except:
         return None
+
 
 def get_game_with_info(game_df, info_df):
     '''
@@ -107,6 +112,7 @@ def get_game_with_info(game_df, info_df):
 
     return game_df
 
+
 def get_game_teams(game):
     '''
     given a game will return (home,away)
@@ -115,6 +121,7 @@ def get_game_teams(game):
         return (game['team'], game['opponent'])
     else:
         return (game['opponent'], game['team'])
+
 
 def add_stats_to_game(game_df, stats_df, field_prefix, is_home):
     index_key = 'home' if is_home == True else 'away'
@@ -187,6 +194,7 @@ def add_stats_to_game(game_df, stats_df, field_prefix, is_home):
     game_df[f'{field_prefix}_fourth_down_ratio'] = get_ratio(
         fourth_down_conversions, fourth_down_count)
 
+
 def get_game_with_stats(game_df, stats_df):
     '''
   Given a game_df and stats_df
@@ -204,41 +212,54 @@ def get_game_with_stats(game_df, stats_df):
                       is_home=game_copy_df['home'] == False)
     return game_copy_df
 
-def get_team_name(team):
-  team_name = team
-        
-  # if there are no spaces, they sent us a nickname
-  if team_name.count(' ') < 1:
-    team_name = TEAM_NAME[team_name]
-  
-  return team_name
 
-def get_nfl_df(data_path = '../../data'):
-  return pd.read_csv(f'{data_path}/nfl.csv')
+def get_team_name(team):
+    team_name = team
+
+    # if there are no spaces, they sent us a nickname
+    if team_name.count(' ') < 1:
+        team_name = TEAM_NAME[team_name]
+
+    return team_name
+
+
+def get_nfl_df(data_path='../../data'):
+    return pd.read_csv(f'{data_path}/nfl.csv')
+
 
 def get_year(df, year):
-  return df[df['year'] == year]
+    return df[df['year'] == year]
+
 
 def get_year_week(df, year, week):
-  return df[(df['year'] == year) & (df['week'] == week)]
+    return df[(df['year'] == year) & (df['week'] == week)]
+
 
 def get_team(df, team):
-  team_name = get_team_name(team)
-  return df[df['team'] == team_name]
+    team_name = get_team_name(team)
+    return df[df['team'] == team_name]
+
 
 def get_wins_with_more_in_field(df, field):
-  '''
+    '''
   Given a game dataframe this function will determine how many wins
   happened by the team with more in the field provided.
     
   Returns a tuple:
   (percentage, number of wins)
   '''
-  wins_with_more = len(df[(
-      (df['win'] == 1)&(df[f'team_{field}'] > df[f'opponent_{field}']) |
-      (df['win'] == 0)&(df[f'team_{field}'] <= df[f'opponent_{field}'])
-    )])
-  return (wins_with_more / len(df) * 100, wins_with_more)
+    wins_with_more = len(
+        df[((df['win'] == 1) & (df[f'team_{field}'] > df[f'opponent_{field}'])
+            | (df['win'] == 0) &
+            (df[f'team_{field}'] <= df[f'opponent_{field}']))])
+    return (wins_with_more / len(df) * 100, wins_with_more)
+
+
+def perc_str(part, whole):
+    if isinstance(part, pd.DataFrame) or isinstance(part, list):
+        return round(len(part) / len(whole) * 100, 2)
+
+    return round(part / whole * 100, 2)
 
 
 STAT_FIELDS = {
@@ -339,44 +360,45 @@ TEAM_NAME = {
     'Washington': 'Washington Redskins'
 }
 COMMON_FIELDS = [
-  'date',
-  'year',
-  'week',
-  'team',
-  'team_score',
-  'opponent',
-  'opponent_score',
-  'win',
-  'home',  
+    'date',
+    'year',
+    'week',
+    'team',
+    'team_score',
+    'opponent',
+    'opponent_score',
+    'win',
+    'home',
 ]
 
 
 class NFL_Data:
-  data_path = None
-  nfl_df = None
-    
-  def __init__(self, data_path = None):
-    if data_path == None:
-      self.data_path = env_utils.get_data_path()
-    else:
-      self.data_path = data_path
-    self.nfl_df = get_nfl_df(self.data_path)
+    data_path = None
+    nfl_df = None
 
+    def __init__(self, data_path=None):
+        if data_path == None:
+            self.data_path = env_utils.get_data_path()
+        else:
+            self.data_path = data_path
+        self.nfl_df = get_nfl_df(self.data_path)
 
-  def data(self):
-    return self.nfl_df
-  
-  def data_by_team(self):
-    return self.nfl_df
-  
-  def data_by_game(self):
-    return self.nfl_df[self.nfl_df['home'] == 1]
-    
-  def year(self, year):
-    return get_year(self.nfl_df, year)
-    
-  def team(self, team):
-    return get_team(self.nfl_df, team)
+    def data(self):
+        return self.nfl_df
 
-  def team_year(self, team, year):
-    return get_team(self.year(year), team)
+    def data_by_team(self):
+        """Both home and away games -> 2-rows per game"""
+        return self.nfl_df
+
+    def data_by_game(self):
+        """Home games only -> 1-row per game"""
+        return self.nfl_df[self.nfl_df['home'] == 1]
+
+    def year(self, year):
+        return get_year(self.nfl_df, year)
+
+    def team(self, team):
+        return get_team(self.nfl_df, team)
+
+    def team_year(self, team, year):
+        return get_team(self.year(year), team)
